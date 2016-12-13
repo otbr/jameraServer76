@@ -1,0 +1,40 @@
+8
+
+dir
+3023
+https://opentibia.svn.sourceforge.net/svnroot/opentibia/data/trunk/spells/lib
+https://opentibia.svn.sourceforge.net/svnroot/opentibia
+
+
+
+2008-02-19T17:26:45.308576Z
+3005
+piterb
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c77455bc-2124-0410-8220-ac9e7aafbb94
+
+spells.lua
+file
+
+
+
+
+2008-02-24T16:52:10.296875Z
+83e311fe506856f8ec04aa04373e540d
+2008-02-19T17:26:45.308576Z
+3005
+piterb
+

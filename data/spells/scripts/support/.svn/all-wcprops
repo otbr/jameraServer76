@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/support
+END
+strong_haste.lua
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/opentibia/!svn/ver/2492/data/trunk/spells/scripts/support/strong_haste.lua
+END
+haste.lua
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/opentibia/!svn/ver/2492/data/trunk/spells/scripts/support/haste.lua
+END
+magic_rope.lua
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/support/magic_rope.lua
+END
+light.lua
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/opentibia/!svn/ver/2492/data/trunk/spells/scripts/support/light.lua
+END
+desintegrate_rune.lua
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/support/desintegrate_rune.lua
+END
+magic_shield.lua
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/opentibia/!svn/ver/2492/data/trunk/spells/scripts/support/magic_shield.lua
+END
+ultimate_light.lua
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opentibia/!svn/ver/2492/data/trunk/spells/scripts/support/ultimate_light.lua
+END
+paralyze_rune.lua
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/opentibia/!svn/ver/2515/data/trunk/spells/scripts/support/paralyze_rune.lua
+END
+challenge.lua
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/support/challenge.lua
+END
+cancel_invisibility.lua
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/support/cancel_invisibility.lua
+END
+invisible.lua
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/opentibia/!svn/ver/2492/data/trunk/spells/scripts/support/invisible.lua
+END
+destroy_field_rune.lua
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/support/destroy_field_rune.lua
+END
+magic_wall_rune.lua
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/opentibia/!svn/ver/2515/data/trunk/spells/scripts/support/magic_wall_rune.lua
+END
+wild_growth.lua
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/support/wild_growth.lua
+END
+great_light.lua
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/opentibia/!svn/ver/2492/data/trunk/spells/scripts/support/great_light.lua
+END

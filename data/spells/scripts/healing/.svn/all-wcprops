@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/healing
+END
+antidote_rune.lua
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/opentibia/!svn/ver/2502/data/trunk/spells/scripts/healing/antidote_rune.lua
+END
+heal_friend.lua
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/opentibia/!svn/ver/2492/data/trunk/spells/scripts/healing/heal_friend.lua
+END
+wound_cleasing.lua
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/healing/wound_cleasing.lua
+END
+ultimate_healing_rune.lua
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opentibia/!svn/ver/2502/data/trunk/spells/scripts/healing/ultimate_healing_rune.lua
+END
+divine_healing.lua
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/healing/divine_healing.lua
+END
+intense_healing_rune.lua
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opentibia/!svn/ver/2502/data/trunk/spells/scripts/healing/intense_healing_rune.lua
+END
+antidote.lua
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/opentibia/!svn/ver/2492/data/trunk/spells/scripts/healing/antidote.lua
+END
+mass_healing.lua
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/opentibia/!svn/ver/2492/data/trunk/spells/scripts/healing/mass_healing.lua
+END
+ultimate_healing.lua
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opentibia/!svn/ver/2492/data/trunk/spells/scripts/healing/ultimate_healing.lua
+END
+intense_healing.lua
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/opentibia/!svn/ver/2492/data/trunk/spells/scripts/healing/intense_healing.lua
+END
+light_healing.lua
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/opentibia/!svn/ver/2492/data/trunk/spells/scripts/healing/light_healing.lua
+END

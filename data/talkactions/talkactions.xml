@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<talkactions>
+
+<!-- GameMaster -->
+<talkaction words="!tpall"	script="teleport.lua" />
+<talkaction words="!addpremium"	script="premium_player.lua" />
+<talkaction words="!lux"	script="light.lua" />
+<talkaction words="!say"	script="makesay.lua" />
+
+<!-- Players -->
+<talkaction words="!status"	script="status.lua" />
+<talkaction words="!buypremium"	script="buypremium.lua" />
+
+</talkactions>

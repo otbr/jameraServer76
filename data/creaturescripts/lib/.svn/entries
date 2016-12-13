@@ -1,0 +1,40 @@
+8
+
+dir
+2479
+https://opentibia.svn.sourceforge.net/svnroot/opentibia/otserv/trunk/data/creaturescripts/lib
+https://opentibia.svn.sourceforge.net/svnroot/opentibia
+
+
+
+2007-07-11T17:50:10.741584Z
+2333
+mips_act
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c77455bc-2124-0410-8220-ac9e7aafbb94
+
+creaturescripts.lua
+file
+
+
+
+
+2007-09-20T19:33:05.593750Z
+ac09fdb741602d4b009dc25cc94d20e6
+2007-07-11T17:50:10.741584Z
+2333
+mips_act
+

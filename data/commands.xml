@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+
+<commands>
+
+-- Gods
+<command cmd="/i"            access="4" />		-- Create a item by ID
+<command cmd="/n"            access="4" />		-- Create a item by name
+<command cmd="/serverdiag"   access="4" />      -- Server Diagnostic
+<command cmd="/clean"        access="4" />		-- Clean Map
+
+-- Community Manager
+<command cmd="/c"            access="3" />		-- Teleport a player to you
+<command cmd="/summon"       access="3" />		-- Summon a monster
+<command cmd="/reload"       access="3" />		-- Reload configurations
+<command cmd="/s"            access="3" />		-- Summon a NPC
+<command cmd="/owner"        access="3" />		-- Set a player to house owner
+<command cmd="/a"            access="3" />		-- Teleport by SQMs
+<command cmd="/openserver"   access="3" />      -- Open the server
+<command cmd="/closeserver"  access="3" />	    -- Close the server
+<command cmd="/m"            access="3" />		-- Summon a "wild" monster
+<command cmd="/raid"         access="3" />		-- Start raid
+<command cmd="/remove"       access="3" />		-- Remove Things
+
+-- Game Master
+<command cmd="/q"            access="2" />		-- Check your money
+<command cmd="/z"            access="2" />		-- Check effects (0-26)
+<command cmd="/info"         access="2" />		-- Info about a player
+<command cmd="/getonline"    access="2" />		-- Info about how many players are online
+<command cmd="/gethouse"     access="2" />		-- Info about house of a player
+<command cmd="/t"            access="2" />		-- Go to your temple
+<command cmd="/town"         access="2" />		-- Go to your town
+<command cmd="/goto"     	 access="2" />		-- Teleport to players, creatures or NPCs
+<command cmd="/kick"         access="2" />		-- Kick a player
+<command cmd="/up"  		 access="2" />		-- teleport on higher floor
+<command cmd="/down" 		 access="2" />		-- teleport on lower floor
+<command cmd="/B"            access="2" />		-- Red broadcast message
+<command cmd="/invisible"    access="2" />		-- Invisible
+<command cmd="/refreshmap"   access="2" />      -- Refresh Map
+<command cmd="/gw" 			 access="2"/>		-- Goto to determined waypoint
+<command cmd="/lw"  		 access="2"/>		-- Show list of waypoints
+<command cmd="/sw"  		 access="2"/> 		-- Set a waypoint
+<command cmd="/dw" 			 access="2"/>		-- Delete a waypoint
+<command cmd="/bc"           access="2" />		-- Broadcast Color
+<command cmd="/gmspeed"      access="2" />		-- Change GM Speed
+<command cmd="/gmoutfit"     access="2" />		-- GM Outfit
+
+<command cmd="!online"       access="2" />		-- List of players online
+<command cmd="!frags"        access="2" />		-- Frags
+<command cmd="/serverinfo"   access="2" />      -- Info about the server
+
+-- Players
+<command cmd="/sellhouse"    access="0" />		-- Sell your house to a player
+<command cmd="/buyhouse"     access="0" />		-- Buy house
+<command cmd="/leavehouse"   access="0" />		-- Leave house
+<command cmd="!changesex"    access="0" />		-- Change Sex
+
+</commands>

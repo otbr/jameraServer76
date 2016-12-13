@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/summon
+END
+animate_dead_rune.lua
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/summon/animate_dead_rune.lua
+END
+undead_legion.lua
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/opentibia/!svn/ver/2717/data/trunk/spells/scripts/summon/undead_legion.lua
+END

@@ -1,0 +1,93 @@
+8
+
+dir
+2479
+https://opentibia.svn.sourceforge.net/svnroot/opentibia/otserv/trunk/data/weapons/scripts
+https://opentibia.svn.sourceforge.net/svnroot/opentibia
+
+
+
+2006-11-19T22:54:12.000000Z
+1961
+otserv_simone
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c77455bc-2124-0410-8220-ac9e7aafbb94
+
+quagmire rod.lua
+file
+
+
+
+
+2007-09-20T19:33:13.171875Z
+909969f4b4a93be368a22baecb55a967
+2006-11-19T19:05:22.000000Z
+1954
+otserv_simone
+has-props
+
+poison arrow.lua
+file
+
+
+
+
+2007-09-20T19:33:13.187500Z
+7e24d7c3c614dbe21a26eb8a916fe3f1
+2006-11-19T22:54:12.000000Z
+1961
+otserv_simone
+has-props
+
+poison spear.lua
+file
+
+
+
+
+2007-09-20T19:33:13.187500Z
+7a705ef40fdeea65878c470f5597f90e
+2006-11-19T22:54:12.000000Z
+1961
+otserv_simone
+has-props
+
+tempest rod.lua
+file
+
+
+
+
+2007-09-20T19:33:13.203125Z
+ecedfb212db2dd55e9bb3a583034153b
+2006-11-19T19:05:22.000000Z
+1954
+otserv_simone
+has-props
+
+explosive arrow.lua
+file
+
+
+
+
+2007-09-20T19:33:13.203125Z
+e09f7228da0bd8612c56e5abb1dd146d
+2006-11-19T19:05:22.000000Z
+1954
+otserv_simone
+has-props
+

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Morgaroth" nameDescription="Morgaroth" race="fire" experience="15000" speed="450" manacost="0">
+	<health now="55000" max="55000"/>
+	<look type="35" head="0" body="0" legs="0" feet="0" corpse="2916"/>
+	<targetchange interval="2000" chance="10"/>
+	<strategy attack="65" defense="5"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="2500"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="200" attack="200"/>
+		<attack name="manadrain" interval="1000" chance="7" range="7" min="-100" max="-1000">
+			<attribute key="shootEffect" value="energy"/>
+			<attribute key="areaEffect" value="poff"/>
+		</attack>
+		<attack name="strength" interval="1000" chance="9" range="7">
+			<attribute key="shootEffect" value="largerock"/>
+			<attribute key="areaEffect" value="energyarea"/>
+		</attack>
+		<attack name="lifedrain" interval="1000" chance="13" radius="8" target="0" min="-400" max="-700">
+			<attribute key="areaEffect" value="bluebubble"/>
+		</attack>
+		<attack name="manadrain" interval="1000" chance="10" radius="8" target="0" min="-400" max="-700">
+			<attribute key="areaEffect" value="greenshimmer"/>
+		</attack>
+		<attack name="speed" interval="1000" chance="13" radius="8" target="0" speedchange="-900" duration="30000">
+			<attribute key="areaEffect" value="rednote"/>
+		</attack>
+		<attack name="strength" interval="1000" chance="8" radius="5" target="0">
+			<attribute key="areaEffect" value="blackspark"/>
+		</attack>
+		<attack name="fire" interval="1000" chance="34" range="7" radius="7" target="1" min="-100" max="-900">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="lifedrain" interval="1000" chance="15" length="8" spread="0" min="-500" max="-850">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+	</attacks>
+	<defenses armor="130" defense="130">
+		<defense name="healing" interval="1000" chance="15" min="3000" max="6000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="healing" interval="1000" chance="25" min="800" max="1200">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="1000" chance="6" speedchange="662" duration="7000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="1"/>
+		<immunity fire="1"/>
+		<immunity poison="1"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<summons maxSummons="6">
+		<summon name="demon" interval="1000" chance="13" max="6"/>
+	</summons>
+	<voices interval="5000" chance="10">
+		<voice sentence="I AM MORGAROTH, LORD OF THE TRIANGLE ... AND YOU ARE LOST!" yell="1"/>
+		<voice sentence="THE TRIANGLE OF TERROR WILL RISE!" yell="1"/>
+		<voice sentence="MY SEED IS FEAR AND MY HARVEST ARE YOUR SOULS!" yell="1"/>
+		<voice sentence="ZATHROTH! LOOK AT THE DESTRUCTION I AM CAUSING IN YOUR NAME!" yell="1"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="100000"/><!-- gold coin -->
+		<item id="2148" countmax="90" chance="50000"/><!-- gold coin -->
+		<item id="2143" countmax="5" chance="10000"/><!-- white pearl -->
+		<item id="2396" chance="19429"/><!-- ice rapier -->
+		<item id="2462" chance="20000"/><!-- devil helmet -->
+		<item id="2214" chance="16000"/><!-- ring of healing -->
+		<item id="2003" chance="100000"><!-- grey backpack -->
+			<inside>
+				<item id="2495" chance="6000"/><!-- demon legs -->
+				<item id="2387" chance="20000"/><!-- double axe -->
+				<item id="2393" chance="60000"/><!-- giant sword -->
+				<item id="2195" chance="16033"/><!-- boots of haste -->
+				<item id="2421" chance="7000"/><!-- thunder hammer -->
+				<item id="2522" chance="5600"/><!-- great shield -->
+				<item id="2192" chance="24000"/><!-- crystal ball -->
+			</inside>
+		</item>
+	</loot>
+</monster>

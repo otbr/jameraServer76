@@ -1,0 +1,41 @@
+8
+
+dir
+2479
+https://opentibia.svn.sourceforge.net/svnroot/opentibia/otserv/trunk/data/movements/lib
+https://opentibia.svn.sourceforge.net/svnroot/opentibia
+
+
+
+2006-11-12T16:10:46.000000Z
+1909
+mips_act
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c77455bc-2124-0410-8220-ac9e7aafbb94
+
+movements.lua
+file
+
+
+
+
+2007-09-20T19:33:13.281250Z
+9cb4d734cbc81c3dee850792922bde51
+2006-11-12T16:10:46.000000Z
+1909
+mips_act
+has-props
+

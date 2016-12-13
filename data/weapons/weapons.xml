@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<weapons>
+   <!-- Ammunations -->
+	<distance id="2545" script="poison_arrow.lua"/>
+	<distance id="2546" script="explosive_arrow.lua"/>
+	<distance id="2547" function="default"/>	<!-- Power Bolt-->
+	<distance id="2543" function="default"/>	<!-- Bolt-->
+	<distance id="2352" function="default"/>	<!-- Crystal Arrow-->
+	
+   <!-- Weapons -->
+    <melee id="2413" function="internalLoadWeapon"/>
+	<melee id="2377" function="internalLoadWeapon"/>
+	<melee id="2392" function="internalLoadWeapon"/>
+	<melee id="2407" function="internalLoadWeapon"/>
+	<melee id="2438" function="internalLoadWeapon"/>
+	<melee id="2446" function="internalLoadWeapon"/>
+	<melee id="2393" function="internalLoadWeapon"/>
+	<melee id="2400" function="internalLoadWeapon"/>
+	<melee id="2408" function="internalLoadWeapon"/>
+	<melee id="2390" function="internalLoadWeapon"/>
+
+	<melee id="2429" function="internalLoadWeapon"/>
+	<melee id="2435" function="internalLoadWeapon"/>
+	<melee id="2425" function="internalLoadWeapon"/>
+	<melee id="2430" function="internalLoadWeapon"/>
+	<melee id="2387" function="internalLoadWeapon"/>
+	<melee id="2381" function="internalLoadWeapon"/>
+	<melee id="2440" function="internalLoadWeapon"/>
+	<melee id="2426" function="internalLoadWeapon"/>
+	<melee id="3962" function="internalLoadWeapon"/>
+	<melee id="2432" function="internalLoadWeapon"/>
+	<melee id="2447" function="internalLoadWeapon"/>
+	<melee id="2427" function="internalLoadWeapon"/>
+	<melee id="2414" function="internalLoadWeapon"/>
+	<melee id="2454" function="internalLoadWeapon"/>
+
+	<melee id="2443" function="internalLoadWeapon"/>
+	<melee id="2431" function="internalLoadWeapon"/>
+	<melee id="2415" function="internalLoadWeapon"/>
+
+	<melee id="2423" function="internalLoadWeapon"/>
+	<melee id="2434" function="internalLoadWeapon"/>
+	<melee id="2436" function="internalLoadWeapon"/>
+	<melee id="2445" function="internalLoadWeapon"/>
+	<melee id="2391" function="internalLoadWeapon"/>
+	<melee id="2444" function="internalLoadWeapon"/>
+	<melee id="2453" function="internalLoadWeapon"/>
+	<melee id="2421" function="internalLoadWeapon"/>
+
+
+   <!-- Wands -->
+	<wand id="2182" lvl="8" mana="2" script="snakebite_rod.lua">
+		<vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+	</wand>
+	<wand id="2186" lvl="13" mana="3" script="moonlight_rod.lua">
+		<vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+	</wand>
+	<wand id="2185" lvl="19" mana="5" script="volcanic_rod.lua">
+		<vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+	</wand>
+	<wand id="2181" lvl="26" mana="8" script="quagmire_rod.lua">
+		<vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+	</wand>
+	<wand id="2183" lvl="33" mana="13" script="tempest_rod.lua">
+		<vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+	</wand>
+	<wand id="2190" lvl="8" mana="2" script="wand_of_vortex.lua">
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/>
+	</wand>
+	<wand id="2191" lvl="13" mana="3" script="wand_of_dragonbreath.lua">
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/>
+	</wand>
+	<wand id="2188" lvl="19" mana="5" script="wand_of_plague.lua">
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/>
+	</wand>
+	<wand id="2189" lvl="26" mana="8" script="wand_of_cosmic_energy.lua">
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/>
+	</wand>
+	<wand id="2187" lvl="33" mana="13" script="wand_of_inferno.lua">
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/>
+	</wand>
+</weapons>

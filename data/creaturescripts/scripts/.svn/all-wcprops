@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/opentibia/!svn/ver/2403/otserv/trunk/data/creaturescripts/scripts
+END
+die1.lua
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/opentibia/!svn/ver/2333/otserv/trunk/data/creaturescripts/scripts/die1.lua
+END
+die2.lua
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/opentibia/!svn/ver/2333/otserv/trunk/data/creaturescripts/scripts/die2.lua
+END
+login.lua
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/opentibia/!svn/ver/2403/otserv/trunk/data/creaturescripts/scripts/login.lua
+END
+logout.lua
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opentibia/!svn/ver/2333/otserv/trunk/data/creaturescripts/scripts/logout.lua
+END
+kill.lua
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/opentibia/!svn/ver/2403/otserv/trunk/data/creaturescripts/scripts/kill.lua
+END

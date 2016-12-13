@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/opentibia/!svn/ver/2952/data/trunk/spells/scripts/attack
+END
+great_energy_beam.lua
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/great_energy_beam.lua
+END
+terra_wave.lua
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/terra_wave.lua
+END
+heavy_magic_missile.lua
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/heavy_magic_missile.lua
+END
+great_fireball.lua
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/opentibia/!svn/ver/2516/data/trunk/spells/scripts/attack/great_fireball.lua
+END
+divine_missile.lua
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/opentibia/!svn/ver/2952/data/trunk/spells/scripts/attack/divine_missile.lua
+END
+flame_strike.lua
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/opentibia/!svn/ver/2860/data/trunk/spells/scripts/attack/flame_strike.lua
+END
+poison_bomb.lua
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/poison_bomb.lua
+END
+poison_field.lua
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/poison_field.lua
+END
+energy_beam.lua
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/energy_beam.lua
+END
+fireball.lua
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/fireball.lua
+END
+ethereal_spear.lua
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/opentibia/!svn/ver/2501/data/trunk/spells/scripts/attack/ethereal_spear.lua
+END
+poison_wall.lua
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/poison_wall.lua
+END
+fire_field.lua
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/fire_field.lua
+END
+whirlwind_throw.lua
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opentibia/!svn/ver/2486/data/trunk/spells/scripts/attack/whirlwind_throw.lua
+END
+energy_field.lua
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/energy_field.lua
+END
+thunderstorm.lua
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/thunderstorm.lua
+END
+rage_of_the_skies.lua
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/rage_of_the_skies.lua
+END
+fire_wall.lua
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/fire_wall.lua
+END
+death_strike.lua
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/opentibia/!svn/ver/2860/data/trunk/spells/scripts/attack/death_strike.lua
+END
+fire_wave.lua
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/fire_wave.lua
+END
+energy_wall.lua
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/energy_wall.lua
+END
+fierce_berserk.lua
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/opentibia/!svn/ver/2486/data/trunk/spells/scripts/attack/fierce_berserk.lua
+END
+energy_strike.lua
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/opentibia/!svn/ver/2860/data/trunk/spells/scripts/attack/energy_strike.lua
+END
+energy_wave.lua
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/opentibia/!svn/ver/2509/data/trunk/spells/scripts/attack/energy_wave.lua
+END
+stone_shower.lua
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/stone_shower.lua
+END
+hells_core.lua
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/hells_core.lua
+END
+explosion.lua
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/explosion.lua
+END
+ice_strike.lua
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/opentibia/!svn/ver/2860/data/trunk/spells/scripts/attack/ice_strike.lua
+END
+eternal_winter.lua
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/eternal_winter.lua
+END
+avalanche.lua
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/avalanche.lua
+END
+ice_wave.lua
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/ice_wave.lua
+END
+firebomb.lua
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/firebomb.lua
+END
+sudden_death.lua
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/sudden_death.lua
+END
+wrath_of_nature.lua
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/wrath_of_nature.lua
+END
+icicle.lua
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/icicle.lua
+END
+soulfire.lua
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/opentibia/!svn/ver/2516/data/trunk/spells/scripts/attack/soulfire.lua
+END
+divine_caldera.lua
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/divine_caldera.lua
+END
+energybomb.lua
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/energybomb.lua
+END
+stalagmite.lua
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/stalagmite.lua
+END
+light_magic_missile.lua
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opentibia/!svn/ver/2852/data/trunk/spells/scripts/attack/light_magic_missile.lua
+END
+groundshaker.lua
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/opentibia/!svn/ver/2486/data/trunk/spells/scripts/attack/groundshaker.lua
+END
+berserk.lua
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/opentibia/!svn/ver/2486/data/trunk/spells/scripts/attack/berserk.lua
+END
+terra_strike.lua
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/opentibia/!svn/ver/2860/data/trunk/spells/scripts/attack/terra_strike.lua
+END

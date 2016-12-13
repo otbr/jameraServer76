@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/17/trunk/data/actions/scripts/doors
+END
+door_locked.lua
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/8/trunk/data/actions/scripts/doors/door_locked.lua
+END
+gateofexp_closed.lua
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/17/trunk/data/actions/scripts/doors/gateofexp_closed.lua
+END
+door_open_vertical.lua
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/17/trunk/data/actions/scripts/doors/door_open_vertical.lua
+END
+door_open_horizontal.lua
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/17/trunk/data/actions/scripts/doors/door_open_horizontal.lua
+END
+questdoor_closed.lua
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/8/trunk/data/actions/scripts/doors/questdoor_closed.lua
+END

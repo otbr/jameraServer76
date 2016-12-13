@@ -1,0 +1,40 @@
+8
+
+dir
+3023
+https://opentibia.svn.sourceforge.net/svnroot/opentibia/data/trunk/spells/scripts
+https://opentibia.svn.sourceforge.net/svnroot/opentibia
+
+
+
+2008-01-28T02:03:33.084812Z
+2952
+piterb
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c77455bc-2124-0410-8220-ac9e7aafbb94
+
+attack
+dir
+
+healing
+dir
+
+support
+dir
+
+summon
+dir
+
