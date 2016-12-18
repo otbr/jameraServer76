@@ -15,11 +15,66 @@
 :: Loading Spells ...[done]
 :: Loading Actions ...[done]
 :: Loading Talkactions ...[done]
-:: Loading MoveEvents ...[done]
+:: Loading MoveEvents ...Warning: [Event::loadScript] Can not load script. data/movements/scripts/town/Venore.lua
+cannot open data/movements/scripts/town/Venore.lua: No such file or directory
+Warning: [Event::loadScript] Can not load script. data/movements/scripts/town/Darashia.lua
+cannot open data/movements/scripts/town/Darashia.lua: No such file or directory
+Warning: [Event::loadScript] Can not load script. data/movements/scripts/town/ankrahmun.lua
+cannot open data/movements/scripts/town/ankrahmun.lua: No such file or directory
+Warning: [Event::loadScript] Can not load script. data/movements/scripts/pits of inferno/poi_entrance.lua
+cannot open data/movements/scripts/pits of inferno/poi_entrance.lua: No such file or directory
+Warning: [Event::loadScript] Can not load script. data/movements/scripts/pits of inferno/poi_exit.lua
+cannot open data/movements/scripts/pits of inferno/poi_exit.lua: No such file or directory
+Warning: [Event::loadScript] Can not load script. data/movements/scripts/paradox/paradox_entrance.lua
+cannot open data/movements/scripts/paradox/paradox_entrance.lua: No such file or directory
+Warning: [Event::loadScript] Can not load script. data/movements/scripts/paradox/paradox_deadtree.lua
+cannot open data/movements/scripts/paradox/paradox_deadtree.lua: No such file or directory
+Warning: [Event::loadScript] Can not load script. data/movements/scripts/paradox/paradox_lvl1.lua
+cannot open data/movements/scripts/paradox/paradox_lvl1.lua: No such file or directory
+Warning: [Event::loadScript] Can not load script. data/movements/scripts/paradox/paradox_lvl3.lua
+cannot open data/movements/scripts/paradox/paradox_lvl3.lua: No such file or directory
+Warning: [Event::loadScript] Can not load script. data/movements/scripts/paradox/paradox_lvl3.lua
+cannot open data/movements/scripts/paradox/paradox_lvl3.lua: No such file or directory
+Warning: [Event::loadScript] Can not load script. data/movements/scripts/paradox/paradox_questroom.lua
+cannot open data/movements/scripts/paradox/paradox_questroom.lua: No such file or directory
+Warning: [Event::loadScript] Can not load script. data/movements/scripts/paradox/paradox_questroom.lua
+cannot open data/movements/scripts/paradox/paradox_questroom.lua: No such file or directory
+Warning: [Event::loadScript] Can not load script. data/movements/scripts/paradox/paradox_questroom.lua
+cannot open data/movements/scripts/paradox/paradox_questroom.lua: No such file or directory
+Warning: [Event::loadScript] Can not load script. data/movements/scripts/paradox/paradox_questroom.lua
+cannot open data/movements/scripts/paradox/paradox_questroom.lua: No such file or directory
+Warning: [Event::loadScript] Can not load script. data/movements/scripts/paradox/paradox_exit.lua
+cannot open data/movements/scripts/paradox/paradox_exit.lua: No such file or directory
+Warning: [Event::loadScript] Can not load script. data/movements/scripts/dhq/beginoff.lua
+cannot open data/movements/scripts/dhq/beginoff.lua: No such file or directory
+Warning: [Event::loadScript] Can not load script. data/movements/scripts/dhq/beginoff.lua
+cannot open data/movements/scripts/dhq/beginoff.lua: No such file or directory
+Warning: [MoveEvents::addEvent] Duplicate move event found: 416
+Warning: [MoveEvents::addEvent] Duplicate move event found: 417
+Warning: [MoveEvents::addEvent] Duplicate move event found: 426
+Warning: [MoveEvents::addEvent] Duplicate move event found: 425
+Warning: [MoveEvents::addEvent] Duplicate move event found: 446
+Warning: [MoveEvents::addEvent] Duplicate move event found: 447
+Warning: [MoveEvents::addEvent] Duplicate move event found: 2196
+Warning: [MoveEvents::addEvent] Duplicate move event found: 2196
+Warning: [MoveEvents::addEvent] Duplicate move event found: 2123
+Warning: [MoveEvents::addEvent] Duplicate move event found: 416
+Warning: [MoveEvents::addEvent] Duplicate move event found: 416
+Warning: [MoveEvents::addEvent] Duplicate move event found: 417
+Warning: [MoveEvents::addEvent] Duplicate move event found: 417
+Warning: [MoveEvents::addEvent] Duplicate move event found: 425
+Warning: [MoveEvents::addEvent] Duplicate move event found: 425
+Warning: [MoveEvents::addEvent] Duplicate move event found: 426
+Warning: [MoveEvents::addEvent] Duplicate move event found: 426
+Warning: [MoveEvents::addEvent] Duplicate move event found: 446
+Warning: [MoveEvents::addEvent] Duplicate move event found: 446
+Warning: [MoveEvents::addEvent] Duplicate move event found: 447
+Warning: [MoveEvents::addEvent] Duplicate move event found: 447
+[done]
 :: Loading CreatureEvents ...[done]
 :: Loading data/monsters/monsters.xml... [done]
 :: Loading stages.xml... [done]
-:: Server Save in 4 hour(s), 3 minute(s)
+:: Server Save in 20 hour(s), 58 minute(s)
 :: Worldtype: PVP
 :: Cleaning online players info... [done]
 :: Skulls enabled
@@ -65,7 +120,7 @@ Duplicate uniqueId 1543
 Duplicate uniqueId 1543
 Duplicate uniqueId 1543
 Duplicate uniqueId 1543
-Notice: [OTBM Loader] Loading time : 8.128 s
+Notice: [OTBM Loader] Loading time : 5.38 s
 Warning: [NpcScript::NpcScript] Can not load script. data/npc/scripts/edala.lua
 cannot open data/npc/scripts/edala.lua: No such file or directory
 [Spawn::addMonster] Can not find Trainer
@@ -82,7 +137,7 @@ cannot open data/npc/scripts/edala.lua: No such file or directory
 [Spawn::addMonster] Can not find Trainer
 I/O warning : failed to load external entity "data/npc/marvik.xml"
 [Spawn::addMonster] Can not find Mr Gulos
-Notice: Map load (binary) took : 0.261 s
+Notice: Map load (binary) took : 0.006 s
 ::
 :: Running on host vps108132
 :: Local IP address(es):  149.56.129.58  
@@ -91,1027 +146,441 @@ Notice: Map load (binary) took : 0.261 s
 ::
 :: Starting Server... [done]
 :: Tibia World RPG OldSchool Server Running...
-Notice: Map save (binary) took : 0.327 s
-[Server Save] Server has been saved in 389 ms.
-Notice: Map save (binary) took : 0.099 s
-[Server Save] Server has been saved in 126 ms.
-Notice: Map save (binary) took : 0.106 s
-[Server Save] Server has been saved in 134 ms.
-Notice: Map save (binary) took : 0.094 s
-[Server Save] Server has been saved in 120 ms.
-Notice: Map save (binary) took : 0.116 s
-[Server Save] Server has been saved in 148 ms.
+Notice: Map save (binary) took : 0.06 s
+[Server Save] Server has been saved in 108 ms.
+Notice: Map save (binary) took : 0.049 s
+[Server Save] Server has been saved in 95 ms.
+Notice: Map save (binary) took : 0.076 s
+[Server Save] Server has been saved in 116 ms.
+Notice: Map save (binary) took : 0.067 s
+[Server Save] Server has been saved in 97 ms.
+Notice: Map save (binary) took : 0.072 s
+[Server Save] Server has been saved in 110 ms.
+Notice: Map save (binary) took : 0.077 s
+[Server Save] Server has been saved in 117 ms.
+Notice: Map save (binary) took : 0.065 s
+[Server Save] Server has been saved in 96 ms.
+Notice: Map save (binary) took : 0.078 s
+[Server Save] Server has been saved in 113 ms.
+Notice: Map save (binary) took : 0.066 s
+[Server Save] Server has been saved in 100 ms.
+Notice: Map save (binary) took : 0.073 s
+[Server Save] Server has been saved in 103 ms.
+Notice: Map save (binary) took : 0.056 s
+[Server Save] Server has been saved in 87 ms.
+Notice: Map save (binary) took : 0.075 s
+[Server Save] Server has been saved in 105 ms.
+Notice: Map save (binary) took : 0.079 s
+[Server Save] Server has been saved in 118 ms.
+Notice: Map save (binary) took : 0.085 s
+[Server Save] Server has been saved in 123 ms.
+Notice: Map save (binary) took : 0.077 s
+[Server Save] Server has been saved in 109 ms.
+Notice: Map save (binary) took : 0.069 s
+[Server Save] Server has been saved in 109 ms.
+Notice: Map save (binary) took : 0.073 s
+[Server Save] Server has been saved in 111 ms.
+Notice: Map save (binary) took : 0.072 s
+[Server Save] Server has been saved in 115 ms.
+Notice: Map save (binary) took : 0.069 s
+[Server Save] Server has been saved in 102 ms.
+Notice: Map save (binary) took : 0.071 s
+[Server Save] Server has been saved in 96 ms.
+Notice: Map save (binary) took : 0.061 s
+[Server Save] Server has been saved in 86 ms.
+Notice: Map save (binary) took : 0.061 s
+[Server Save] Server has been saved in 83 ms.
+Notice: Map save (binary) took : 0.066 s
+[Server Save] Server has been saved in 94 ms.
+Notice: Map save (binary) took : 0.05 s
+[Server Save] Server has been saved in 77 ms.
+Notice: Map save (binary) took : 0.084 s
+[Server Save] Server has been saved in 128 ms.
+Notice: Map save (binary) took : 0.077 s
+[Server Save] Server has been saved in 113 ms.
+Notice: Map save (binary) took : 0.075 s
+[Server Save] Server has been saved in 112 ms.
+Notice: Map save (binary) took : 0.077 s
+[Server Save] Server has been saved in 110 ms.
+Notice: Map save (binary) took : 0.053 s
+[Server Save] Server has been saved in 78 ms.
+Notice: Map save (binary) took : 0.058 s
+[Server Save] Server has been saved in 88 ms.
+Notice: Map save (binary) took : 0.084 s
+[Server Save] Server has been saved in 113 ms.
+Notice: Map save (binary) took : 0.079 s
+[Server Save] Server has been saved in 114 ms.
+Notice: Map save (binary) took : 0.052 s
+[Server Save] Server has been saved in 78 ms.
 Notice: Map save (binary) took : 0.078 s
 [Server Save] Server has been saved in 105 ms.
-Notice: Map save (binary) took : 0.079 s
-[Server Save] Server has been saved in 107 ms.
-Notice: Map save (binary) took : 0.082 s
-[Server Save] Server has been saved in 118 ms.
-Notice: Map save (binary) took : 0.086 s
-[Server Save] Server has been saved in 119 ms.
-Notice: Map save (binary) took : 0.087 s
-[Server Save] Server has been saved in 115 ms.
-Notice: Map save (binary) took : 0.093 s
-[Server Save] Server has been saved in 116 ms.
-Notice: Map save (binary) took : 0.089 s
-[Server Save] Server has been saved in 113 ms.
-Notice: Map save (binary) took : 0.086 s
-[Server Save] Server has been saved in 113 ms.
-Notice: Map save (binary) took : 0.082 s
-[Server Save] Server has been saved in 109 ms.
-Notice: Map save (binary) took : 0.077 s
-[Server Save] Server has been saved in 105 ms.
-Notice: Map save (binary) took : 0.088 s
-[Server Save] Server has been saved in 116 ms.
-Notice: Map save (binary) took : 0.079 s
+Notice: Map save (binary) took : 0.056 s
+[Server Save] Server has been saved in 101 ms.
+Notice: Map save (binary) took : 0.061 s
+[Server Save] Server has been saved in 97 ms.
+Notice: Map save (binary) took : 0.064 s
+[Server Save] Server has been saved in 86 ms.
+Notice: Map save (binary) took : 0.068 s
+[Server Save] Server has been saved in 96 ms.
+Notice: Map save (binary) took : 0.058 s
+[Server Save] Server has been saved in 80 ms.
+Notice: Map save (binary) took : 0.076 s
+[Server Save] Server has been saved in 108 ms.
+Notice: Map save (binary) took : 0.054 s
+[Server Save] Server has been saved in 86 ms.
+Notice: Map save (binary) took : 0.062 s
+[Server Save] Server has been saved in 91 ms.
+Notice: Map save (binary) took : 0.085 s
 [Server Save] Server has been saved in 106 ms.
-Notice: Map save (binary) took : 0.073 s
-[Server Save] Server has been saved in 100 ms.
+Notice: Map save (binary) took : 0.074 s
+[Server Save] Server has been saved in 102 ms.
+Notice: Map save (binary) took : 0.054 s
+[Server Save] Server has been saved in 85 ms.
 Notice: Map save (binary) took : 0.071 s
 [Server Save] Server has been saved in 103 ms.
-Notice: Map save (binary) took : 0.099 s
+Notice: Map save (binary) took : 0.05 s
+[Server Save] Server has been saved in 73 ms.
+Notice: Map save (binary) took : 0.068 s
+[Server Save] Server has been saved in 94 ms.
+Notice: Map save (binary) took : 0.063 s
+[Server Save] Server has been saved in 95 ms.
+Notice: Map save (binary) took : 0.054 s
+[Server Save] Server has been saved in 77 ms.
+Notice: Map save (binary) took : 0.068 s
+[Server Save] Server has been saved in 93 ms.
+Notice: Map save (binary) took : 0.076 s
+[Server Save] Server has been saved in 109 ms.
+Notice: Map save (binary) took : 0.094 s
 [Server Save] Server has been saved in 126 ms.
-Notice: Map save (binary) took : 0.081 s
-[Server Save] Server has been saved in 106 ms.
-Notice: Map save (binary) took : 0.082 s
-[Server Save] Server has been saved in 110 ms.
-Notice: Map save (binary) took : 0.073 s
-[Server Save] Server has been saved in 102 ms.
-Notice: Map save (binary) took : 0.079 s
-[Server Save] Server has been saved in 105 ms.
-Notice: Map save (binary) took : 0.089 s
-[Server Save] Server has been saved in 115 ms.
-Notice: Map save (binary) took : 0.089 s
-[Server Save] Server has been saved in 115 ms.
-Notice: Map save (binary) took : 0.102 s
-[Server Save] Server has been saved in 129 ms.
-Notice: Map save (binary) took : 0.085 s
-[Server Save] Server has been saved in 114 ms.
-Notice: Map save (binary) took : 0.081 s
-[Server Save] Server has been saved in 106 ms.
 Notice: Map save (binary) took : 0.072 s
-[Server Save] Server has been saved in 102 ms.
-Notice: Map save (binary) took : 0.103 s
-[Server Save] Server has been saved in 138 ms.
-Notice: Map save (binary) took : 0.098 s
-[Server Save] Server has been saved in 127 ms.
-Notice: Map save (binary) took : 0.104 s
-[Server Save] Server has been saved in 133 ms.
-Notice: Map save (binary) took : 0.083 s
-[Server Save] Server has been saved in 111 ms.
-Notice: Map save (binary) took : 0.078 s
-[Server Save] Server has been saved in 107 ms.
-Notice: Map save (binary) took : 0.092 s
-[Server Save] Server has been saved in 118 ms.
-Notice: Map save (binary) took : 0.074 s
 [Server Save] Server has been saved in 105 ms.
-Notice: Map save (binary) took : 0.09 s
-[Server Save] Server has been saved in 118 ms.
-Notice: Map save (binary) took : 0.079 s
-[Server Save] Server has been saved in 105 ms.
-Notice: Map save (binary) took : 0.151 s
-[Server Save] Server has been saved in 181 ms.
-Notice: Map save (binary) took : 0.084 s
-[Server Save] Server has been saved in 111 ms.
-Notice: Map save (binary) took : 0.088 s
-[Server Save] Server has been saved in 119 ms.
-Notice: Map save (binary) took : 0.083 s
-[Server Save] Server has been saved in 112 ms.
-Notice: Map save (binary) took : 0.09 s
-[Server Save] Server has been saved in 117 ms.
-Notice: Map save (binary) took : 0.082 s
-[Server Save] Server has been saved in 111 ms.
 Notice: Map save (binary) took : 0.088 s
 [Server Save] Server has been saved in 116 ms.
-Notice: Map save (binary) took : 0.086 s
-[Server Save] Server has been saved in 124 ms.
-Notice: Map save (binary) took : 0.078 s
+Notice: Map save (binary) took : 0.074 s
 [Server Save] Server has been saved in 106 ms.
-[Server Save] Saving sever...
-[Server Save] Game state set to CLOSED...
-[Server Save] Kicking and saving players...
-[Server Save] Saving bans, houses and map...
-Notice: Map save (binary) took : 0.098 s
-[Server Save] Server has been saved in 125 ms.
-[Server Save] Cleaning server...
-[Server Save] Backuping database...
-sh: 1: backup.bat: not found
-[Server Save] Server saved successfully!
-Notice: Map save (binary) took : 1.856 s
-[Server Save] Server has been saved in 2152 ms.
-Notice: Map save (binary) took : 0.096 s
-[Server Save] Server has been saved in 124 ms.
-Notice: Map save (binary) took : 0.125 s
-[Server Save] Server has been saved in 153 ms.
-Notice: Map save (binary) took : 0.123 s
-[Server Save] Server has been saved in 148 ms.
-Notice: Map save (binary) took : 0.093 s
-[Server Save] Server has been saved in 122 ms.
-Notice: Map save (binary) took : 0.118 s
-[Server Save] Server has been saved in 151 ms.
-Notice: Map save (binary) took : 0.063 s
-[Server Save] Server has been saved in 90 ms.
-Notice: Map save (binary) took : 0.071 s
-[Server Save] Server has been saved in 135 ms.
-Notice: Map save (binary) took : 0.068 s
-[Server Save] Server has been saved in 170 ms.
-Notice: Map save (binary) took : 0.061 s
-[Server Save] Server has been saved in 166 ms.
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-Notice: Map save (binary) took : 0.052 s
-[Server Save] Server has been saved in 144 ms.
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 10
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-
-Lua Script Error: [Action Interface] 
-data/actions/scripts/Jakundaf Desert/The Desert Dungeons Quest/desert_quest.lua:onUse
-
-internalGetPlayerInfo(). Player not found. info = 2
-Notice: Map save (binary) took : 0.085 s
-[Server Save] Server has been saved in 121 ms.
-Notice: Map save (binary) took : 0.066 s
-[Server Save] Server has been saved in 135 ms.
-Notice: Map save (binary) took : 0.06 s
-[Server Save] Server has been saved in 135 ms.
-Notice: Map save (binary) took : 0.05 s
-[Server Save] Server has been saved in 105 ms.
-Notice: Map save (binary) took : 0.054 s
-[Server Save] Server has been saved in 106 ms.
-Notice: Map save (binary) took : 0.075 s
-[Server Save] Server has been saved in 139 ms.
-
-Lua Script Error: [Npc interface] 
-data/npc/scripts/orc_king.lua:onCreatureSay
-
-luaDoSummonCreature(). Can not summon monster: Orc Warlord
-
-Lua Script Error: [Npc interface] 
-data/npc/scripts/orc_king.lua:onCreatureSay
-
-luaDoSummonCreature(). Can not summon monster: Slime
-Notice: Map save (binary) took : 0.062 s
-[Server Save] Server has been saved in 121 ms.
-Notice: Map save (binary) took : 0.053 s
-[Server Save] Server has been saved in 111 ms.
-Notice: Map save (binary) took : 0.047 s
-[Server Save] Server has been saved in 110 ms.
-Notice: Map save (binary) took : 0.055 s
-[Server Save] Server has been saved in 106 ms.
-Notice: Map save (binary) took : 0.058 s
-[Server Save] Server has been saved in 127 ms.
-Notice: Map save (binary) took : 0.054 s
-[Server Save] Server has been saved in 120 ms.
 Notice: Map save (binary) took : 0.057 s
-[Server Save] Server has been saved in 106 ms.
-Notice: Map save (binary) took : 0.056 s
-[Server Save] Server has been saved in 117 ms.
-Notice: Map save (binary) took : 0.049 s
-[Server Save] Server has been saved in 128 ms.
-Notice: Map save (binary) took : 0.056 s
-[Server Save] Server has been saved in 107 ms.
-Notice: Map save (binary) took : 0.051 s
+[Server Save] Server has been saved in 88 ms.
+Notice: Map save (binary) took : 0.073 s
+[Server Save] Server has been saved in 101 ms.
+Notice: Map save (binary) took : 0.072 s
+[Server Save] Server has been saved in 99 ms.
+Notice: Map save (binary) took : 0.065 s
 [Server Save] Server has been saved in 100 ms.
-Notice: Map save (binary) took : 0.067 s
-[Server Save] Server has been saved in 113 ms.
-Notice: Map save (binary) took : 0.057 s
-[Server Save] Server has been saved in 115 ms.
-Notice: Map save (binary) took : 0.053 s
-[Server Save] Server has been saved in 106 ms.
-Notice: Map save (binary) took : 0.052 s
-[Server Save] Server has been saved in 110 ms.
+Notice: Map save (binary) took : 0.07 s
+[Server Save] Server has been saved in 94 ms.
 Notice: Map save (binary) took : 0.054 s
-[Server Save] Server has been saved in 114 ms.
-Notice: Map save (binary) took : 0.066 s
-[Server Save] Server has been saved in 125 ms.
-Notice: Map save (binary) took : 0.055 s
+[Server Save] Server has been saved in 75 ms.
+Notice: Map save (binary) took : 0.063 s
 [Server Save] Server has been saved in 86 ms.
+Notice: Map save (binary) took : 0.063 s
+[Server Save] Server has been saved in 88 ms.
+Notice: Map save (binary) took : 0.06 s
+[Server Save] Server has been saved in 89 ms.
+Notice: Map save (binary) took : 0.048 s
+[Server Save] Server has been saved in 72 ms.
+Notice: Map save (binary) took : 0.079 s
+[Server Save] Server has been saved in 103 ms.
+Notice: Map save (binary) took : 0.074 s
+[Server Save] Server has been saved in 99 ms.
+Notice: Map save (binary) took : 0.075 s
+[Server Save] Server has been saved in 103 ms.
+Notice: Map save (binary) took : 0.052 s
+[Server Save] Server has been saved in 76 ms.
+Notice: Map save (binary) took : 0.078 s
+[Server Save] Server has been saved in 104 ms.
+Notice: Map save (binary) took : 0.057 s
+[Server Save] Server has been saved in 81 ms.
+Notice: Map save (binary) took : 0.081 s
+[Server Save] Server has been saved in 108 ms.
+Notice: Map save (binary) took : 0.057 s
+[Server Save] Server has been saved in 81 ms.
+Notice: Map save (binary) took : 0.054 s
+[Server Save] Server has been saved in 77 ms.
+Notice: Map save (binary) took : 0.073 s
+[Server Save] Server has been saved in 102 ms.
+Notice: Map save (binary) took : 0.072 s
+[Server Save] Server has been saved in 105 ms.
+Notice: Map save (binary) took : 0.073 s
+[Server Save] Server has been saved in 103 ms.
+Notice: Map save (binary) took : 0.081 s
+[Server Save] Server has been saved in 108 ms.
+Notice: Map save (binary) took : 0.058 s
+[Server Save] Server has been saved in 81 ms.
+Notice: Map save (binary) took : 0.051 s
+[Server Save] Server has been saved in 85 ms.
+Notice: Map save (binary) took : 0.067 s
+[Server Save] Server has been saved in 92 ms.
 Notice: Map save (binary) took : 0.072 s
 [Server Save] Server has been saved in 100 ms.
-Notice: Map save (binary) took : 0.081 s
-[Server Save] Server has been saved in 107 ms.
-Notice: Map save (binary) took : 0.076 s
-[Server Save] Server has been saved in 105 ms.
-Notice: Map save (binary) took : 0.07 s
-[Server Save] Server has been saved in 95 ms.
-Notice: Map save (binary) took : 0.078 s
-[Server Save] Server has been saved in 106 ms.
-Notice: Map save (binary) took : 0.085 s
-[Server Save] Server has been saved in 117 ms.
-Notice: Map save (binary) took : 0.071 s
-[Server Save] Server has been saved in 101 ms.
-Notice: Map save (binary) took : 0.078 s
-[Server Save] Server has been saved in 105 ms.
-Notice: Map save (binary) took : 0.078 s
+Notice: Map save (binary) took : 0.069 s
 [Server Save] Server has been saved in 108 ms.
-Notice: Map save (binary) took : 0.079 s
-[Server Save] Server has been saved in 107 ms.
-Notice: Map save (binary) took : 0.098 s
-[Server Save] Server has been saved in 139 ms.
 Notice: Map save (binary) took : 0.081 s
-[Server Save] Server has been saved in 109 ms.
+[Server Save] Server has been saved in 116 ms.
+Notice: Map save (binary) took : 0.069 s
+[Server Save] Server has been saved in 86 ms.
+Notice: Map save (binary) took : 0.074 s
+[Server Save] Server has been saved in 105 ms.
+Notice: Map save (binary) took : 0.079 s
+[Server Save] Server has been saved in 108 ms.
+Notice: Map save (binary) took : 0.068 s
+[Server Save] Server has been saved in 96 ms.
+Notice: Map save (binary) took : 0.075 s
+[Server Save] Server has been saved in 103 ms.
 Notice: Map save (binary) took : 0.084 s
-[Server Save] Server has been saved in 112 ms.
+[Server Save] Server has been saved in 113 ms.
+Notice: Map save (binary) took : 0.072 s
+[Server Save] Server has been saved in 99 ms.
+Notice: Map save (binary) took : 0.072 s
+[Server Save] Server has been saved in 107 ms.
+Notice: Map save (binary) took : 0.068 s
+[Server Save] Server has been saved in 93 ms.
+Notice: Map save (binary) took : 0.069 s
+[Server Save] Server has been saved in 99 ms.
 Notice: Map save (binary) took : 0.071 s
 [Server Save] Server has been saved in 100 ms.
+Notice: Map save (binary) took : 0.09 s
+[Server Save] Server has been saved in 121 ms.
+Notice: Map save (binary) took : 0.072 s
+[Server Save] Server has been saved in 105 ms.
+Notice: Map save (binary) took : 0.07 s
+[Server Save] Server has been saved in 106 ms.
+Notice: Map save (binary) took : 0.074 s
+[Server Save] Server has been saved in 107 ms.
+Notice: Map save (binary) took : 0.052 s
+[Server Save] Server has been saved in 76 ms.
+Notice: Map save (binary) took : 0.07 s
+[Server Save] Server has been saved in 107 ms.
+Notice: Map save (binary) took : 0.073 s
+[Server Save] Server has been saved in 105 ms.
+Notice: Map save (binary) took : 0.073 s
+[Server Save] Server has been saved in 99 ms.
+Notice: Map save (binary) took : 0.073 s
+[Server Save] Server has been saved in 100 ms.
+Notice: Map save (binary) took : 0.074 s
+[Server Save] Server has been saved in 109 ms.
+Notice: Map save (binary) took : 0.056 s
+[Server Save] Server has been saved in 89 ms.
+Notice: Map save (binary) took : 0.077 s
+[Server Save] Server has been saved in 105 ms.
+Notice: Map save (binary) took : 0.084 s
+[Server Save] Server has been saved in 118 ms.
+Notice: Map save (binary) took : 0.073 s
+[Server Save] Server has been saved in 107 ms.
+Notice: Map save (binary) took : 0.074 s
+[Server Save] Server has been saved in 108 ms.
+Notice: Map save (binary) took : 0.072 s
+[Server Save] Server has been saved in 100 ms.
+Notice: Map save (binary) took : 0.069 s
+[Server Save] Server has been saved in 105 ms.
+Notice: Map save (binary) took : 0.07 s
+[Server Save] Server has been saved in 100 ms.
+Notice: Map save (binary) took : 0.066 s
+[Server Save] Server has been saved in 92 ms.
+Notice: Map save (binary) took : 0.075 s
+[Server Save] Server has been saved in 106 ms.
+Notice: Map save (binary) took : 0.073 s
+[Server Save] Server has been saved in 99 ms.
+Notice: Map save (binary) took : 0.076 s
+[Server Save] Server has been saved in 116 ms.
+Notice: Map save (binary) took : 0.074 s
+[Server Save] Server has been saved in 106 ms.
+Notice: Map save (binary) took : 0.072 s
+[Server Save] Server has been saved in 104 ms.
+Notice: Map save (binary) took : 0.092 s
+[Server Save] Server has been saved in 133 ms.
+Notice: Map save (binary) took : 0.075 s
+[Server Save] Server has been saved in 114 ms.
+Notice: Map save (binary) took : 0.063 s
+[Server Save] Server has been saved in 90 ms.
+Notice: Map save (binary) took : 0.073 s
+[Server Save] Server has been saved in 99 ms.
+Notice: Map save (binary) took : 0.057 s
+[Server Save] Server has been saved in 96 ms.
+Notice: Map save (binary) took : 0.074 s
+[Server Save] Server has been saved in 106 ms.
+Notice: Map save (binary) took : 0.092 s
+[Server Save] Server has been saved in 122 ms.
+Notice: Map save (binary) took : 0.078 s
+[Server Save] Server has been saved in 113 ms.
+Notice: Map save (binary) took : 0.075 s
+[Server Save] Server has been saved in 107 ms.
+Notice: Map save (binary) took : 0.072 s
+[Server Save] Server has been saved in 98 ms.
+Notice: Map save (binary) took : 0.072 s
+[Server Save] Server has been saved in 113 ms.
+Notice: Map save (binary) took : 0.07 s
+[Server Save] Server has been saved in 93 ms.
+Notice: Map save (binary) took : 0.085 s
+[Server Save] Server has been saved in 113 ms.
+Notice: Map save (binary) took : 0.078 s
+[Server Save] Server has been saved in 103 ms.
+Notice: Map save (binary) took : 0.07 s
+[Server Save] Server has been saved in 98 ms.
+Notice: Map save (binary) took : 0.061 s
+[Server Save] Server has been saved in 95 ms.
+Notice: Map save (binary) took : 0.073 s
+[Server Save] Server has been saved in 102 ms.
+Notice: Map save (binary) took : 0.081 s
+[Server Save] Server has been saved in 118 ms.
+Notice: Map save (binary) took : 0.062 s
+[Server Save] Server has been saved in 96 ms.
+Notice: Map save (binary) took : 0.077 s
+[Server Save] Server has been saved in 112 ms.
+Notice: Map save (binary) took : 0.075 s
+[Server Save] Server has been saved in 112 ms.
+Notice: Map save (binary) took : 0.072 s
+[Server Save] Server has been saved in 114 ms.
+Notice: Map save (binary) took : 0.064 s
+[Server Save] Server has been saved in 98 ms.
+Notice: Map save (binary) took : 0.08 s
+[Server Save] Server has been saved in 112 ms.
+Notice: Map save (binary) took : 0.082 s
+[Server Save] Server has been saved in 115 ms.
+Notice: Map save (binary) took : 0.077 s
+[Server Save] Server has been saved in 106 ms.
+Notice: Map save (binary) took : 0.051 s
+[Server Save] Server has been saved in 74 ms.
+Notice: Map save (binary) took : 0.072 s
+[Server Save] Server has been saved in 108 ms.
+Notice: Map save (binary) took : 0.054 s
+[Server Save] Server has been saved in 80 ms.
+Notice: Map save (binary) took : 0.086 s
+[Server Save] Server has been saved in 122 ms.
+Notice: Map save (binary) took : 0.082 s
+[Server Save] Server has been saved in 113 ms.
+Notice: Map save (binary) took : 0.091 s
+[Server Save] Server has been saved in 125 ms.
+Notice: Map save (binary) took : 0.05 s
+[Server Save] Server has been saved in 72 ms.
+Notice: Map save (binary) took : 0.072 s
+[Server Save] Server has been saved in 115 ms.
+Notice: Map save (binary) took : 0.073 s
+[Server Save] Server has been saved in 114 ms.
+Notice: Map save (binary) took : 0.083 s
+[Server Save] Server has been saved in 124 ms.
+Notice: Map save (binary) took : 0.086 s
+[Server Save] Server has been saved in 124 ms.
+Notice: Map save (binary) took : 0.061 s
+[Server Save] Server has been saved in 83 ms.
+Notice: Map save (binary) took : 0.066 s
+[Server Save] Server has been saved in 91 ms.
+Notice: Map save (binary) took : 0.071 s
+[Server Save] Server has been saved in 103 ms.
+Notice: Map save (binary) took : 0.073 s
+[Server Save] Server has been saved in 101 ms.
+Notice: Map save (binary) took : 0.084 s
+[Server Save] Server has been saved in 108 ms.
+Notice: Map save (binary) took : 0.081 s
+[Server Save] Server has been saved in 114 ms.
+Notice: Map save (binary) took : 0.081 s
+[Server Save] Server has been saved in 115 ms.
+Notice: Map save (binary) took : 0.062 s
+[Server Save] Server has been saved in 94 ms.
+Notice: Map save (binary) took : 0.081 s
+[Server Save] Server has been saved in 113 ms.
+Notice: Map save (binary) took : 0.049 s
+[Server Save] Server has been saved in 70 ms.
+Notice: Map save (binary) took : 0.083 s
+[Server Save] Server has been saved in 117 ms.
+Notice: Map save (binary) took : 0.083 s
+[Server Save] Server has been saved in 112 ms.
+Notice: Map save (binary) took : 0.067 s
+[Server Save] Server has been saved in 98 ms.
+Notice: Map save (binary) took : 0.073 s
+[Server Save] Server has been saved in 101 ms.
+Notice: Map save (binary) took : 0.059 s
+[Server Save] Server has been saved in 82 ms.
+Notice: Map save (binary) took : 0.073 s
+[Server Save] Server has been saved in 108 ms.
+Notice: Map save (binary) took : 0.083 s
+[Server Save] Server has been saved in 108 ms.
+Notice: Map save (binary) took : 0.079 s
+[Server Save] Server has been saved in 113 ms.
+Notice: Map save (binary) took : 0.061 s
+[Server Save] Server has been saved in 94 ms.
+Notice: Map save (binary) took : 0.064 s
+[Server Save] Server has been saved in 103 ms.
+Notice: Map save (binary) took : 0.076 s
+[Server Save] Server has been saved in 110 ms.
+Notice: Map save (binary) took : 0.054 s
+[Server Save] Server has been saved in 79 ms.
+Notice: Map save (binary) took : 0.082 s
+[Server Save] Server has been saved in 108 ms.
+Notice: Map save (binary) took : 0.076 s
+[Server Save] Server has been saved in 110 ms.
+Notice: Map save (binary) took : 0.06 s
+[Server Save] Server has been saved in 88 ms.
+Notice: Map save (binary) took : 0.062 s
+[Server Save] Server has been saved in 89 ms.
+Notice: Map save (binary) took : 0.074 s
+[Server Save] Server has been saved in 108 ms.
+Notice: Map save (binary) took : 0.071 s
+[Server Save] Server has been saved in 95 ms.
+Notice: Map save (binary) took : 0.076 s
+[Server Save] Server has been saved in 112 ms.
+Notice: Map save (binary) took : 0.079 s
+[Server Save] Server has been saved in 117 ms.
+Notice: Map save (binary) took : 0.077 s
+[Server Save] Server has been saved in 112 ms.
+Notice: Map save (binary) took : 0.082 s
+[Server Save] Server has been saved in 118 ms.
+Notice: Map save (binary) took : 0.067 s
+[Server Save] Server has been saved in 103 ms.
+Notice: Map save (binary) took : 0.058 s
+[Server Save] Server has been saved in 80 ms.
+Notice: Map save (binary) took : 0.076 s
+[Server Save] Server has been saved in 102 ms.
+Notice: Map save (binary) took : 0.073 s
+[Server Save] Server has been saved in 108 ms.
+Notice: Map save (binary) took : 0.059 s
+[Server Save] Server has been saved in 82 ms.
+Notice: Map save (binary) took : 0.076 s
+[Server Save] Server has been saved in 105 ms.
+Notice: Map save (binary) took : 0.073 s
+[Server Save] Server has been saved in 105 ms.
+Notice: Map save (binary) took : 0.049 s
+[Server Save] Server has been saved in 86 ms.
+Notice: Map save (binary) took : 0.068 s
+[Server Save] Server has been saved in 109 ms.
+Notice: Map save (binary) took : 0.075 s
+[Server Save] Server has been saved in 102 ms.
+Notice: Map save (binary) took : 0.069 s
+[Server Save] Server has been saved in 100 ms.
+Notice: Map save (binary) took : 0.062 s
+[Server Save] Server has been saved in 86 ms.
+Notice: Map save (binary) took : 0.065 s
+[Server Save] Server has been saved in 115 ms.
+Notice: Map save (binary) took : 0.072 s
+[Server Save] Server has been saved in 102 ms.
+Notice: Map save (binary) took : 0.069 s
+[Server Save] Server has been saved in 91 ms.
+Notice: Map save (binary) took : 0.079 s
+[Server Save] Server has been saved in 113 ms.
+Notice: Map save (binary) took : 0.056 s
+[Server Save] Server has been saved in 78 ms.
+Notice: Map save (binary) took : 0.054 s
+[Server Save] Server has been saved in 78 ms.
+Notice: Map save (binary) took : 0.069 s
+[Server Save] Server has been saved in 96 ms.
+Notice: Map save (binary) took : 0.069 s
+[Server Save] Server has been saved in 108 ms.
+Notice: Map save (binary) took : 0.076 s
+[Server Save] Server has been saved in 104 ms.
+Notice: Map save (binary) took : 0.075 s
+[Server Save] Server has been saved in 107 ms.
+Notice: Map save (binary) took : 0.064 s
+[Server Save] Server has been saved in 124 ms.
+Notice: Map save (binary) took : 0.059 s
+[Server Save] Server has been saved in 87 ms.
+Notice: Map save (binary) took : 0.057 s
+[Server Save] Server has been saved in 112 ms.
+Notice: Map save (binary) took : 0.04 s
+[Server Save] Server has been saved in 82 ms.
+Notice: Map save (binary) took : 0.054 s
+[Server Save] Server has been saved in 137 ms.
+Notice: Map save (binary) took : 0.052 s
+[Server Save] Server has been saved in 122 ms.
+Notice: Map save (binary) took : 0.062 s
+[Server Save] Server has been saved in 123 ms.
+Notice: Map save (binary) took : 0.063 s
+[Server Save] Server has been saved in 153 ms.

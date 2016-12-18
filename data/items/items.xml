@@ -5165,7 +5165,7 @@
 		<attribute key="description" value="It emits clouds of poisonous swamp gas."/>
 		<attribute key="weight" value="2650"/>
 		<attribute key="weaponType" value="wand"/>
-		<attribute key="range" value="3"/>
+		<attribute key="range" value="2"/>
 	</item>
 	<item id="2182" article="a" name="snakebite rod">
 		<attribute key="description" value="It seems to twitch and quiver as if trying to escape your grip."/>
@@ -5177,7 +5177,7 @@
 		<attribute key="description" value="It grants you the power of striking your foes with furious thunderstorms."/>
 		<attribute key="weight" value="2100"/>
 		<attribute key="weaponType" value="wand"/>
-		<attribute key="range" value="3"/>
+		<attribute key="range" value="1"/>
 	</item>
 	<item id="2184" article="a" name="crystal wand">
 		<attribute key="weight" value="2800"/>
@@ -5204,7 +5204,7 @@
 		<attribute key="description" value="Infectious goo covers its tip"/>
 		<attribute key="weight" value="2300"/>
 		<attribute key="weaponType" value="wand"/>
-		<attribute key="range" value="3"/>
+		<attribute key="range" value="2"/>
 	</item>
 	<item id="2189" article="a" name="wand of cosmic energy">
 		<attribute key="description" value="The energy of a radiant star is trapped inside its globe."/>

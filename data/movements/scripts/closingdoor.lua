@@ -1,17 +1,14 @@
--- Author: 		Rodrigo (Nottinghster) - (OTLand, OTFans, XTibia, OTServBR)
--- Country:		Brazil
--- From: 		Tibia World RPG OldSchool
--- Email: 		god.rodrigo@hotmail.com
--- Compiler:	Tibia World Script Maker (Movement Scripts)
-
 function onStepOut(cid, item, pos)
 	if(item.actionid == 0) then
+		-- This is not a special door
 		return TRUE
 	end
 
 	local topos = getPlayerPosition(cid)
 	doRelocate(pos, topos)
 
+	-- Remove any item that was not moved
+	-- Happens when there is an unmoveable item on the door, ie. a fire field
 	local tmpPos = {x=pos.x, y=pos.y, z=pos.z, stackpos=-1}
 	local tileCount = getTileThingByPos(tmpPos)
 	local i = 1

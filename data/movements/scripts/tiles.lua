@@ -1,50 +1,34 @@
--- Author: 		Rodrigo (Nottinghster) - (OTLand, OTFans, XTibia, OTServBR)
--- Country:		Brazil
--- From: 		Tibia World RPG OldSchool
--- Email: 		god.rodrigo@hotmail.com
--- Compiler:	Tibia World Script Maker (Movement Scripts)
-
-local SWITCHES = { {416, 417}, {426, 425}, {446, 447}, {3216, 3217}, {3202, 3215} }
-
-local function doTransformTile(item)
-	for i, v in pairs(SWITCHES) do
-		if(item.itemid == v[1]) then
-			return doTransformItem(item.uid, v[2])
-		elseif(item.itemid == v[2]) then
-			return doTransformItem(item.uid, v[1])
-		end
-	end
-end
-
 function onStepIn(cid, item, pos)
-	if(item.actionid > 0) then
-		return TRUE
-	end
+	if isPlayer(cid) then
+		actionid = 101
+		if item.actionid > 100 and item.actionid < 125 then
+			actionid = item.actionid
+		end
 
-	doTransformTile(item)
-	local depot = {}
-	for x = -1, 1 do
-		for y = -1, 1 do
-			pos.x = pos.x + x
-			pos.y = pos.y + y
-			depot = getTileItemByType(pos, ITEM_TYPE_DEPOT)
-			if(depot.uid > 0) then
-				local depotItems = getPlayerDepotItems(cid, getDepotId(depot.uid))
-				local depotStr = "Your depot contains " .. depotItems .. " items."
-				if(depotItems == 1) then
-					depotStr = "Your depot contains 1 item."
+		if actionid > 100 then
+			if (getTilePzInfo(pos) == TRUE) then
+				depotitems = getPlayerDepotItems(cid, actionid - 100)
+            
+				if depotitems == 1 then
+					doPlayerSendTextMessage(cid, 20, 'Your depot contains 1 item.')
+				else
+					doPlayerSendTextMessage(cid, 20, 'Your depot contains '.. depotitems ..' items.')
 				end
-				 doPlayerSendTextMessage(cid,MESSAGE_EVENT_DEFAULT, depotStr)
-				return TRUE
 			end
-			pos.x = pos.x - x
-			pos.y = pos.y - y
 		end
 	end
-	return TRUE
+    
+    if item.itemid == 446 or item.itemid == 416 or item.itemid == 3216 then
+        doTransformItem(item.uid, item.itemid+1)
+    elseif item.itemid == 426 then
+        doTransformItem(item.uid, 425)
+    end
 end
 
 function onStepOut(cid, item, pos)
-	doTransformTile(item)
-	return TRUE
+    if item.itemid == 447 or item.itemid == 417 or item.itemid == 3217 then
+        doTransformItem(item.uid, item.itemid-1)
+    elseif item.itemid == 425 then
+        doTransformItem(item.uid, 426)
+    end
 end

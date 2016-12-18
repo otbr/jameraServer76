@@ -45,7 +45,7 @@
     TimeToDecreaseFrags = 8 * 60 * 60 * 1000
 
     -- Time white skull will remain after killing a player, in minutes
-    WhiteSkullTime = 15
+    WhiteSkullTime = 10
 
     -- amount of kills that leads to red skull
     KillsToRedSkull = 3
@@ -53,16 +53,16 @@
     -- Remove ammunition
     -- If false, ammunition will not be removed when using distance weapons
     -- (or other weapons that use ammunition)
-    RemoveAmmunition = false
+    RemoveAmmunition = true
 	
     -- Remove rune charges
     -- This only applies to runes done using the default functions. 
     -- Custom runes made using actions will not be affected.
-    RemoveRuneCharges = false
+    RemoveRuneCharges = true
 
     -- Remove weapon charges
     -- Set to false to disable charges disappearing from weapons on use
-    RemoveWeaponCharges = false
+    RemoveWeaponCharges = true
 
 ---- CONNECTION SYSTEM ----
 
@@ -169,10 +169,10 @@
 ---- RATES SYSTEM ----
 
     -- rates (experience, skill, magic level, loot and spawn)
-    RateExp = 1
-    RateSkill = 5
-    RateMag = 4
-    RateLoot = 2
+    RateExp = 2
+    RateSkill = 2
+    RateMag = 2
+    RateLoot = 1
     RateSpawn = 1
 
 
