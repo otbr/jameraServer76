@@ -67,7 +67,7 @@
 ---- CONNECTION SYSTEM ----
 
     -- server ip (the ip that server listens on)
-    IP = "tibiaview.com.br"
+    IP = "classicrpg.com.br"
 
     -- server port (the port that server listens on)
     Port = "7171"
@@ -120,23 +120,23 @@
 --- INFO SYSTEM ---
 
     -- login message
-    LoginMsg = "Welcome to Tibia World RPG OldSchool Server!"
+    LoginMsg = "Welcome to Classic RPG OldSchool Server!"
 
     -- server name
-    ServerName = "Tibia World RPG OldSchool Server"
-    serverName = "OTServ"
+    ServerName = "Classic RPG"
+    serverName = "Classic RPG"
 
     -- world name
     WorldName = "Tibia World"
 
     -- server owner name
-    OwnerName = "Nottinghster"
+    OwnerName = "John/Bruno Of God"
 
     -- server owner email
-    OwnerEmail = "god.rodrigo@hotmail.com"
+    OwnerEmail = "contato@classicrpg.com.br"
 
     -- server url
-    URL = "http://tibiaworld.hopto.org/"
+    URL = "http://www.classicrpg.com.br/"
 
     -- server location
     Location = "Brazil"
@@ -188,7 +188,7 @@
 --- STATUS SYSTEM ---
 
     -- motd (the message box that you sometimes get before you choose characters)
-    MOTD = "Welcome to Tibia World RPG OldSchool Server.\n\nHave fun!"
+    MOTD = "Welcome to Classic RPG OldSchool Server.\n\nHave fun!"
     MOTD_Num = "1"
 
     -- max number of players allowed
@@ -255,7 +255,7 @@
 	-- With Tibianic Exp Formula, you will only need 238 experience points to reach the level 8!
 	-- With MasterCores Exp Formula, you will only need 250 experience points to reach the level 8!
 	-- Options: "original", "tibianic" and "mastercores".
-	ExpFormulaType = "tibianic"
+	ExpFormulaType = "original"
 	
 	--- REAL TIBIA SAVE SYSTEM ---	
 	
