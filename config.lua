@@ -170,8 +170,8 @@
 
     -- rates (experience, skill, magic level, loot and spawn)
     RateExp = 2
-    RateSkill = 3
-    RateMag = 3
+    RateSkill = 4
+    RateMag = 5
     RateLoot = 1
     RateSpawn = 1
 
