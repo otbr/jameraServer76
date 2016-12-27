@@ -8,7 +8,8 @@ function onSay(cid, words, param)
     end]]--
 	
         local priceDay = 1000
-        if param == "" then
+	param = 30
+--[[        if param == "" then
             cost = priceDay
             oneDay = 1
             if doPlayerRemoveMoney(cid, cost) == TRUE then
@@ -18,9 +19,9 @@ function onSay(cid, words, param)
                 doPlayerSendCancel(cid, "You don't have enough money.")
                 doSendMagicEffect(getPlayerPosition(cid), CONST_ME_POFF)
             end
-        else
+        else]]--
             if getPlayerPremiumDays(cid) + param <= 365 then
-            local cost = param * priceDay
+            local cost = 40000
             if doPlayerRemoveMoney(cid, cost) == TRUE then
                 doPlayerAddPremiumDays(cid, param)
                 doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "You have bought ".. param .." days of premium account. Please login again!")
@@ -32,7 +33,7 @@ function onSay(cid, words, param)
                 doPlayerSendCancel(cid, "You can not buy more than one year of Premium Account.")
                 doSendMagicEffect(getPlayerPosition(cid), CONST_ME_POFF)
             end
-        end
+        --end
             
     else
         doPlayerSendCancel(cid, "You can not buy more than one year of Premium Account.")

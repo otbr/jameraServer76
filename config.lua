@@ -102,7 +102,7 @@
     -- these settings are not used by SQLite
     SQL_Host = "localhost"
     SQL_Port = 3306
-    SQL_User = "root"
+    SQL_User = "server"
     SQL_Pass = "159TibOt@"
 	
 

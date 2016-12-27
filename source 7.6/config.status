@@ -437,7 +437,7 @@ Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/servers/tibiaview/Avesta 7.6 (OTServ_SVN 0.6.3)/source 7.6'
+ac_pwd='/servers/classicRPG-server/source 7.6'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/bin/mkdir -p'
@@ -681,12 +681,12 @@ S["mkdir_p"]="$(MKDIR_P)"
 S["MKDIR_P"]="/bin/mkdir -p"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]=""
-S["install_sh"]="${SHELL} '/servers/tibiaview/Avesta 7.6 (OTServ_SVN 0.6.3)/source 7.6/install-sh'"
-S["MAKEINFO"]="${SHELL} \"/servers/tibiaview/Avesta 7.6 (OTServ_SVN 0.6.3)/source 7.6/missing\" makeinfo"
-S["AUTOHEADER"]="${SHELL} \"/servers/tibiaview/Avesta 7.6 (OTServ_SVN 0.6.3)/source 7.6/missing\" autoheader"
-S["AUTOMAKE"]="${SHELL} \"/servers/tibiaview/Avesta 7.6 (OTServ_SVN 0.6.3)/source 7.6/missing\" automake-1.15"
-S["AUTOCONF"]="${SHELL} \"/servers/tibiaview/Avesta 7.6 (OTServ_SVN 0.6.3)/source 7.6/missing\" autoconf"
-S["ACLOCAL"]="${SHELL} \"/servers/tibiaview/Avesta 7.6 (OTServ_SVN 0.6.3)/source 7.6/missing\" aclocal-1.15"
+S["install_sh"]="${SHELL} '/servers/classicRPG-server/source 7.6/install-sh'"
+S["MAKEINFO"]="${SHELL} \"/servers/classicRPG-server/source 7.6/missing\" makeinfo"
+S["AUTOHEADER"]="${SHELL} \"/servers/classicRPG-server/source 7.6/missing\" autoheader"
+S["AUTOMAKE"]="${SHELL} \"/servers/classicRPG-server/source 7.6/missing\" automake-1.15"
+S["AUTOCONF"]="${SHELL} \"/servers/classicRPG-server/source 7.6/missing\" autoconf"
+S["ACLOCAL"]="${SHELL} \"/servers/classicRPG-server/source 7.6/missing\" aclocal-1.15"
 S["VERSION"]="0.6"
 S["PACKAGE"]="otserv"
 S["CYGPATH_W"]="echo"
