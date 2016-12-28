@@ -114,7 +114,7 @@
     HouseRentPeriod = "weekly"
 
     -- House price
-    HousePrice = 50
+    HousePrice = 5000
 
 
 --- INFO SYSTEM ---

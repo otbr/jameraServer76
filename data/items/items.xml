@@ -6524,14 +6524,16 @@
 		<attribute key="weaponType" value="distance"/>
 		<attribute key="slotType" value="two-handed"/>
 		<attribute key="ammoType" value="bolt"/>
-		<attribute key="range" value="5"/>
+		<attribute key="range" value="5"/>		                  
+                <attribute key="hitChance" value="0"/>
 	</item>
 	<item id="2456" article="a" name="bow">
 		<attribute key="weight" value="3100"/>
 		<attribute key="weaponType" value="distance"/>
 		<attribute key="slotType" value="two-handed"/>
 		<attribute key="ammoType" value="arrow"/>
-		<attribute key="range" value="6"/>
+		<attribute key="range" value="6"/>                  
+                <attribute key="hitChance" value="0"/>
 	</item>
 	<item id="2457" article="a" name="steel helmet">
 		<attribute key="weight" value="4600"/>
