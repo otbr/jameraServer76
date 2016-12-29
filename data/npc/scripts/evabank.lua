@@ -15,6 +15,23 @@ function onCreatureDisappear(cid)			npcHandler:onCreatureDisappear(cid)			end
 function onCreatureSay(cid, type, msg)			npcHandler:onCreatureSay(cid, type, msg)		end
 function onThink()					npcHandler:onThink()					end
 
+function getPlayerMoney(cid)
+        return ((getPlayerItemCount(cid, ITEM_CRYSTAL_COIN) * 10000) + (getPlayerItemCount(cid, ITEM_PLATINUM_COIN) * 100) + getPlayerItemCount(cid, ITEM_GOLD_COIN))
+end
+
+function doPlayerWithdrawAllMoney(cid)
+        return doPlayerWithdrawMoney(cid, getPlayerBalance(cid))
+end
+
+function doPlayerDepositAllMoney(cid)
+        return doPlayerDepositMoney(cid, getPlayerMoney(cid))
+end
+
+function doPlayerTransferAllMoneyTo(cid, target)
+        return doPlayerTransferMoneyTo(cid, target, getPlayerBalance(cid))
+end
+
+
 function creatureSayCallback(cid, type, msg)
 	if(npcHandler.focus ~= cid) then
 		return false
@@ -25,9 +42,9 @@ function creatureSayCallback(cid, type, msg)
 		return ending
 	end
 
-	if msgcontains(msg, 'shsdh') then
+	if msgcontains(msg, 'balance') then
 		selfSay("Your account balance is "..getPlayerBalance(cid).." gold coin"..wordEnding(getPlayerBalance(cid))..".")
-	elseif msgcontains(msg, 'depdfhl') then
+	elseif msgcontains(msg, 'deposit all') then
 		if getPlayerMoney(cid) > 0 then
 			selfSay("Do you want to deposit "..getPlayerMoney(cid).." gold coin"..wordEnding(getPlayerMoney(cid)).."?")
 			talkState = 1
@@ -35,12 +52,12 @@ function creatureSayCallback(cid, type, msg)
 			selfSay("You don't have any gold coins with you.")
 		end
 	--Confirm Deposit All
-	elseif msgcontains(msg, 'ye') and talkState == 1 then
+	elseif msgcontains(msg, 'yes') and talkState == 1 then
 		selfSay("Okay, we have added "..getPlayerMoney(cid).." gold coin"..wordEnding(getPlayerMoney(cid)).." to your bank account.")
 		doPlayerDepositAllMoney(cid, getPlayerMoney(cid))
 		doPlayerRemoveMoney(cid, getPlayerMoney(cid))
 		talkState = 0
-	elseif msgcontains(msg, 'wth l') then
+	elseif msgcontains(msg, 'withdraw all') then
 		if getPlayerBalance(cid) > 0 then
 			selfSay("Do you want to withdraw "..getPlayerBalance(cid).." gold coin"..wordEnding(getPlayerBalance(cid)).."?")
 			talkState = 2
@@ -48,12 +65,12 @@ function creatureSayCallback(cid, type, msg)
 			selfSay("You don't have any gold on your bank account.")
 		end
 	--Confirm Withdraw All
-	elseif msgcontains(msg, 'yesdfh') and talkState == 2 then
+	elseif msgcontains(msg, 'yes') and talkState == 2 then
 		selfSay("Here you are... "..getPlayerBalance(cid).." gold coin"..wordEnding(getPlayerBalance(cid))..".")
 		doPlayerWithdrawAllMoney(cid)
 		talkState = 0
 	--Withdraw
-	elseif msgcontains(msg, 'witradfhw') then
+	elseif msgcontains(msg, 'withdraw') then
 		local amount = getCount(msg)
 		if amount > 0 then
 			if amount <= getPlayerBalance(cid) then
@@ -83,12 +100,12 @@ function creatureSayCallback(cid, type, msg)
 			selfSay("Please repeat the amount you would like to withdraw.")
 		end
 	--Confirm Withdraw
-	elseif msgcontains(msg, 'yewe') and talkState == 3 then
+	elseif msgcontains(msg, 'yes') and talkState == 3 then
 		selfSay("Here you are... "..moneyToWithdraw.." gold coin"..wordEnding(moneyToWithdraw)..".")
 		doPlayerWithdrawMoney(cid, moneyToWithdraw)
 		talkState = 0
 	--Deposit
-	elseif msgcontains(msg, 'desrw45') then
+	elseif msgcontains(msg, 'deposit') then
 		local amount = getCount(msg)
 		if amount > 0 then
 			if getPlayerMoney(cid) >= amount then
@@ -118,7 +135,7 @@ function creatureSayCallback(cid, type, msg)
 			selfSay("Please repeat the amount you would like to deposit.")
 		end
 	--Confirm Deposit
-	elseif msgcontains(msg, 'e45s') and talkState == 5 then
+	elseif msgcontains(msg, 'yes') and talkState == 5 then
 		selfSay("We have added "..moneyToDeposit.." gold coin"..wordEnding(moneyToDeposit).." to your bank account.")
 		doPlayerDepositMoney(cid, moneyToDeposit)
 		doPlayerRemoveMoney(cid, moneyToDeposit)
@@ -127,7 +144,7 @@ function creatureSayCallback(cid, type, msg)
 		selfSay("Then not.")
 		talkState = 0
 	--Transfer
-	elseif msgcontains(msg, 'trf346er') then
+	elseif msgcontains(msg, 'transfer') then
 		--selfSay("Sorry, but transfer is somewhat broken.")
 		local amount = getCount(msg)
 		if amount > 0 then
@@ -168,7 +185,7 @@ function creatureSayCallback(cid, type, msg)
 			talkState = 0
 		end
 	--Confirm Transfer
-	elseif msgcontains(msg, 'y4e64') and talkState == 9 then
+	elseif msgcontains(msg, 'yes') and talkState == 9 then
 		selfSay("We have transfered "..moneyToTransfer.." gold coin"..wordEnding(moneyToTransfer).." to "..transferName..".")
 		talkState = 0
 		doPlayerTransferMoneyTo(cid, transferName, moneyToTransfer)
