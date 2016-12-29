@@ -10787,8 +10787,8 @@
   <spawn centerx="33044" centery="32028" centerz="8" radius="5">
     <monster name="orc spearman" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
-  <spawn centerx="32450" centery="32038" centerz="8" radius="1">
-    <npc name="Skjaar" x="0" y="0" z="8" spawntime="60"/>
+  <spawn centerx="32473" centery="32035" centerz="8" radius="5">
+    <monster name="cyclops" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32810" centery="32038" centerz="8" radius="5">
     <monster name="rat" x="0" y="0" z="8" spawntime="60"/>
@@ -10801,22 +10801,40 @@
   <spawn centerx="32798" centery="32040" centerz="8" radius="5">
     <monster name="rat" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="32464" centery="32041" centerz="8" radius="1"/>
   <spawn centerx="33058" centery="32043" centerz="8" radius="5">
     <monster name="snake" x="0" y="0" z="8" spawntime="60"/>
     <monster name="orc spearman" x="-2" y="3" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="32418" centery="32045" centerz="8" radius="5">
+    <monster name="cyclops" x="-1" y="-2" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="32434" centery="32045" centerz="8" radius="5">
     <monster name="cyclops" x="0" y="0" z="8" spawntime="550"/>
+    <monster name="cyclops" x="2" y="0" z="8" spawntime="60"/>
     <monster name="cyclops" x="-3" y="3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32452" centery="32046" centerz="8" radius="5">
+    <monster name="demon skeleton" x="2" y="-4" z="8" spawntime="60"/>
+    <monster name="ghoul" x="-1" y="0" z="8" spawntime="60"/>
     <monster name="ghoul" x="0" y="0" z="8" spawntime="60"/>
+    <monster name="demon skeleton" x="3" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32445" centery="32051" centerz="8" radius="5">
+    <monster name="cyclops" x="0" y="-3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32470" centery="32054" centerz="8" radius="5">
+    <monster name="cyclops" x="0" y="-4" z="8" spawntime="60"/>
     <monster name="cyclops" x="0" y="0" z="8" spawntime="750"/>
   </spawn>
   <spawn centerx="32486" centery="32059" centerz="8" radius="5">
+    <monster name="cyclops" x="5" y="-5" z="8" spawntime="60"/>
+    <monster name="cyclops" x="-2" y="-3" z="8" spawntime="60"/>
     <monster name="cyclops" x="0" y="0" z="8" spawntime="550"/>
+  </spawn>
+  <spawn centerx="32428" centery="32065" centerz="8" radius="5">
+    <monster name="cyclops" x="3" y="-2" z="8" spawntime="60"/>
+    <monster name="cyclops" x="4" y="1" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="33067" centery="32065" centerz="8" radius="5">
     <monster name="beholder" x="0" y="0" z="8" spawntime="60"/>
@@ -10825,8 +10843,15 @@
     <monster name="amazon" x="0" y="0" z="8" spawntime="60"/>
     <monster name="amazon" x="2" y="1" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="32403" centery="32067" centerz="8" radius="5">
+    <monster name="cyclops" x="0" y="-2" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="32514" centery="32067" centerz="8" radius="5">
     <monster name="demon skeleton" x="1" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32453" centery="32069" centerz="8" radius="5">
+    <monster name="cyclops" x="0" y="-5" z="8" spawntime="60"/>
+    <monster name="cyclops" x="0" y="4" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32073" centery="32076" centerz="8" radius="5">
     <monster name="troll" x="0" y="0" z="8" spawntime="60"/>
@@ -10841,6 +10866,7 @@
   <spawn centerx="33109" centery="32080" centerz="8" radius="5">
     <monster name="rotworm" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="32468" centery="32081" centerz="8" radius="5"/>
   <spawn centerx="32804" centery="32081" centerz="8" radius="5">
     <monster name="rotworm" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
@@ -10860,6 +10886,10 @@
   <spawn centerx="32821" centery="32087" centerz="8" radius="5">
     <monster name="rotworm" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="32474" centery="32088" centerz="8" radius="5">
+    <monster name="cyclops" x="-2" y="-1" z="8" spawntime="60"/>
+    <monster name="cyclops" x="2" y="-1" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="32059" centery="32091" centerz="8" radius="5">
     <monster name="poison spider" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
@@ -10873,6 +10903,11 @@
   </spawn>
   <spawn centerx="33123" centery="32091" centerz="8" radius="5">
     <monster name="rotworm" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32489" centery="32095" centerz="8" radius="5">
+    <monster name="cyclops" x="1" y="-2" z="8" spawntime="60"/>
+    <monster name="cyclops" x="-2" y="1" z="8" spawntime="60"/>
+    <monster name="cyclops" x="-2" y="2" z="8" spawntime="32000"/>
   </spawn>
   <spawn centerx="32803" centery="32095" centerz="8" radius="5">
     <monster name="rotworm" x="0" y="0" z="8" spawntime="60"/>
@@ -10892,6 +10927,15 @@
   <spawn centerx="32248" centery="32097" centerz="8" radius="5">
     <monster name="rotworm" x="0" y="0" z="8" spawntime="60"/>
     <monster name="rotworm" x="3" y="2" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32438" centery="32097" centerz="8" radius="5">
+    <monster name="cyclops" x="-1" y="-3" z="8" spawntime="60"/>
+    <monster name="cyclops" x="0" y="3" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32455" centery="32097" centerz="8" radius="5">
+    <monster name="cyclops" x="-4" y="-4" z="8" spawntime="60"/>
+    <monster name="cyclops" x="5" y="-4" z="8" spawntime="60"/>
+    <monster name="cyclops" x="-1" y="4" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="33010" centery="32097" centerz="8" radius="5">
     <monster name="rotworm" x="0" y="0" z="8" spawntime="60"/>
@@ -10938,6 +10982,7 @@
     <monster name="rat" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32466" centery="32110" centerz="8" radius="5">
+    <monster name="cyclops" x="1" y="-1" z="8" spawntime="60"/>
     <monster name="cyclops" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="33099" centery="32111" centerz="8" radius="5">
@@ -10969,6 +11014,7 @@
   </spawn>
   <spawn centerx="32476" centery="32116" centerz="8" radius="5">
     <monster name="cyclops" x="0" y="0" z="8" spawntime="60"/>
+    <monster name="cyclops" x="1" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32581" centery="32116" centerz="8" radius="5">
     <monster name="poison spider" x="-1" y="-4" z="8" spawntime="60"/>
@@ -15386,6 +15432,10 @@
     <monster name="skeleton" x="0" y="0" z="9" spawntime="60"/>
     <monster name="ghoul" x="2" y="4" z="9" spawntime="60"/>
   </spawn>
+  <spawn centerx="32485" centery="32056" centerz="9" radius="5">
+    <monster name="cyclops" x="-3" y="-4" z="9" spawntime="60"/>
+    <monster name="cyclops" x="5" y="1" z="9" spawntime="60"/>
+  </spawn>
   <spawn centerx="32427" centery="32058" centerz="9" radius="5">
     <monster name="skeleton" x="-2" y="-1" z="9" spawntime="60"/>
     <monster name="ghoul" x="0" y="0" z="9" spawntime="60"/>
@@ -15420,6 +15470,10 @@
   </spawn>
   <spawn centerx="32835" centery="32075" centerz="9" radius="5">
     <monster name="rotworm" x="0" y="0" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32467" centery="32076" centerz="9" radius="5">
+    <monster name="cyclops" x="1" y="-4" z="9" spawntime="60"/>
+    <monster name="cyclops" x="1" y="3" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32804" centery="32078" centerz="9" radius="5">
     <monster name="rotworm" x="0" y="0" z="9" spawntime="60"/>
@@ -15459,6 +15513,7 @@
   </spawn>
   <spawn centerx="32438" centery="32087" centerz="9" radius="5">
     <monster name="cyclops" x="0" y="0" z="9" spawntime="60"/>
+    <monster name="cyclops" x="1" y="2" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="33072" centery="32087" centerz="9" radius="5">
     <monster name="rotworm" x="0" y="0" z="9" spawntime="60"/>
