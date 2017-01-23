@@ -199,14 +199,14 @@ int Items::loadFromOtb(std::string file)
 			Items::dwBuildNumber = vi->dwBuildNumber;	//revision
 		}
 	}
-
-	if(Items::dwMajorVersion != 2){
-		std::cout << "Not supported items.otb version." << std::endl;
+/*
+	if(Items::dwMajorVersion != 3 || Items::dwMajorVersion != 2 ){
+		std::cout << "Not supported items.otb version. uuuuuuuu diabo"+Items::dwMajorVersion << std::endl;
 		return ERROR_INVALID_FORMAT;
 	}
-
+*/
 	if(Items::dwMajorVersion == 0xFFFFFFFF){
-		std::cout << "[Warning] Items::loadFromOtb items.otb using generic client version." << std::endl;
+		std::cout << "[Warning] Items::loadFromOtb items.otb using generic client version uuuu diabo."+Items::dwMajorVersion << std::endl;
 	}
 
 	node = f.getChildNode(node, type);
