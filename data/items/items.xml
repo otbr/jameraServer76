@@ -14565,6 +14565,32 @@
 		<attribute key="description" value="It contains a butterfly."/>
 		<attribute key="weight" value="800"/>
 	</item>
+	<!-- itens novos -->
+	<item id="5090" article="a" name="glass armor">
+		<attribute key="weight" value="1"/>
+		<attribute key="armor" value="1"/>
+		<attribute key="slotType" value="body"/>
+	</item>
+	<item id="5091" name="glass boots">
+		<attribute key="weight" value="1"/>
+		<attribute key="armor" value="1"/>
+		<attribute key="slotType" value="feet"/>
+	</item>
+	<item id="5092" name="glass legs">
+		<attribute key="weight" value="1"/>
+		<attribute key="armor" value="1"/>
+		<attribute key="slotType" value="legs"/>
+	</item>
+	<item id="5093" article="a" name="glass helmet">
+		<attribute key="weight" value="1"/>
+		<attribute key="armor" value="1"/>
+		<attribute key="slotType" value="head"/>
+	</item>
+	<item id="5094" article="a" name="glass shield">
+		<attribute key="weight" value="6500"/>
+		<attribute key="defense" value="17"/>
+		<attribute key="weaponType" value="shield"/>
+	</item>
 <item id="20001" name="water">
 </item>
 <item id="20002" name="blood">
