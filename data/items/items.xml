@@ -14768,7 +14768,18 @@
 		<attribute key="armor" value="10"/>
 		<attribute key="slotType" value="body"/>
 	</item>
-
+	<item id="2376" article="a" name="scaled mystic axe">
+		<attribute key="weight" value="3500"/>
+		<attribute key="defense" value="12"/>
+		<attribute key="attack" value="14"/>
+		<attribute key="weaponType" value="axe"/>
+	</item>
+	<item id="2376" article="a" name="scaled mystic hammer">
+		<attribute key="weight" value="3500"/>
+		<attribute key="defense" value="12"/>
+		<attribute key="attack" value="14"/>
+		<attribute key="weaponType" value="club"/>
+	</item>
 <item id="20001" name="water">
 </item>
 <item id="20002" name="blood">
