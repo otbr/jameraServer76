@@ -14762,7 +14762,12 @@
 		<attribute key="weight" value="12000"/>
 		<attribute key="armor" value="10"/>
 		<attribute key="slotType" value="body"/>
-	</item>	
+	</item>
+	<item id="5127" article="a" name="crystal armor">
+		<attribute key="weight" value="12000"/>
+		<attribute key="armor" value="10"/>
+		<attribute key="slotType" value="body"/>
+	</item>
 
 <item id="20001" name="water">
 </item>
