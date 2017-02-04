@@ -89,4 +89,12 @@
 		<vocation name="Sorcerer"/>
 		<vocation name="Master Sorcerer"/>
 	</wand>
+	<wand id="5104" lvl="8" mana="2" script="tempest_rod.lua">
+		<vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+	</wand>
+		<wand id="5114" lvl="33" mana="13" script="wand_of_inferno.lua">
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/>
+	</wand>
 </weapons>
