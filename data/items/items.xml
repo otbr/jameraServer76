@@ -14687,7 +14687,7 @@
 		<attribute key="armor" value="4"/>
 		<attribute key="slotType" value="feet"/>
 	</item>	
-	<item id="5112" article="a" name="hetmet of the old Gods">
+	<item id="5112" article="a" name="helmet of the old Gods">
 		<attribute key="weight" value="5000"/>
 		<attribute key="armor" value="7"/>
 		<attribute key="slotType" value="head"/>
@@ -14698,7 +14698,6 @@
 		<attribute key="slotType" value="legs"/>
 	</item>
 	<item id="5114" article="a" name="wand of the old Gods">
-		<attribute key="description" value="It unleashes the very fires of hell."/>
 		<attribute key="weight" value="3050"/>
 		<attribute key="weaponType" value="wand"/>
 		<attribute key="range" value="3"/>
@@ -14713,7 +14712,7 @@
 		<attribute key="armor" value="4"/>
 		<attribute key="slotType" value="feet"/>
 	</item>
-	<item id="5117" article="a" name="scaled mystic hetmet">
+	<item id="5117" article="a" name="scaled mystic helmet">
 		<attribute key="weight" value="5000"/>
 		<attribute key="armor" value="7"/>
 		<attribute key="slotType" value="head"/>
@@ -14739,7 +14738,7 @@
 		<attribute key="armor" value="4"/>
 		<attribute key="slotType" value="feet"/>
 	</item>
-	<item id="5122" article="a" name="crystal hetmet">
+	<item id="5122" article="a" name="crystal helmet">
 		<attribute key="weight" value="5000"/>
 		<attribute key="armor" value="7"/>
 		<attribute key="slotType" value="head"/>
