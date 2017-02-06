@@ -14659,7 +14659,7 @@
 	</item>	
 	<item id="5106" article="a" name="archer armor">
 		<attribute key="weight" value="4000"/>
-		<attribute key="armor" value="13"/>
+		<attribute key="armor" value="16"/>
 		<attribute key="slotType" value="body"/>
 	</item>
 	<item id="5107" name="archer boots">
@@ -14703,8 +14703,8 @@
 		<attribute key="range" value="3"/>
 	</item>
 	<item id="5115" article="a" name="scaled mystic armor">
-		<attribute key="weight" value="12000"/>
-		<attribute key="armor" value="10"/>
+		<attribute key="weight" value="8500"/>
+		<attribute key="armor" value="16"/>
 		<attribute key="slotType" value="body"/>
 	</item>
 	<item id="5116" name="scaled mystic boots">
@@ -14764,7 +14764,7 @@
 		<attribute key="slotType" value="body"/>
 	</item>
 	<item id="5127" article="a" name="crystal armor">
-		<attribute key="weight" value="70"/>
+		<attribute key="weight" value="7000"/>
 		<attribute key="armor" value="14"/>
 		<attribute key="slotType" value="body"/>
 	</item>
@@ -14780,6 +14780,130 @@
 		<attribute key="attack" value="14"/>
 		<attribute key="weaponType" value="club"/>
 	</item>
+	<item id="5130" article="a" name="classic armor">
+		<attribute key="weight" value="1000"/>
+		<attribute key="armor" value="10"/>
+		<attribute key="slotType" value="body"/>
+	</item>
+	<item id="5131" name="classic boots">
+		<attribute key="weight" value="750"/>
+		<attribute key="armor" value="2"/>
+		<attribute key="speed" value="30"/>
+		<attribute key="slotType" value="feet"/>
+	</item>
+	<item id="5132" article="a" name="classic topper">
+		<attribute key="weight" value="200"/>
+		<attribute key="armor" value="3"/>
+		<attribute key="slotType" value="head"/>
+	</item>
+	<item id="5133" name="classic legs">
+		<attribute key="weight" value="3500"/>
+		<attribute key="armor" value="3"/>
+		<attribute key="slotType" value="legs"/>
+	</item>
+	<item id="5134" article="a" name="classic pistol">
+		<attribute key="weight" value="500"/>
+		<attribute key="weaponType" value="distance"/>
+		<attribute key="ammoType" value="bolt"/>
+		<attribute key="range" value="3"/>		                  
+        <attribute key="hitChance" value="0"/>
+	</item>
+	<item id="5135" article="a" name="classic sword">
+		<attribute key="weight" value="3500"/>
+		<attribute key="defense" value="13"/>
+		<attribute key="attack" value="15"/>
+		<attribute key="weaponType" value="sword"/>
+	</item>
+	<item id="5136" article="a" name="bronze armor">
+		<attribute key="weight" value="9000"/>
+		<attribute key="armor" value="11"/>
+		<attribute key="slotType" value="body"/>
+	</item>
+	<item id="5137" name="bronze boots">
+		<attribute key="weight" value="3200"/>
+		<attribute key="armor" value="2"/>
+		<attribute key="slotType" value="feet"/>
+	</item>	
+	<item id="5138" article="a" name="bronze amulet">
+		<attribute key="weight" value="760"/>
+		<attribute key="slotType" value="necklace"/>
+		<attribute key="charges" value="120"/>
+		<attribute key="showcharges" value="1"/>
+		<attribute key="absorbpercentphysical" value="20"/>
+	</item>
+	<item id="5139" article="a" name="bronze helmet">
+		<attribute key="weight" value="35"/>
+		<attribute key="armor" value="7"/>
+		<attribute key="slotType" value="head"/>
+	</item>
+	<item id="5140" name="bronze legs">
+		<attribute key="weight" value="8000"/>
+		<attribute key="armor" value="8"/>
+		<attribute key="slotType" value="legs"/>
+	</item>	
+	<item id="5141" article="a" name="swamp armor">
+		<attribute key="weight" value="11000"/>
+		<attribute key="armor" value="13"/>
+		<attribute key="slotType" value="body"/>
+	</item>	
+	<item id="5142" article="a" name="swamp hammer">
+		<attribute key="weight" value="9700"/>
+		<attribute key="defense" value="38"/>
+		<attribute key="attack" value="10000"/>
+		<attribute key="weaponType" value="club"/>
+	</item>
+	<item id="5143" name="swamp boots">
+		<attribute key="weight" value="3500"/>
+		<attribute key="armor" value="2"/>
+		<attribute key="slotType" value="feet"/>
+	</item>
+	<item id="5144" article="a" name="swamp helmet">
+		<attribute key="weight" value="5500"/>
+		<attribute key="armor" value="8"/>
+		<attribute key="slotType" value="head"/>
+	</item>	
+	<item id="5145" name="swamp legs">
+		<attribute key="weight" value="8000"/>
+		<attribute key="armor" value="8"/>
+		<attribute key="slotType" value="legs"/>
+	</item>
+	<item id="5146" article="a" name="swamp shield">
+		<attribute key="weight" value="9200"/>
+		<attribute key="defense" value="32"/>
+		<attribute key="weaponType" value="shield"/>
+	</item>
+	<item id="5147" article="a" name="swamp sword">
+		<attribute key="weight" value="3500"/>
+		<attribute key="defense" value="32"/>
+		<attribute key="attack" value="19"/>
+		<attribute key="weaponType" value="sword"/>
+	</item>	
+	<item id="5148" article="a" name="ancient falmer armor">
+		<attribute key="weight" value="7000"/>
+		<attribute key="armor" value="12"/>
+		<attribute key="slotType" value="body"/>
+	</item>
+	<item id="5149" name="ancient falmer boots">
+		<attribute key="weight" value="3200"/>
+		<attribute key="armor" value="2"/>
+		<attribute key="slotType" value="feet"/>
+	</item>	
+	<item id="5150" article="a" name="ancient bow">
+		<attribute key="weight" value="30"/>
+		<attribute key="weaponType" value="distance"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="ammoType" value="arrow"/>
+		<attribute key="range" value="6"/>                  
+		<attribute key="hitChance" value="0"/>
+	</item>	
+	<item id="5151" article="a" name="ancient falmer helmet">
+		<attribute key="weight" value="2700"/>
+		<attribute key="armor" value="7"/>
+		<attribute key="slotType" value="head"/>
+	</item>
+	
+	
+	
 <item id="20001" name="water">
 </item>
 <item id="20002" name="blood">
