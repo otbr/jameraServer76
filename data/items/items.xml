@@ -14567,8 +14567,8 @@
 	</item>
 	<!-- itens novos -->
 	<item id="5090" article="a" name="imperial armor">
-		<attribute key="weight" value="1"/>
-		<attribute key="armor" value="1"/>
+		<attribute key="weight" value="7500"/>
+		<attribute key="armor" value="14"/>
 		<attribute key="slotType" value="body"/>
 	</item>
 	<item id="5091" name="imperial boots">
@@ -14658,8 +14658,8 @@
         <attribute key="hitChance" value="0"/>
 	</item>	
 	<item id="5106" article="a" name="archer armor">
-		<attribute key="weight" value="12000"/>
-		<attribute key="armor" value="10"/>
+		<attribute key="weight" value="4000"/>
+		<attribute key="armor" value="13"/>
 		<attribute key="slotType" value="body"/>
 	</item>
 	<item id="5107" name="archer boots">
@@ -14678,7 +14678,7 @@
 		<attribute key="slotType" value="legs"/>
 	</item>
 	<item id="5110" article="a" name="armor of the old Gods">
-		<attribute key="weight" value="12000"/>
+		<attribute key="weight" value="2000"/>
 		<attribute key="armor" value="10"/>
 		<attribute key="slotType" value="body"/>
 	</item>
@@ -14759,13 +14759,13 @@
 		<attribute key="weaponType" value="sword"/>
 	</item>
 	<item id="5126" article="a" name="indicolite armor">
-		<attribute key="weight" value="12000"/>
+		<attribute key="weight" value="10000"/>
 		<attribute key="armor" value="10"/>
 		<attribute key="slotType" value="body"/>
 	</item>
 	<item id="5127" article="a" name="crystal armor">
-		<attribute key="weight" value="12000"/>
-		<attribute key="armor" value="10"/>
+		<attribute key="weight" value="70"/>
+		<attribute key="armor" value="14"/>
 		<attribute key="slotType" value="body"/>
 	</item>
 	<item id="5128" article="a" name="scaled mystic axe">
