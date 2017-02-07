@@ -14978,6 +14978,11 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="slotType" value="two-handed"/>
 	</item>
+	<item id="5166" article="a" name="iron armor">
+		<attribute key="weight" value="12000"/>
+		<attribute key="armor" value="10"/>
+		<attribute key="slotType" value="body"/>
+	</item>	
 	
 	
 	
