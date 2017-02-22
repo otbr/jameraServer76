@@ -14577,13 +14577,13 @@
 		<attribute key="slotType" value="feet"/>
 	</item>
 	<item id="5092" name="imperial legs">
-		<attribute key="weight" value="1"/>
-		<attribute key="armor" value="1"/>
+		<attribute key="weight" value="6000"/>
+		<attribute key="armor" value="8"/>
 		<attribute key="slotType" value="legs"/>
 	</item>
 	<item id="5093" article="a" name="imperial helmet">
-		<attribute key="weight" value="1"/>
-		<attribute key="armor" value="1"/>
+		<attribute key="weight" value="6000"/>
+		<attribute key="armor" value="8"/>
 		<attribute key="slotType" value="head"/>
 	</item>
 	<item id="5094" article="a" name="imperial shield">
@@ -14593,8 +14593,8 @@
 	</item>
 	<item id="5095" article="a" name="imperial sword">
 		<attribute key="weight" value="3500"/>
-		<attribute key="defense" value="12"/>
-		<attribute key="attack" value="14"/>
+		<attribute key="defense" value="23"/>
+		<attribute key="attack" value="31"/>
 		<attribute key="weaponType" value="sword"/>
 	</item>
 	<item id="5096" article="a" name="indicolite hatchet">
@@ -14915,10 +14915,12 @@
 		<attribute key="weight" value="1000"/>
 		<attribute key="armor" value="2"/>
 		<attribute key="slotType" value="feet"/>
+		<attribute key="speed" value="10"/>
+
 	</item>
 	<item id="5155" article="a" name="tiger helmet">
 		<attribute key="weight" value="1500"/>
-		<attribute key="armor" value="7"/>
+		<attribute key="armor" value="6"/>
 		<attribute key="slotType" value="head"/>
 	</item>
 	<item id="5156" article="a" name="tiger spear" plural="tiger spears">
