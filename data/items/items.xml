@@ -14985,11 +14985,6 @@
 		<attribute key="armor" value="12"/>
 		<attribute key="slotType" value="body"/>
 	</item>
-	<item id="5166" article="a" name="iron armor">
-		<attribute key="weight" value="11000"/>
-		<attribute key="armor" value="12"/>
-		<attribute key="slotType" value="body"/>
-	</item>
 	<item id="5167" name="iron boots">
 		<attribute key="weight" value="4400"/>
 		<attribute key="armor" value="2"/>
