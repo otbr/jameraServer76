@@ -14703,8 +14703,8 @@
 		<attribute key="range" value="3"/>
 	</item>
 	<item id="5115" article="a" name="scaled mystic armor">
-		<attribute key="weight" value="8500"/>
-		<attribute key="armor" value="16"/>
+		<attribute key="weight" value="7000"/>
+		<attribute key="armor" value="17"/>
 		<attribute key="slotType" value="body"/>
 	</item>
 	<item id="5116" name="scaled mystic boots">
@@ -14981,10 +14981,298 @@
 		<attribute key="slotType" value="two-handed"/>
 	</item>
 	<item id="5166" article="a" name="iron armor">
-		<attribute key="weight" value="12000"/>
-		<attribute key="armor" value="10"/>
+		<attribute key="weight" value="11000"/>
+		<attribute key="armor" value="12"/>
+		<attribute key="slotType" value="body"/>
+	</item>
+	<item id="5166" article="a" name="iron armor">
+		<attribute key="weight" value="11000"/>
+		<attribute key="armor" value="12"/>
+		<attribute key="slotType" value="body"/>
+	</item>
+	<item id="5167" name="iron boots">
+		<attribute key="weight" value="4400"/>
+		<attribute key="armor" value="2"/>
+		<attribute key="slotType" value="feet"/>
+	</item>
+	<item id="5168" article="a" name="great iron helmet">
+		<attribute key="weight" value="7000"/>
+		<attribute key="armor" value="7"/>
+		<attribute key="slotType" value="head"/>
+	</item>
+	<item id="5169" name="iron legs">
+		<attribute key="weight" value="12500"/>
+		<attribute key="armor" value="8"/>
+		<attribute key="slotType" value="legs"/>
+	</item>
+	<item id="5170" article="a" name="great iron shield">
+		<attribute key="weight" value="9000"/>
+		<attribute key="defense" value="32"/>
+		<attribute key="weaponType" value="shield"/>
+	</item>
+	<item id="5171" article="a" name="iron sword">
+		<attribute key="weight" value="3000"/>
+		<attribute key="defense" value="20"/>
+		<attribute key="attack" value="32"/>
+		<attribute key="weaponType" value="sword"/>
+	</item>	
+	<item id="5172" article="a" name="solaris armor">
+		<attribute key="weight" value="9000"/>
+		<attribute key="armor" value="15"/>
+		<attribute key="slotType" value="body"/>
+	</item>
+	<item id="5173" name="solaris boots">
+		<attribute key="weight" value="4500"/>
+		<attribute key="armor" value="3"/>
+		<attribute key="slotType" value="feet"/>
+	</item>
+	<item id="5174" article="a" name="solaris helmet">
+		<attribute key="weight" value="6800"/>
+		<attribute key="armor" value="8"/>
+		<attribute key="slotType" value="head"/>
+	</item>
+	<item id="5175" name="solaris legs">
+		<attribute key="weight" value="7100"/>
+		<attribute key="armor" value="9"/>
+		<attribute key="slotType" value="legs"/>
+	</item>
+	<item id="5176" article="a" name="solaris shield">
+		<attribute key="weight" value="4000"/>
+		<attribute key="defense" value="35"/>
+		<attribute key="weaponType" value="shield"/>
+	</item>
+	<item id="5177" article="a" name="solaris sword">
+		<attribute key="weight" value="6000"/>
+		<attribute key="defense" value="36"/>
+		<attribute key="attack" value="25"/>
+		<attribute key="weaponType" value="sword"/>
+	</item>
+	<item id="5178" article="a" name="reinforced leather armor">
+		<attribute key="weight" value="2500"/>
+		<attribute key="armor" value="9"/>
+		<attribute key="slotType" value="body"/>
+	</item>
+	<item id="5179" name="reinforced leather boots">
+		<attribute key="weight" value="1000"/>
+		<attribute key="slotType" value="feet"/>
+		<attribute key="speed" value="9"/>
+	</item>
+	<item id="5180" article="a" name="reinforced leather helmet">
+		<attribute key="weight" value="1000"/>
+		<attribute key="armor" value="5"/>
+		<attribute key="slotType" value="head"/>
+	</item>
+	<item id="5181" name="reinforced leather legs">
+		<attribute key="weight" value="2500"/>
+		<attribute key="armor" value="6"/>
+		<attribute key="slotType" value="legs"/>
+	</item>
+	<item id="5182" article="a" name="mystic sword">
+		<attribute key="weight" value="6000"/>
+		<attribute key="defense" value="36"/>
+		<attribute key="attack" value="25"/>
+		<attribute key="weaponType" value="sword"/>
+	</item>
+	<item id="5183" article="a" name="moon robe">
+		<attribute key="description" value="It is a magic moon robe."/>
+		<attribute key="weight" value="1200"/>
+		<attribute key="armor" value="12"/>
+		<attribute key="magicpointspercent" value="20"/>
+		<attribute key="slotType" value="body"/>
+	</item>
+	<item id="5184" name="moon boots">
+		<attribute key="weight" value="1000"/>
+		<attribute key="slotType" value="feet"/>
+		<attribute key="speed" value="15"/>
+		<attribute key="armor" value="1"/>
+	</item>
+	<item id="5185" article="a" name="moon hat">
+		<attribute key="weight" value="6"/>
+		<attribute key="armor" value="5"/>
+		<attribute key="slotType" value="head"/>
+	</item>
+	<item id="5186" name="moon legs">
+		<attribute key="weight" value="1800"/>
+		<attribute key="armor" value="8"/>
+		<attribute key="slotType" value="legs"/>
+	</item>
+	<item id="5187" article="a" name="rod of the moon">
+		<attribute key="description" value="This staff was made by ancient moon gods."/>
+		<attribute key="weight" value="1900"/>
+		<attribute key="weaponType" value="wand"/>
+		<attribute key="range" value="1"/>
+	</item>
+	<item id="5188" name="crustacean armor">
+		<attribute key="weight" value="5000"/>
+		<attribute key="armor" value="13"/>
+		<attribute key="slotType" value="body"/>
+	</item>
+	<item id="5189" article="a" name="crustacean axe">
+		<attribute key="weight" value="6500"/>
+		<attribute key="defense" value="40"/>
+		<attribute key="attack" value="19"/>
+		<attribute key="weaponType" value="axe"/>
+	</item>
+	<item id="5190" name="crustacean boots">
+		<attribute key="weight" value="1500"/>
+		<attribute key="slotType" value="feet"/>
+		<attribute key="armor" value="2"/>
+	</item>
+	<item id="5191" article="a" name="crustacean hammer">
+		<attribute key="weight" value="9900"/>
+		<attribute key="defense" value="31"/>
+		<attribute key="attack" value="40"/>
+		<attribute key="weaponType" value="club"/>
+	</item>
+	<item id="5192" name="crustacean helmet">
+		<attribute key="weight" value="2500"/>
+		<attribute key="armor" value="7"/>
+		<attribute key="slotType" value="head"/>
+	</item>
+	<item id="5193" article="a" name="crustacean lance">
+		<attribute key="weight" value="5500"/>
+		<attribute key="defense" value="18"/>
+		<attribute key="attack" value="37"/>
+		<attribute key="weaponType" value="axe"/>
+		<attribute key="slotType" value="two-handed"/>
+	</item>
+	<item id="5194" name="crustacean legs">
+		<attribute key="weight" value="50"/>
+		<attribute key="armor" value="7"/>
+		<attribute key="slotType" value="legs"/>
+	</item>
+	<item id="5195" name="crustacean shield">
+		<attribute key="weight" value="3000"/>
+		<attribute key="defense" value="27"/>
+		<attribute key="weaponType" value="shield"/>
+	</item>
+	<item id="5196" article="a" name="crustacean sword">
+		<attribute key="weight" value="6000"/>
+		<attribute key="defense" value="30"/>
+		<attribute key="attack" value="20"/>
+		<attribute key="weaponType" value="sword"/>
+	</item>
+	<item id="5197" article="a" name="heroic armor">
+		<attribute key="weight" value="8200"/>
+		<attribute key="armor" value="16"/>
 		<attribute key="slotType" value="body"/>
 	</item>	
+	<item id="5198" name="heroic axe">
+		<attribute key="weight" value="6100"/>
+		<attribute key="defense" value="24"/>
+		<attribute key="attack" value="44"/>
+		<attribute key="weaponType" value="axe"/>
+	</item>
+	<item id="5199" article="a" name="heoric boots">
+		<attribute key="weight" value="2900"/>
+		<attribute key="slotType" value="feet"/>
+		<attribute key="armor" value="3"/>
+		<attribute key="speed" value="20"/>
+	</item>
+	<item id="5200" article="a" name="heoric helmet">
+		<attribute key="weight" value="3000"/>
+		<attribute key="armor" value="10"/>
+		<attribute key="slotType" value="head"/>
+	</item>
+	<item id="5201" article="a" name="heoric legs">
+		<attribute key="weight" value="50"/>
+		<attribute key="armor" value="9"/>
+		<attribute key="slotType" value="legs"/>
+	</item>
+	<item id="5202" article="a" name="heoric shield">
+		<attribute key="weight" value="5000"/>
+		<attribute key="defense" value="37"/>
+		<attribute key="weaponType" value="shield"/>
+	</item>
+	<item id="5203" name="heroic sword">
+		<attribute key="weight" value="3500"/>
+		<attribute key="defense" value="25"/>
+		<attribute key="attack" value="44"/>
+		<attribute key="weaponType" value="sword"/>
+	</item>
+	<item id="5204" article="a" name="venus robe">
+		<attribute key="description" value="A cape forged in the subterranean labyrinths of Venus"/>
+		<attribute key="weight" value="1100"/>
+		<attribute key="armor" value="13"/>
+		<attribute key="magicpointspercent" value="20"/>
+		<attribute key="slotType" value="body"/>
+	</item>
+	<item id="5205" article="a" name="venus boots">
+		<attribute key="weight" value="900"/>
+		<attribute key="slotType" value="feet"/>
+		<attribute key="speed" value="15"/>
+		<attribute key="armor" value="1"/>
+	</item>
+	<item id="5206" article="a" name="venus hat">
+		<attribute key="weight" value="5"/>
+		<attribute key="armor" value="5"/>
+		<attribute key="slotType" value="head"/>
+	</item>
+	<item id="5207" article="a" name="venus legs">
+		<attribute key="weight" value="1700"/>
+		<attribute key="armor" value="8"/>
+		<attribute key="slotType" value="legs"/>
+	</item>
+	<item id="5208" article="a" name="dragon spellbook">
+		<attribute key="weight" value="5800"/>
+		<attribute key="defense" value="25"/> 
+		<attribute key="weaponType" value="shield"/>
+		<attribute key="magicpointspercent" value="20"/>
+	</item>
+	<item id="5209" article="a" name="magic venus wand">
+		<attribute key="weight" value="2100"/>
+		<attribute key="weaponType" value="wand"/>
+		<attribute key="range" value="1"/>
+	</item>
+	<item id="5210" article="a" name="punisher armor">
+		<attribute key="weight" value="11000"/>
+		<attribute key="armor" value="15"/>
+		<attribute key="slotType" value="body"/>
+	</item>
+	<item id="5211" article="a" name="punisher twiceslicer">
+		<attribute key="weight" value="180"/>
+		<attribute key="defense" value="30"/>
+		<attribute key="attack" value="47"/>
+		<attribute key="weaponType" value="sword"/>
+		<attribute key="slotType" value="two-handed"/>
+	</item>
+	<item id="5212" article="a" name="punisher boots">
+		<attribute key="weight" value="1500"/>
+		<attribute key="slotType" value="feet"/>
+		<attribute key="speed" value="5"/>
+		<attribute key="armor" value="1"/>
+	</item>
+	<item id="5213" article="a" name="punisher helmet">
+		<attribute key="weight" value="6800"/>
+		<attribute key="armor" value="8"/>
+		<attribute key="slotType" value="head"/>
+	</item>
+	<item id="5214" article="a" name="punisher legs">
+		<attribute key="weight" value="4800"/>
+		<attribute key="armor" value="8"/>
+		<attribute key="slotType" value="legs"/>
+	</item>
+	<item id="5215" article="a" name="magic divine armor">
+		<attribute key="description" value="A divine armor where his powers are legendary."/>
+		<attribute key="weight" value="8500"/>
+		<attribute key="armor" value="17"/>
+		<attribute key="slotType" value="body"/>
+	</item>	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
 	
 	
 	
@@ -15029,3 +15317,4 @@
 <item id="20028" name="swamp">
 </item>
 </items>
+	
