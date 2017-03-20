@@ -5059,8 +5059,8 @@
   </spawn>
   <spawn centerx="31968" centery="32167" centerz="7" radius="5">
     <monster name="Spider" x="-2" y="-5" z="7" spawntime="60"/>
-    <monster name="Spider" x="0" y="0" z="7" spawntime="60"/>
     <monster name="Spider" x="-2" y="1" z="7" spawntime="60"/>
+    <monster name="Spider" x="0" y="1" z="7" spawntime="60"/>
     <monster name="Spider" x="4" y="1" z="7" spawntime="60"/>
     <monster name="Spider" x="3" y="5" z="7" spawntime="60"/>
   </spawn>
@@ -5186,6 +5186,9 @@
     <monster name="Minotaur" x="-2" y="1" z="7" spawntime="60"/>
     <monster name="Minotaur" x="3" y="4" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="31828" centery="32179" centerz="7" radius="5">
+    <monster name="Deathslicer" x="0" y="2" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="31971" centery="32179" centerz="7" radius="5">
     <monster name="Snake" x="-4" y="-4" z="7" spawntime="60"/>
     <monster name="Snake" x="4" y="-3" z="7" spawntime="60"/>
@@ -5195,17 +5198,16 @@
   <spawn centerx="32098" centery="32179" centerz="7" radius="1">
     <npc name="Norma" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="31835" centery="32180" centerz="7" radius="5"/>
   <spawn centerx="32063" centery="32180" centerz="7" radius="5">
     <npc name="Al Dee" x="0" y="1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32503" centery="32180" centerz="7" radius="5">
     <monster name="Rat" x="1" y="0" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="31826" centery="32181" centerz="7" radius="5">
-    <monster name="Orshabaal" x="-3" y="-1" z="7" spawntime="60"/>
-  </spawn>
+  <spawn centerx="31826" centery="32181" centerz="7" radius="5"/>
   <spawn centerx="31841" centery="32181" centerz="7" radius="5">
-    <monster name="Orshabaal" x="0" y="-1" z="7" spawntime="60"/>
+    <monster name="Orshabaal" x="0" y="-4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32165" centery="32181" centerz="7" radius="5">
     <monster name="Spider" x="0" y="0" z="7" spawntime="60"/>
