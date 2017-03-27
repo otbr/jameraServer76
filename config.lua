@@ -67,7 +67,7 @@
 ---- CONNECTION SYSTEM ----
 
     -- server ip (the ip that server listens on)
-    IP = "classicrpg.com.br"
+    IP = "149.56.108.250"
 
     -- server port (the port that server listens on)
     Port = "7171"
@@ -100,7 +100,7 @@
     encryptionType = "plain"
 
     -- these settings are not used by SQLite
-    SQL_Host = "localhost"
+    SQL_Host = "jamera.com.br"
     SQL_Port = 3306
     SQL_User = "server"
     SQL_Pass = "159TibOt@"
@@ -120,11 +120,11 @@
 --- INFO SYSTEM ---
 
     -- login message
-    LoginMsg = "Welcome to Classic RPG OldSchool Server!"
+    LoginMsg = "Welcome to Jamera OldSchool Server!"
 
     -- server name
-    ServerName = "Classic RPG"
-    serverName = "Classic RPG"
+    ServerName = "Jamera"
+    serverName = "Jamera"
 
     -- world name
     WorldName = "Tibia World"
@@ -133,10 +133,10 @@
     OwnerName = "John/Bruno Of God"
 
     -- server owner email
-    OwnerEmail = "contato@classicrpg.com.br"
+    OwnerEmail = "contato@jamera.com.br"
 
     -- server url
-    URL = "http://www.classicrpg.com.br/"
+    URL = "http://www.jamera.com.br/"
 
     -- server location
     Location = "Brazil"
@@ -188,7 +188,7 @@
 --- STATUS SYSTEM ---
 
     -- motd (the message box that you sometimes get before you choose characters)
-    MOTD = "Welcome to Classic RPG OldSchool Server.\n\nHave fun!"
+    MOTD = "Welcome to Jamera OldSchool Server.\n\nHave fun!"
     MOTD_Num = "1"
 
     -- max number of players allowed
