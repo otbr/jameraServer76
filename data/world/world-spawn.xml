@@ -66,6 +66,10 @@
     <monster name="amazon" x="-1" y="3" z="2" spawntime="60"/>
     <monster name="amazon" x="-1" y="4" z="2" spawntime="60"/>
   </spawn>
+  <spawn centerx="32591" centery="31645" centerz="2" radius="5">
+    <monster name="dwarf geomancer" x="-2" y="-2" z="2" spawntime="60"/>
+    <monster name="dwarf geomancer" x="1" y="0" z="2" spawntime="60"/>
+  </spawn>
   <spawn centerx="32697" centery="31718" centerz="2" radius="2">
     <npc name="Edala" x="0" y="-1" z="2" spawntime="60"/>
   </spawn>
@@ -97,11 +101,17 @@
     <monster name="dwarf guard" x="-4" y="1" z="2" spawntime="60"/>
     <monster name="dwarf guard" x="0" y="2" z="2" spawntime="60"/>
   </spawn>
-  <spawn centerx="33072" centery="32170" centerz="2" radius="5">
-    <monster name="Elf Scout" x="0" y="0" z="2" spawntime="60"/>
+  <spawn centerx="33073" centery="32170" centerz="2" radius="5">
+    <monster name="Elf Arcanist" x="2" y="-4" z="2" spawntime="60"/>
+    <monster name="Elf Scout" x="2" y="-3" z="2" spawntime="60"/>
+    <monster name="Elf Arcanist" x="-2" y="0" z="2" spawntime="60"/>
+    <monster name="Elf Scout" x="-1" y="0" z="2" spawntime="60"/>
+    <monster name="Elf Scout" x="2" y="4" z="2" spawntime="60"/>
+    <monster name="Elf Scout" x="2" y="5" z="2" spawntime="60"/>
   </spawn>
-  <spawn centerx="33078" centery="32171" centerz="2" radius="5">
-    <monster name="Elf Arcanist" x="0" y="0" z="2" spawntime="60"/>
+  <spawn centerx="33078" centery="32170" centerz="2" radius="5">
+    <monster name="Elf Scout" x="1" y="0" z="2" spawntime="60"/>
+    <monster name="Elf Arcanist" x="2" y="0" z="2" spawntime="60"/>
   </spawn>
   <spawn centerx="32974" centery="32406" centerz="2" radius="5">
     <monster name="ghost" x="0" y="0" z="2" spawntime="60"/>
@@ -523,7 +533,7 @@
     <monster name="blue djinn" x="2" y="3" z="4" spawntime="60"/>
   </spawn>
   <spawn centerx="32840" centery="32525" centerz="4" radius="5">
-    <monster name="merlkin" x="0" y="0" z="4" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="4" spawntime="60"/>
     <monster name="kongra" x="3" y="2" z="4" spawntime="60"/>
   </spawn>
   <spawn centerx="33108" centery="32525" centerz="4" radius="5">
@@ -1028,7 +1038,7 @@
   </spawn>
   <spawn centerx="32842" centery="32525" centerz="5" radius="5">
     <monster name="sibang" x="0" y="0" z="5" spawntime="60"/>
-    <monster name="merlkin" x="-1" y="2" z="5" spawntime="60"/>
+    <monster name="Merlkin" x="-1" y="2" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="33094" centery="32530" centerz="5" radius="5">
     <monster name="blue djinn" x="0" y="0" z="5" spawntime="60"/>
@@ -1041,7 +1051,7 @@
     <monster name="stone golem" x="0" y="0" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="32811" centery="32547" centerz="5" radius="5">
-    <monster name="merlkin" x="0" y="0" z="5" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="5" spawntime="60"/>
     <monster name="kongra" x="2" y="2" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="32837" centery="32547" centerz="5" radius="5">
@@ -1055,14 +1065,14 @@
   </spawn>
   <spawn centerx="32846" centery="32563" centerz="5" radius="5">
     <monster name="sibang" x="0" y="0" z="5" spawntime="60"/>
-    <monster name="merlkin" x="3" y="0" z="5" spawntime="60"/>
+    <monster name="Merlkin" x="3" y="0" z="5" spawntime="60"/>
     <monster name="kongra" x="2" y="3" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="33127" centery="32564" centerz="5" radius="5">
     <monster name="stone golem" x="0" y="0" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="32773" centery="32565" centerz="5" radius="5">
-    <monster name="merlkin" x="0" y="0" z="5" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="32827" centery="32575" centerz="5" radius="5">
     <monster name="kongra" x="0" y="0" z="5" spawntime="60"/>
@@ -1204,8 +1214,8 @@
   <spawn centerx="3260" centery="31627" centerz="6" radius="5">
     <monster name="Parrot" x="0" y="0" z="6" spawntime="60"/>
   </spawn>
-  <spawn centerx="32582" centery="31639" centerz="6" radius="5">
-    <monster name="orc warrior" x="0" y="0" z="6" spawntime="60"/>
+  <spawn centerx="32583" centery="31639" centerz="6" radius="5">
+    <monster name="orc warrior" x="-1" y="0" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="32598" centery="31639" centerz="6" radius="5">
     <monster name="minotaur" x="0" y="0" z="6" spawntime="60"/>
@@ -1213,6 +1223,9 @@
   <spawn centerx="32355" centery="31644" centerz="6" radius="5">
     <monster name="amazon" x="1" y="-2" z="6" spawntime="60"/>
     <monster name="amazon" x="0" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32591" centery="31644" centerz="6" radius="5">
+    <monster name="giant spider" x="0" y="0" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="32582" centery="31652" centerz="6" radius="5">
     <monster name="minotaur" x="0" y="0" z="6" spawntime="60"/>
@@ -2203,7 +2216,7 @@
   </spawn>
   <spawn centerx="32776" centery="32514" centerz="6" radius="5">
     <monster name="sibang" x="0" y="0" z="6" spawntime="60"/>
-    <monster name="merlkin" x="4" y="1" z="6" spawntime="60"/>
+    <monster name="Merlkin" x="4" y="1" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="32780" centery="32515" centerz="6" radius="5">
     <monster name="kongra" x="4" y="0" z="6" spawntime="60"/>
@@ -2218,16 +2231,16 @@
     <monster name="kongra" x="5" y="5" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="32802" centery="32523" centerz="6" radius="5">
-    <monster name="merlkin" x="0" y="0" z="6" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="32839" centery="32523" centerz="6" radius="5">
-    <monster name="merlkin" x="4" y="0" z="6" spawntime="60"/>
+    <monster name="Merlkin" x="4" y="0" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="32843" centery="32523" centerz="6" radius="5">
-    <monster name="merlkin" x="4" y="4" z="6" spawntime="60"/>
+    <monster name="Merlkin" x="4" y="4" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="32785" centery="32524" centerz="6" radius="5">
-    <monster name="merlkin" x="0" y="0" z="6" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="33095" centery="32528" centerz="6" radius="2">
     <monster name="blue djinn" x="0" y="0" z="6" spawntime="60"/>
@@ -2243,17 +2256,17 @@
     <npc name="Umar" x="1" y="0" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="32769" centery="32535" centerz="6" radius="5">
-    <monster name="merlkin" x="0" y="0" z="6" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="6" spawntime="60"/>
     <monster name="kongra" x="3" y="1" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="33175" centery="32541" centerz="6" radius="5">
     <monster name="hyaena" x="0" y="0" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="32818" centery="32543" centerz="6" radius="5">
-    <monster name="merlkin" x="0" y="0" z="6" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="32860" centery="32543" centerz="6" radius="5">
-    <monster name="merlkin" x="0" y="0" z="6" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="32837" centery="32544" centerz="6" radius="5">
     <monster name="sibang" x="0" y="0" z="6" spawntime="60"/>
@@ -2261,7 +2274,7 @@
   </spawn>
   <spawn centerx="32807" centery="32545" centerz="6" radius="5">
     <monster name="kongra" x="0" y="0" z="6" spawntime="60"/>
-    <monster name="merlkin" x="5" y="0" z="6" spawntime="60"/>
+    <monster name="Merlkin" x="5" y="0" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="32812" centery="32545" centerz="6" radius="5">
     <monster name="sibang" x="1" y="4" z="6" spawntime="60"/>
@@ -2287,14 +2300,14 @@
   <spawn centerx="32773" centery="32561" centerz="6" radius="5">
     <monster name="sibang" x="0" y="0" z="6" spawntime="60"/>
     <monster name="kongra" x="4" y="1" z="6" spawntime="60"/>
-    <monster name="merlkin" x="-3" y="2" z="6" spawntime="60"/>
+    <monster name="Merlkin" x="-3" y="2" z="6" spawntime="60"/>
     <monster name="sibang" x="-5" y="4" z="6" spawntime="60"/>
     <monster name="kongra" x="0" y="4" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="32843" centery="32561" centerz="6" radius="5">
     <monster name="kongra" x="0" y="0" z="6" spawntime="60"/>
     <monster name="sibang" x="5" y="3" z="6" spawntime="60"/>
-    <monster name="merlkin" x="3" y="5" z="6" spawntime="60"/>
+    <monster name="Merlkin" x="3" y="5" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="33093" centery="32562" centerz="6" radius="5">
     <monster name="larva" x="0" y="0" z="6" spawntime="60"/>
@@ -2317,7 +2330,7 @@
   </spawn>
   <spawn centerx="32809" centery="32580" centerz="6" radius="5">
     <monster name="kongra" x="0" y="0" z="6" spawntime="60"/>
-    <monster name="merlkin" x="0" y="3" z="6" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="3" z="6" spawntime="60"/>
     <monster name="kongra" x="4" y="3" z="6" spawntime="60"/>
     <monster name="sibang" x="-4" y="4" z="6" spawntime="60"/>
   </spawn>
@@ -2330,7 +2343,7 @@
     <monster name="kongra" x="3" y="5" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="32849" centery="32582" centerz="6" radius="5">
-    <monster name="merlkin" x="0" y="0" z="6" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="6" spawntime="60"/>
     <monster name="sibang" x="2" y="0" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="32809" centery="32583" centerz="6" radius="5">
@@ -5059,8 +5072,8 @@
   </spawn>
   <spawn centerx="31968" centery="32167" centerz="7" radius="5">
     <monster name="spider" x="-2" y="-5" z="7" spawntime="60"/>
-    <monster name="spider" x="0" y="0" z="7" spawntime="60"/>
     <monster name="spider" x="-2" y="1" z="7" spawntime="60"/>
+    <monster name="spider" x="0" y="1" z="7" spawntime="60"/>
     <monster name="spider" x="4" y="1" z="7" spawntime="60"/>
     <monster name="spider" x="3" y="5" z="7" spawntime="60"/>
   </spawn>
@@ -5090,6 +5103,10 @@
   </spawn>
   <spawn centerx="32497" centery="32168" centerz="7" radius="5">
     <monster name="wolf" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32782" centery="32168" centerz="7" radius="5">
+    <monster name="cyclops" x="-3" y="-4" z="7" spawntime="60"/>
+    <monster name="cyclops" x="1" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32926" centery="32168" centerz="7" radius="5">
     <monster name="chicken" x="2" y="-4" z="7" spawntime="60"/>
@@ -5167,9 +5184,18 @@
     <monster name="wolf" x="0" y="0" z="7" spawntime="60"/>
     <monster name="wolf" x="1" y="3" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="32799" centery="32176" centerz="7" radius="5">
+    <monster name="cyclops" x="1" y="0" z="7" spawntime="60"/>
+    <monster name="cyclops" x="-4" y="5" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="32655" centery="32177" centerz="7" radius="5">
     <monster name="snake" x="-2" y="-3" z="7" spawntime="60"/>
     <monster name="snake" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="31828" centery="32178" centerz="7" radius="5">
+    <monster name="Morguthis" x="-3" y="-4" z="7" spawntime="60"/>
+    <monster name="Morgaroth" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Deathslicer" x="0" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32000" centery="32178" centerz="7" radius="5">
     <monster name="snake" x="0" y="-5" z="7" spawntime="60"/>
@@ -5195,11 +5221,18 @@
   <spawn centerx="32098" centery="32179" centerz="7" radius="1">
     <npc name="Norma" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="31835" centery="32180" centerz="7" radius="5">
+    <monster name="Omruc" x="4" y="1" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="32063" centery="32180" centerz="7" radius="5">
     <npc name="Al Dee" x="0" y="1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32503" centery="32180" centerz="7" radius="5">
     <monster name="rat" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="31826" centery="32181" centerz="7" radius="5"/>
+  <spawn centerx="31841" centery="32181" centerz="7" radius="5">
+    <monster name="Orshabaal" x="0" y="-4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32165" centery="32181" centerz="7" radius="5">
     <monster name="spider" x="0" y="0" z="7" spawntime="60"/>
@@ -5240,6 +5273,10 @@
     <monster name="wild warrior" x="0" y="0" z="7" spawntime="60"/>
     <monster name="wild warrior" x="-5" y="4" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="32779" centery="32186" centerz="7" radius="5">
+    <monster name="cyclops" x="-3" y="-5" z="7" spawntime="60"/>
+    <monster name="cyclops" x="3" y="1" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="32311" centery="32187" centerz="7" radius="5"/>
   <spawn centerx="32323" centery="32187" centerz="7" radius="1">
     <npc name="Baxter" x="-1" y="-1" z="7" spawntime="60"/>
@@ -5275,8 +5312,8 @@
   <spawn centerx="33053" centery="32191" centerz="7" radius="5">
     <monster name="Elf" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="32104" centery="32192" centerz="7" radius="1">
-    <npc name="Seymour" x="0" y="0" z="7" spawntime="60"/>
+  <spawn centerx="32104" centery="32193" centerz="7" radius="1">
+    <npc name="Seymour" x="0" y="-1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32438" centery="32193" centerz="7" radius="5">
     <monster name="snake" x="0" y="0" z="7" spawntime="400"/>
@@ -5299,6 +5336,15 @@
     <monster name="wolf" x="3" y="1" z="7" spawntime="60"/>
     <monster name="snake" x="-2" y="4" z="7" spawntime="60"/>
     <monster name="spider" x="2" y="4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32776" centery="32196" centerz="7" radius="5">
+    <monster name="cyclops" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="cyclops" x="2" y="-1" z="7" spawntime="32000"/>
+    <monster name="cyclops" x="-3" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32798" centery="32196" centerz="7" radius="5">
+    <monster name="cyclops" x="-4" y="-4" z="7" spawntime="60"/>
+    <monster name="cyclops" x="4" y="2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="33032" centery="32196" centerz="7" radius="5">
     <monster name="rabbit" x="0" y="0" z="7" spawntime="60"/>
@@ -5379,6 +5425,7 @@
     <monster name="wild warrior" x="0" y="0" z="7" spawntime="750"/>
     <monster name="wild warrior" x="-3" y="3" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="32788" centery="32210" centerz="7" radius="5"/>
   <spawn centerx="32069" centery="32212" centerz="7" radius="5">
     <monster name="sheep" x="5" y="-4" z="7" spawntime="60"/>
     <monster name="sheep" x="0" y="0" z="7" spawntime="100"/>
@@ -5553,7 +5600,7 @@
     <npc name="Elane" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32690" centery="32235" centerz="7" radius="5">
-    <monster name="giant spider" x="-4" y="-2" z="7" spawntime="60"/>
+    <monster name="giant spider" x="3" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32046" centery="32236" centerz="7" radius="5">
     <monster name="rabbit" x="0" y="0" z="7" spawntime="300"/>
@@ -5731,8 +5778,9 @@
   <spawn centerx="32438" centery="32267" centerz="7" radius="5">
     <monster name="deer" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="32718" centery="32268" centerz="7" radius="5">
-    <monster name="deer" x="0" y="0" z="7" spawntime="60"/>
+  <spawn centerx="32719" centery="32268" centerz="7" radius="5">
+    <monster name="deer" x="-1" y="0" z="7" spawntime="60"/>
+    <monster name="giant spider" x="-3" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="33255" centery="32268" centerz="7" radius="5">
     <monster name="lion" x="0" y="0" z="7" spawntime="60"/>
@@ -6509,7 +6557,7 @@
     <monster name="spit nettle" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32819" centery="32519" centerz="7" radius="5">
-    <monster name="merlkin" x="0" y="0" z="7" spawntime="890"/>
+    <monster name="Merlkin" x="0" y="0" z="7" spawntime="890"/>
     <monster name="sibang" x="1" y="2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32885" centery="32519" centerz="7" radius="5">
@@ -6601,7 +6649,7 @@
     <monster name="sibang" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32812" centery="32535" centerz="7" radius="5">
-    <monster name="merlkin" x="0" y="0" z="7" spawntime="750"/>
+    <monster name="Merlkin" x="0" y="0" z="7" spawntime="750"/>
     <monster name="Blue Butterfly" x="4" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32869" centery="32535" centerz="7" radius="5">
@@ -6706,7 +6754,7 @@
     <monster name="Blue Butterfly" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32835" centery="32554" centerz="7" radius="5">
-    <monster name="merlkin" x="0" y="0" z="7" spawntime="750"/>
+    <monster name="Merlkin" x="0" y="0" z="7" spawntime="750"/>
   </spawn>
   <spawn centerx="32750" centery="32555" centerz="7" radius="5">
     <monster name="sibang" x="0" y="0" z="7" spawntime="60"/>
@@ -6743,7 +6791,7 @@
   </spawn>
   <spawn centerx="32805" centery="32561" centerz="7" radius="5">
     <monster name="sibang" x="0" y="0" z="7" spawntime="60"/>
-    <monster name="merlkin" x="-4" y="3" z="7" spawntime="890"/>
+    <monster name="Merlkin" x="-4" y="3" z="7" spawntime="890"/>
   </spawn>
   <spawn centerx="33017" centery="32561" centerz="7" radius="5">
     <monster name="carniphila" x="0" y="0" z="7" spawntime="60"/>
@@ -6753,7 +6801,7 @@
   </spawn>
   <spawn centerx="32847" centery="32562" centerz="7" radius="5">
     <monster name="sibang" x="0" y="0" z="7" spawntime="60"/>
-    <monster name="merlkin" x="0" y="3" z="7" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32902" centery="32562" centerz="7" radius="5">
     <monster name="centipede" x="0" y="0" z="7" spawntime="60"/>
@@ -6795,7 +6843,7 @@
   </spawn>
   <spawn centerx="32788" centery="32568" centerz="7" radius="5">
     <monster name="kongra" x="0" y="0" z="7" spawntime="60"/>
-    <monster name="merlkin" x="-1" y="5" z="7" spawntime="750"/>
+    <monster name="Merlkin" x="-1" y="5" z="7" spawntime="750"/>
   </spawn>
   <spawn centerx="33022" centery="32568" centerz="7" radius="5">
     <monster name="stone golem" x="0" y="0" z="7" spawntime="60"/>
@@ -6869,7 +6917,7 @@
     <monster name="swamp troll" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32837" centery="32578" centerz="7" radius="5">
-    <monster name="merlkin" x="0" y="0" z="7" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="7" spawntime="60"/>
     <monster name="kongra" x="1" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32928" centery="32578" centerz="7" radius="5">
@@ -7022,7 +7070,7 @@
   </spawn>
   <spawn centerx="32964" centery="32598" centerz="7" radius="5">
     <monster name="sibang" x="0" y="0" z="7" spawntime="60"/>
-    <monster name="merlkin" x="2" y="0" z="7" spawntime="60"/>
+    <monster name="Merlkin" x="2" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32612" centery="32599" centerz="7" radius="5">
     <monster name="snake" x="0" y="0" z="7" spawntime="60"/>
@@ -10787,8 +10835,13 @@
   <spawn centerx="33044" centery="32028" centerz="8" radius="5">
     <monster name="orc spearman" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="32466" centery="32035" centerz="8" radius="5"/>
+  <spawn centerx="32486" centery="32035" centerz="8" radius="5">
+    <monster name="cyclops" x="1" y="0" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="32450" centery="32038" centerz="8" radius="1">
-    <npc name="Skjaar" x="0" y="0" z="8" spawntime="60"/>
+    <monster name="ghoul" x="-1" y="-1" z="8" spawntime="60"/>
+    <monster name="ghoul" x="0" y="1" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32810" centery="32038" centerz="8" radius="5">
     <monster name="rat" x="0" y="0" z="8" spawntime="60"/>
@@ -10797,6 +10850,9 @@
     <monster name="cave rat" x="-4" y="-4" z="8" spawntime="60"/>
     <monster name="cave rat" x="0" y="0" z="8" spawntime="60"/>
     <monster name="cave rat" x="4" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32473" centery="32040" centerz="8" radius="5">
+    <monster name="cyclops" x="1" y="1" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32798" centery="32040" centerz="8" radius="5">
     <monster name="rat" x="0" y="0" z="8" spawntime="60"/>
@@ -10809,14 +10865,27 @@
     <monster name="cyclops" x="0" y="0" z="8" spawntime="550"/>
     <monster name="cyclops" x="-3" y="3" z="8" spawntime="60"/>
   </spawn>
-  <spawn centerx="32452" centery="32046" centerz="8" radius="5">
-    <monster name="ghoul" x="0" y="0" z="8" spawntime="60"/>
+  <spawn centerx="32453" centery="32046" centerz="8" radius="5">
+    <monster name="demon skeleton" x="-1" y="-4" z="8" spawntime="60"/>
+    <monster name="cyclops" x="2" y="-3" z="8" spawntime="60"/>
+    <monster name="ghoul" x="-1" y="0" z="8" spawntime="60"/>
+    <monster name="demon skeleton" x="1" y="0" z="8" spawntime="60"/>
+    <monster name="ghoul" x="2" y="2" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32492" centery="32047" centerz="8" radius="5">
+    <monster name="cyclops" x="1" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32470" centery="32054" centerz="8" radius="5">
+    <monster name="cyclops" x="1" y="-4" z="8" spawntime="60"/>
     <monster name="cyclops" x="0" y="0" z="8" spawntime="750"/>
+    <monster name="cyclops" x="-1" y="5" z="8" spawntime="32000"/>
   </spawn>
-  <spawn centerx="32486" centery="32059" centerz="8" radius="5">
-    <monster name="cyclops" x="0" y="0" z="8" spawntime="550"/>
+  <spawn centerx="32453" centery="32055" centerz="8" radius="5">
+    <monster name="cyclops" x="1" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32487" centery="32060" centerz="8" radius="5">
+    <monster name="cyclops" x="2" y="-4" z="8" spawntime="60"/>
+    <monster name="cyclops" x="-1" y="-1" z="8" spawntime="550"/>
   </spawn>
   <spawn centerx="33067" centery="32065" centerz="8" radius="5">
     <monster name="beholder" x="0" y="0" z="8" spawntime="60"/>
@@ -10826,8 +10895,20 @@
     <monster name="amazon" x="2" y="1" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32514" centery="32067" centerz="8" radius="5">
-    <monster name="demon skeleton" x="1" y="0" z="8" spawntime="60"/>
+    <monster name="dwarf guard" x="-4" y="-3" z="8" spawntime="60"/>
+    <monster name="demon skeleton" x="3" y="-3" z="8" spawntime="60"/>
+    <monster name="elder beholder" x="0" y="0" z="8" spawntime="60"/>
+    <monster name="demon skeleton" x="-5" y="2" z="8" spawntime="60"/>
+    <monster name="dwarf guard" x="4" y="2" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="32435" centery="32068" centerz="8" radius="5">
+    <monster name="cyclops" x="-1" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32454" centery="32069" centerz="8" radius="5">
+    <monster name="cyclops" x="0" y="0" z="8" spawntime="60"/>
+    <monster name="cyclops" x="-1" y="5" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32469" centery="32072" centerz="8" radius="5"/>
   <spawn centerx="32073" centery="32076" centerz="8" radius="5">
     <monster name="troll" x="0" y="0" z="8" spawntime="60"/>
     <monster name="troll" x="0" y="5" z="8" spawntime="60"/>
@@ -10852,13 +10933,20 @@
     <monster name="troll" x="-3" y="5" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32496" centery="32084" centerz="8" radius="5">
+    <monster name="cyclops" x="1" y="-3" z="8" spawntime="60"/>
     <monster name="cyclops" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32359" centery="32085" centerz="8" radius="5">
     <monster name="snake" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="32451" centery="32085" centerz="8" radius="5">
+    <monster name="cyclops" x="1" y="-1" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="32821" centery="32087" centerz="8" radius="5">
     <monster name="rotworm" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32469" centery="32090" centerz="8" radius="5">
+    <monster name="cyclops" x="-2" y="-1" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32059" centery="32091" centerz="8" radius="5">
     <monster name="poison spider" x="0" y="0" z="8" spawntime="60"/>
@@ -10873,6 +10961,9 @@
   </spawn>
   <spawn centerx="33123" centery="32091" centerz="8" radius="5">
     <monster name="rotworm" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32447" centery="32095" centerz="8" radius="5">
+    <monster name="cyclops" x="3" y="-1" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32803" centery="32095" centerz="8" radius="5">
     <monster name="rotworm" x="0" y="0" z="8" spawntime="60"/>
@@ -10893,6 +10984,12 @@
     <monster name="rotworm" x="0" y="0" z="8" spawntime="60"/>
     <monster name="rotworm" x="3" y="2" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="32438" centery="32097" centerz="8" radius="5">
+    <monster name="cyclops" x="0" y="2" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32486" centery="32097" centerz="8" radius="5">
+    <monster name="cyclops" x="3" y="-3" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="33010" centery="32097" centerz="8" radius="5">
     <monster name="rotworm" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
@@ -10905,12 +11002,18 @@
     <monster name="orc" x="4" y="2" z="8" spawntime="60"/>
     <monster name="orc" x="-3" y="4" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="32474" centery="32099" centerz="8" radius="5">
+    <monster name="cyclops" x="3" y="0" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="32122" centery="32100" centerz="8" radius="5">
     <monster name="troll" x="-2" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32258" centery="32103" centerz="8" radius="5">
     <monster name="rotworm" x="0" y="0" z="8" spawntime="60"/>
     <monster name="rotworm" x="-3" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32458" centery="32104" centerz="8" radius="5">
+    <monster name="cyclops" x="0" y="-4" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32250" centery="32105" centerz="8" radius="5">
     <monster name="rotworm" x="-2" y="0" z="8" spawntime="60"/>
@@ -10938,6 +11041,7 @@
     <monster name="rat" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32466" centery="32110" centerz="8" radius="5">
+    <monster name="cyclops" x="2" y="-1" z="8" spawntime="60"/>
     <monster name="cyclops" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="33099" centery="32111" centerz="8" radius="5">
@@ -12305,22 +12409,22 @@
     <monster name="skeleton" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32787" centery="32493" centerz="8" radius="5">
-    <monster name="merlkin" x="0" y="0" z="8" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="8" spawntime="60"/>
     <monster name="sibang" x="3" y="3" z="8" spawntime="60"/>
     <monster name="kongra" x="0" y="4" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32789" centery="32506" centerz="8" radius="5">
-    <monster name="merlkin" x="0" y="0" z="8" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="8" spawntime="60"/>
     <monster name="sibang" x="2" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32848" centery="32507" centerz="8" radius="5">
-    <monster name="merlkin" x="0" y="0" z="8" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="8" spawntime="60"/>
     <monster name="kongra" x="0" y="2" z="8" spawntime="60"/>
-    <monster name="merlkin" x="-3" y="3" z="8" spawntime="60"/>
+    <monster name="Merlkin" x="-3" y="3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32819" centery="32508" centerz="8" radius="5">
     <monster name="sibang" x="0" y="0" z="8" spawntime="60"/>
-    <monster name="merlkin" x="-2" y="3" z="8" spawntime="750"/>
+    <monster name="Merlkin" x="-2" y="3" z="8" spawntime="750"/>
     <monster name="kongra" x="3" y="4" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="33132" centery="32513" centerz="8" radius="5">
@@ -12329,7 +12433,7 @@
     <monster name="stone golem" x="3" y="3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32758" centery="32514" centerz="8" radius="5">
-    <monster name="merlkin" x="0" y="0" z="8" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="8" spawntime="60"/>
     <monster name="kongra" x="-2" y="5" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32778" centery="32516" centerz="8" radius="5">
@@ -12352,10 +12456,10 @@
     <monster name="kongra" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32822" centery="32523" centerz="8" radius="5">
-    <monster name="merlkin" x="0" y="0" z="8" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32841" centery="32523" centerz="8" radius="5">
-    <monster name="merlkin" x="0" y="0" z="8" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="33153" centery="32525" centerz="8" radius="5">
     <monster name="blue djinn" x="0" y="0" z="8" spawntime="60"/>
@@ -12396,7 +12500,7 @@
   </spawn>
   <spawn centerx="32814" centery="32544" centerz="8" radius="5">
     <monster name="kongra" x="0" y="0" z="8" spawntime="60"/>
-    <monster name="merlkin" x="5" y="1" z="8" spawntime="60"/>
+    <monster name="Merlkin" x="5" y="1" z="8" spawntime="60"/>
     <monster name="sibang" x="1" y="5" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32835" centery="32546" centerz="8" radius="5">
@@ -12404,11 +12508,11 @@
   </spawn>
   <spawn centerx="32788" centery="32548" centerz="8" radius="5">
     <monster name="kongra" x="0" y="0" z="8" spawntime="60"/>
-    <monster name="merlkin" x="-4" y="2" z="8" spawntime="60"/>
+    <monster name="Merlkin" x="-4" y="2" z="8" spawntime="60"/>
     <monster name="sibang" x="4" y="2" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32770" centery="32550" centerz="8" radius="5">
-    <monster name="merlkin" x="0" y="0" z="8" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="8" spawntime="60"/>
     <monster name="kongra" x="3" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32784" centery="32550" centerz="8" radius="5">
@@ -12425,7 +12529,7 @@
     <monster name="skeleton" x="-4" y="5" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32849" centery="32552" centerz="8" radius="5">
-    <monster name="merlkin" x="0" y="0" z="8" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32760" centery="32556" centerz="8" radius="5">
     <monster name="sibang" x="0" y="0" z="8" spawntime="60"/>
@@ -12434,7 +12538,7 @@
     <monster name="sibang" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32818" centery="32562" centerz="8" radius="5">
-    <monster name="merlkin" x="0" y="0" z="8" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="33172" centery="32563" centerz="8" radius="5">
     <monster name="larva" x="0" y="0" z="8" spawntime="60"/>
@@ -12448,7 +12552,7 @@
   </spawn>
   <spawn centerx="32758" centery="32566" centerz="8" radius="5">
     <monster name="sibang" x="0" y="0" z="8" spawntime="60"/>
-    <monster name="merlkin" x="-5" y="2" z="8" spawntime="60"/>
+    <monster name="Merlkin" x="-5" y="2" z="8" spawntime="60"/>
     <monster name="kongra" x="-1" y="5" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="33151" centery="32566" centerz="8" radius="5">
@@ -12461,21 +12565,21 @@
     <monster name="skeleton" x="3" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32827" centery="32567" centerz="8" radius="5">
-    <monster name="merlkin" x="0" y="0" z="8" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32852" centery="32568" centerz="8" radius="5">
-    <monster name="merlkin" x="0" y="0" z="8" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="8" spawntime="60"/>
     <monster name="kongra" x="-5" y="4" z="8" spawntime="60"/>
     <monster name="sibang" x="1" y="4" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32790" centery="32569" centerz="8" radius="5">
     <monster name="sibang" x="0" y="0" z="8" spawntime="60"/>
     <monster name="kongra" x="-3" y="2" z="8" spawntime="60"/>
-    <monster name="merlkin" x="0" y="3" z="8" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32846" centery="32569" centerz="8" radius="5">
     <monster name="sibang" x="0" y="0" z="8" spawntime="60"/>
-    <monster name="merlkin" x="-5" y="1" z="8" spawntime="60"/>
+    <monster name="Merlkin" x="-5" y="1" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32774" centery="32571" centerz="8" radius="5">
     <monster name="sibang" x="0" y="0" z="8" spawntime="60"/>
@@ -13656,7 +13760,7 @@
     <monster name="centipede" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32769" centery="3260" centerz="9" radius="5">
-    <monster name="merlkin" x="0" y="0" z="9" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="33043" centery="3260" centerz="9" radius="5">
     <monster name="larva" x="0" y="0" z="9" spawntime="60"/>
@@ -15364,9 +15468,14 @@
   </spawn>
   <spawn centerx="32456" centery="32043" centerz="9" radius="5">
     <monster name="skeleton" x="-5" y="-4" z="9" spawntime="60"/>
+    <monster name="ghoul" x="-3" y="-4" z="9" spawntime="60"/>
+    <monster name="skeleton" x="-4" y="-2" z="9" spawntime="60"/>
     <monster name="ghoul" x="-1" y="-2" z="9" spawntime="60"/>
     <monster name="skeleton" x="0" y="0" z="9" spawntime="400"/>
     <monster name="skeleton" x="5" y="3" z="9" spawntime="60"/>
+    <monster name="skeleton" x="2" y="4" z="9" spawntime="60"/>
+    <monster name="skeleton" x="3" y="4" z="9" spawntime="32000"/>
+    <monster name="ghoul" x="5" y="4" z="9" spawntime="60"/>
     <monster name="ghoul" x="2" y="5" z="9" spawntime="400"/>
   </spawn>
   <spawn centerx="33056" centery="32045" centerz="9" radius="5">
@@ -15374,28 +15483,48 @@
     <monster name="snake" x="4" y="2" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32445" centery="32046" centerz="9" radius="5">
+    <monster name="ghoul" x="-3" y="-1" z="9" spawntime="60"/>
     <monster name="skeleton" x="-4" y="0" z="9" spawntime="60"/>
+    <monster name="skeleton" x="-2" y="0" z="9" spawntime="60"/>
     <monster name="ghoul" x="0" y="0" z="9" spawntime="400"/>
     <monster name="ghoul" x="4" y="2" z="9" spawntime="60"/>
   </spawn>
+  <spawn centerx="32473" centery="32051" centerz="9" radius="5">
+    <monster name="cyclops" x="0" y="-1" z="9" spawntime="60"/>
+  </spawn>
   <spawn centerx="32067" centery="32052" centerz="9" radius="5">
     <monster name="spider" x="0" y="0" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32457" centery="32052" centerz="9" radius="5">
+    <monster name="ghoul" x="1" y="1" z="9" spawntime="60"/>
+    <monster name="skeleton" x="1" y="4" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32433" centery="32056" centerz="9" radius="5">
     <monster name="ghoul" x="-3" y="-1" z="9" spawntime="60"/>
     <monster name="skeleton" x="0" y="0" z="9" spawntime="60"/>
     <monster name="ghoul" x="2" y="4" z="9" spawntime="60"/>
   </spawn>
+  <spawn centerx="32490" centery="32057" centerz="9" radius="5">
+    <monster name="cyclops" x="0" y="0" z="9" spawntime="60"/>
+  </spawn>
   <spawn centerx="32427" centery="32058" centerz="9" radius="5">
     <monster name="skeleton" x="-2" y="-1" z="9" spawntime="60"/>
     <monster name="ghoul" x="0" y="0" z="9" spawntime="60"/>
     <monster name="rat" x="-1" y="3" z="9" spawntime="60"/>
   </spawn>
+  <spawn centerx="32513" centery="32060" centerz="9" radius="5">
+    <monster name="cyclops" x="3" y="0" z="9" spawntime="60"/>
+    <monster name="cyclops" x="-4" y="4" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32507" centery="32065" centerz="9" radius="5"/>
   <spawn centerx="32069" centery="32066" centerz="9" radius="5">
     <monster name="poison spider" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32823" centery="32066" centerz="9" radius="5">
     <monster name="rotworm" x="0" y="0" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32469" centery="32067" centerz="9" radius="5">
+    <monster name="cyclops" x="1" y="-1" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32597" centery="32068" centerz="9" radius="5">
     <monster name="dwarf" x="0" y="0" z="9" spawntime="60"/>
@@ -15444,6 +15573,9 @@
   <spawn centerx="32058" centery="32083" centerz="9" radius="5">
     <monster name="spider" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
+  <spawn centerx="32469" centery="32084" centerz="9" radius="5">
+    <monster name="cyclops" x="1" y="1" z="9" spawntime="60"/>
+  </spawn>
   <spawn centerx="33039" centery="32084" centerz="9" radius="5">
     <monster name="rotworm" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
@@ -15458,6 +15590,10 @@
     <monster name="rotworm" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32438" centery="32087" centerz="9" radius="5">
+    <monster name="cyclops" x="0" y="0" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32460" centery="32087" centerz="9" radius="5">
+    <monster name="cyclops" x="3" y="-4" z="9" spawntime="60"/>
     <monster name="cyclops" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="33072" centery="32087" centerz="9" radius="5">
@@ -16945,7 +17081,7 @@
     <monster name="sibang" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32809" centery="32496" centerz="9" radius="5">
-    <monster name="merlkin" x="0" y="0" z="9" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="33144" centery="32496" centerz="9" radius="5">
     <monster name="fire elemental" x="0" y="0" z="9" spawntime="60"/>
@@ -16961,7 +17097,7 @@
     <monster name="scarab" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32854" centery="32503" centerz="9" radius="5">
-    <monster name="merlkin" x="-2" y="4" z="9" spawntime="60"/>
+    <monster name="Merlkin" x="-2" y="4" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="33098" centery="32509" centerz="9" radius="5">
     <monster name="marid" x="0" y="0" z="9" spawntime="60"/>
@@ -17005,11 +17141,11 @@
     <monster name="marid" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32811" centery="32520" centerz="9" radius="5">
-    <monster name="merlkin" x="0" y="0" z="9" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="9" spawntime="60"/>
     <monster name="kongra" x="-5" y="3" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32839" centery="32526" centerz="9" radius="5">
-    <monster name="merlkin" x="0" y="0" z="9" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32791" centery="32527" centerz="9" radius="5">
     <monster name="sibang" x="0" y="0" z="9" spawntime="60"/>
@@ -17022,7 +17158,7 @@
   </spawn>
   <spawn centerx="32749" centery="32529" centerz="9" radius="5">
     <monster name="kongra" x="0" y="0" z="9" spawntime="60"/>
-    <monster name="merlkin" x="-5" y="5" z="9" spawntime="60"/>
+    <monster name="Merlkin" x="-5" y="5" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32815" centery="32529" centerz="9" radius="5">
     <monster name="sibang" x="0" y="0" z="9" spawntime="60"/>
@@ -17044,7 +17180,7 @@
     <monster name="kongra" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32807" centery="32535" centerz="9" radius="5">
-    <monster name="merlkin" x="0" y="0" z="9" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32835" centery="32537" centerz="9" radius="5">
     <monster name="kongra" x="0" y="0" z="9" spawntime="60"/>
@@ -17129,7 +17265,7 @@
     <monster name="scarab" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32745" centery="32564" centerz="9" radius="5">
-    <monster name="merlkin" x="0" y="0" z="9" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="9" spawntime="60"/>
     <monster name="sibang" x="5" y="5" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32754" centery="32564" centerz="9" radius="5">
@@ -17142,7 +17278,7 @@
     <monster name="scarab" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32784" centery="32565" centerz="9" radius="5">
-    <monster name="merlkin" x="0" y="0" z="9" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="33208" centery="32565" centerz="9" radius="5">
     <monster name="scarab" x="0" y="0" z="9" spawntime="60"/>
@@ -17173,7 +17309,7 @@
     <monster name="larva" x="-2" y="5" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32759" centery="32571" centerz="9" radius="5">
-    <monster name="merlkin" x="0" y="0" z="9" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="9" spawntime="60"/>
     <monster name="kongra" x="3" y="5" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32766" centery="32571" centerz="9" radius="5">
@@ -17201,7 +17337,7 @@
     <monster name="larva" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32853" centery="32575" centerz="9" radius="5">
-    <monster name="merlkin" x="0" y="0" z="9" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32746" centery="32576" centerz="9" radius="5">
     <monster name="kongra" x="0" y="0" z="9" spawntime="60"/>
@@ -17253,7 +17389,7 @@
     <monster name="larva" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32806" centery="32586" centerz="9" radius="5">
-    <monster name="merlkin" x="0" y="0" z="9" spawntime="60"/>
+    <monster name="Merlkin" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="33094" centery="32587" centerz="9" radius="5">
     <monster name="larva" x="0" y="0" z="9" spawntime="60"/>
