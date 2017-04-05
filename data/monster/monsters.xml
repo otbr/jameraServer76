@@ -14,6 +14,7 @@
 	<monster name="Beholder" file="beholder.xml"/>
 	<monster name="Black Knight" file="blackknight.xml"/>
 	<monster name="Black Sheep" file="blacksheep.xml"/>
+	<monster name="Black Hunter" file="blackhunter.xml"/>
 	<monster name="Blue Djinn" file="bluedjinn.xml"/>
 	<monster name="Bonebeast" file="bonebeast.xml"/>
 	<monster name="Bug" file="bug.xml"/>
