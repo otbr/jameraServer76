@@ -15253,6 +15253,16 @@
 		<attribute key="armor" value="17"/>
 		<attribute key="slotType" value="body"/>
 	</item>
+	<item id="5216" article="a" name="backpack of holding">
+		<attribute key="weight" value="1800"/>
+		<attribute key="containerSize" value="25"/>
+		<attribute key="slotType" value="backpack"/>
+	</item>
+	<item id="5219" article="a" name="jewelled backpack">
+		<attribute key="weight" value="1800"/>
+		<attribute key="containerSize" value="22"/>
+		<attribute key="slotType" value="backpack"/>
+	</item>	
 	<item id="5254" article="a" name="protection backpack">
 		<attribute key="weight" value="1800"/>
 		<attribute key="containerSize" value="20"/>
