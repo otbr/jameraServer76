@@ -2035,8 +2035,15 @@
     <monster name="wolf" x="3" y="3" z="6" spawntime="60"/>
     <monster name="wolf" x="-2" y="4" z="6" spawntime="60"/>
   </spawn>
-  <spawn centerx="32095" centery="32228" centerz="6" radius="5">
-    <monster name="rabbit" x="0" y="0" z="6" spawntime="60"/>
+  <spawn centerx="32096" centery="32228" centerz="6" radius="5">
+    <monster name="skeleton" x="-3" y="-2" z="6" spawntime="60"/>
+    <monster name="minotaur" x="3" y="-2" z="6" spawntime="60"/>
+    <monster name="orc spearman" x="-5" y="0" z="6" spawntime="60"/>
+    <monster name="rabbit" x="-1" y="0" z="6" spawntime="60"/>
+    <monster name="orc spearman" x="1" y="1" z="6" spawntime="60"/>
+    <monster name="orc" x="-5" y="3" z="6" spawntime="60"/>
+    <monster name="rotworm" x="-5" y="4" z="6" spawntime="60"/>
+    <monster name="poison spider" x="-4" y="5" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="32031" centery="32245" centerz="6" radius="5">
     <monster name="wolf" x="-3" y="-2" z="6" spawntime="60"/>
@@ -20477,7 +20484,9 @@
   </spawn>
   <spawn centerx="32615" centery="32413" centerz="10" radius="5">
     <monster name="demon skeleton" x="0" y="0" z="10" spawntime="60"/>
-    <monster name="monk" x="0" y="3" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32621" centery="32415" centerz="10" radius="5">
+    <monster name="hunter" x="0" y="1" z="10" spawntime="60"/>
   </spawn>
   <spawn centerx="33000" centery="32415" centerz="10" radius="5">
     <monster name="demon skeleton" x="0" y="0" z="10" spawntime="60"/>
@@ -20485,27 +20494,16 @@
   <spawn centerx="32609" centery="32416" centerz="10" radius="5">
     <monster name="hunter" x="0" y="0" z="10" spawntime="60"/>
   </spawn>
-  <spawn centerx="32615" centery="32416" centerz="10" radius="5">
-    <monster name="stone golem" x="0" y="3" z="10" spawntime="60"/>
-  </spawn>
-  <spawn centerx="32621" centery="32416" centerz="10" radius="5">
-    <monster name="hunter" x="0" y="0" z="10" spawntime="60"/>
-  </spawn>
+  <spawn centerx="32616" centery="32416" centerz="10" radius="5"/>
   <spawn centerx="32992" centery="32418" centerz="10" radius="5">
     <monster name="ghoul" x="0" y="0" z="10" spawntime="60"/>
   </spawn>
-  <spawn centerx="32615" centery="32419" centerz="10" radius="5">
-    <monster name="witch" x="0" y="5" z="10" spawntime="60"/>
-  </spawn>
+  <spawn centerx="32616" centery="32419" centerz="10" radius="5"/>
   <spawn centerx="33087" centery="32423" centerz="10" radius="5">
     <monster name="snake" x="0" y="0" z="10" spawntime="60"/>
     <monster name="skeleton" x="3" y="3" z="10" spawntime="60"/>
   </spawn>
-  <spawn centerx="32615" centery="32424" centerz="10" radius="5">
-    <monster name="dark monk" x="-3" y="2" z="10" spawntime="60"/>
-    <monster name="dark monk" x="3" y="2" z="10" spawntime="60"/>
-    <monster name="Assassin" x="0" y="4" z="10" spawntime="60"/>
-  </spawn>
+  <spawn centerx="32615" centery="32425" centerz="10" radius="5"/>
   <spawn centerx="33028" centery="32428" centerz="10" radius="5">
     <monster name="demon skeleton" x="0" y="0" z="10" spawntime="60"/>
   </spawn>
@@ -22761,8 +22759,20 @@
   <spawn centerx="32886" centery="32366" centerz="11" radius="5">
     <monster name="demon skeleton" x="0" y="0" z="11" spawntime="60"/>
   </spawn>
+  <spawn centerx="32601" centery="32384" centerz="11" radius="5">
+    <monster name="monk" x="0" y="0" z="11" spawntime="60"/>
+    <monster name="monk" x="5" y="0" z="11" spawntime="60"/>
+    <monster name="black hunter" x="4" y="2" z="11" spawntime="60"/>
+    <monster name="dark monk" x="1" y="4" z="11" spawntime="60"/>
+    <monster name="Assassin" x="4" y="4" z="11" spawntime="60"/>
+  </spawn>
   <spawn centerx="33015" centery="32385" centerz="11" radius="5">
     <monster name="ghoul" x="0" y="0" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32634" centery="32387" centerz="11" radius="5">
+    <monster name="demon skeleton" x="0" y="0" z="11" spawntime="60"/>
+    <monster name="black hunter" x="0" y="3" z="11" spawntime="60"/>
+    <monster name="ghost" x="-5" y="4" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="33005" centery="32397" centerz="11" radius="5">
     <monster name="mummy" x="0" y="0" z="11" spawntime="60"/>
@@ -22780,16 +22790,39 @@
     <monster name="ghost" x="0" y="0" z="11" spawntime="60"/>
     <monster name="stalker" x="1" y="0" z="11" spawntime="60"/>
   </spawn>
+  <spawn centerx="32623" centery="32401" centerz="11" radius="5">
+    <monster name="Assassin" x="0" y="0" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32612" centery="32403" centerz="11" radius="5">
+    <monster name="black hunter" x="3" y="3" z="11" spawntime="60"/>
+  </spawn>
   <spawn centerx="32999" centery="32408" centerz="11" radius="5">
     <monster name="demon skeleton" x="0" y="0" z="11" spawntime="60"/>
     <monster name="mummy" x="4" y="4" z="11" spawntime="60"/>
   </spawn>
+  <spawn centerx="32615" centery="32409" centerz="11" radius="5">
+    <monster name="black hunter" x="-5" y="3" z="11" spawntime="60"/>
+    <monster name="black hunter" x="4" y="3" z="11" spawntime="60"/>
+    <monster name="demon skeleton" x="0" y="4" z="11" spawntime="60"/>
+  </spawn>
   <spawn centerx="33035" centery="32411" centerz="11" radius="5">
     <monster name="demon skeleton" x="0" y="0" z="11" spawntime="60"/>
   </spawn>
+  <spawn centerx="32609" centery="32416" centerz="11" radius="5">
+    <monster name="hunter" x="0" y="0" z="11" spawntime="60"/>
+    <monster name="stone golem" x="1" y="5" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32621" centery="32416" centerz="11" radius="5">
+    <monster name="hunter" x="0" y="0" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32615" centery="32418" centerz="11" radius="5"/>
   <spawn centerx="33012" centery="32420" centerz="11" radius="5">
     <monster name="ghoul" x="0" y="0" z="11" spawntime="60"/>
     <monster name="demon skeleton" x="3" y="2" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32614" centery="32427" centerz="11" radius="5">
+    <monster name="black hunter" x="-5" y="2" z="11" spawntime="60"/>
+    <monster name="black hunter" x="5" y="2" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="32989" centery="32427" centerz="11" radius="5">
     <monster name="stalker" x="0" y="0" z="11" spawntime="60"/>
@@ -22812,6 +22845,15 @@
   <spawn centerx="33095" centery="32444" centerz="11" radius="5">
     <monster name="skeleton" x="0" y="0" z="11" spawntime="60"/>
   </spawn>
+  <spawn centerx="32625" centery="32445" centerz="11" radius="5">
+    <monster name="witch" x="0" y="0" z="11" spawntime="60"/>
+    <monster name="black hunter" x="1" y="1" z="11" spawntime="60"/>
+    <monster name="dark monk" x="0" y="3" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32604" centery="32446" centerz="11" radius="5">
+    <monster name="black hunter" x="-1" y="0" z="11" spawntime="60"/>
+    <monster name="dark monk" x="0" y="0" z="11" spawntime="60"/>
+  </spawn>
   <spawn centerx="33025" centery="32447" centerz="11" radius="5">
     <monster name="demon skeleton" x="0" y="0" z="11" spawntime="60"/>
     <monster name="ghost" x="1" y="3" z="11" spawntime="60"/>
@@ -22819,8 +22861,43 @@
   <spawn centerx="33069" centery="32456" centerz="11" radius="5">
     <monster name="ghost" x="0" y="0" z="11" spawntime="60"/>
   </spawn>
+  <spawn centerx="32613" centery="32461" centerz="11" radius="5">
+    <monster name="black hunter" x="-2" y="0" z="11" spawntime="60"/>
+    <monster name="witch" x="0" y="0" z="11" spawntime="60"/>
+    <monster name="hunter" x="4" y="0" z="11" spawntime="60"/>
+    <monster name="Assassin" x="1" y="2" z="11" spawntime="60"/>
+    <monster name="dark monk" x="3" y="3" z="11" spawntime="60"/>
+  </spawn>
   <spawn centerx="33055" centery="32468" centerz="11" radius="5">
     <monster name="vampire" x="0" y="0" z="11" spawntime="1000"/>
+  </spawn>
+  <spawn centerx="32593" centery="32479" centerz="11" radius="5">
+    <monster name="black hunter" x="0" y="-1" z="11" spawntime="60"/>
+    <monster name="dark monk" x="0" y="0" z="11" spawntime="60"/>
+    <monster name="Assassin" x="0" y="2" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32638" centery="32480" centerz="11" radius="5">
+    <monster name="black hunter" x="-3" y="-2" z="11" spawntime="60"/>
+    <monster name="monk" x="-1" y="-2" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32593" centery="32492" centerz="11" radius="5">
+    <monster name="black hunter" x="-1" y="0" z="11" spawntime="60"/>
+    <monster name="monk" x="0" y="0" z="11" spawntime="60"/>
+    <monster name="Assassin" x="2" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32605" centery="32492" centerz="11" radius="5">
+    <monster name="black hunter" x="-2" y="0" z="11" spawntime="60"/>
+    <monster name="dark monk" x="0" y="0" z="11" spawntime="60"/>
+    <monster name="witch" x="-2" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32625" centery="32492" centerz="11" radius="5">
+    <monster name="Assassin" x="0" y="0" z="11" spawntime="60"/>
+    <monster name="black hunter" x="2" y="0" z="11" spawntime="60"/>
+    <monster name="dark monk" x="-1" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32637" centery="32492" centerz="11" radius="5">
+    <monster name="dark monk" x="0" y="0" z="11" spawntime="60"/>
+    <monster name="witch" x="-2" y="2" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="32756" centery="32504" centerz="11" radius="5">
     <monster name="serpent spawn" x="0" y="0" z="11" spawntime="60"/>
