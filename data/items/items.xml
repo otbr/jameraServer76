@@ -15044,13 +15044,13 @@
 	</item>
 	<item id="5178" article="a" name="reinforced leather armor">
 		<attribute key="weight" value="2500"/>
-		<attribute key="armor" value="9"/>
+		<attribute key="armor" value="7"/>
 		<attribute key="slotType" value="body"/>
 	</item>
 	<item id="5179" name="reinforced leather boots">
 		<attribute key="weight" value="1000"/>
 		<attribute key="slotType" value="feet"/>
-		<attribute key="speed" value="9"/>
+		<attribute key="armor" value="1"/>
 	</item>
 	<item id="5180" article="a" name="reinforced leather helmet">
 		<attribute key="weight" value="1000"/>
@@ -15059,7 +15059,7 @@
 	</item>
 	<item id="5181" name="reinforced leather legs">
 		<attribute key="weight" value="2500"/>
-		<attribute key="armor" value="6"/>
+		<attribute key="armor" value="5"/>
 		<attribute key="slotType" value="legs"/>
 	</item>
 	<item id="5182" article="a" name="mystic sword">
