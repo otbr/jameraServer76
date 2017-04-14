@@ -31,6 +31,8 @@
 	<action uniqueid="3032" script="rook/banana.lua" />
 	<action uniqueid="3033" script="rook/banana1.lua" />
 	<action uniqueid="3036" script="rook/torchwallquest.lua" />
+	<action uniqueid="3037" script="rook/rLeatherArmor.lua" />
+	
 
 
 

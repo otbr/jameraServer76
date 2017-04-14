@@ -2040,6 +2040,7 @@
     <monster name="minotaur" x="3" y="-2" z="6" spawntime="60"/>
     <monster name="orc spearman" x="-5" y="0" z="6" spawntime="60"/>
     <monster name="rabbit" x="-1" y="0" z="6" spawntime="60"/>
+    <monster name="orc spearman" x="3" y="0" z="6" spawntime="60"/>
     <monster name="orc spearman" x="1" y="1" z="6" spawntime="60"/>
     <monster name="orc" x="-5" y="3" z="6" spawntime="60"/>
     <monster name="rotworm" x="-5" y="4" z="6" spawntime="60"/>
