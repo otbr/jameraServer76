@@ -246,7 +246,7 @@ shopModule:addBuyableItem({'spellbook'}, 2175, 150,	'spellbook')
 -- Wand
 
 shopModule:addBuyableItem({'light wand', 'lightwand'}, 2163, 500, 'magic light wand')
-shopModule:addBuyableItem({'wand of vortex', 'vortex'}, 2190, 500, 'wand of vortex')
+shopModule:addBuyableItem({'wand of vortex', 'vortex'}, 2190, 0, 'wand of vortex')
 shopModule:addBuyableItem({'wand of dragonbreath', 'dragonbreath'}, 2191, 1000, 'wand of dragonbreath')
 shopModule:addBuyableItem({'wand of plague', 'plague'}, 2188, 5000, 'wand of plague')
 shopModule:addBuyableItem({'wand of cosmic energy', 'cosmic energy'}, 2189, 10000, 'wand of cosmic energy')
@@ -254,7 +254,7 @@ shopModule:addBuyableItem({'wand of inferno', 'inferno'}, 2187, 15000, 'wand of 
 
 -- Rods
 
-shopModule:addBuyableItem({'snakebite rod', 'snakebite'}, 2182, 500, 'snakebite rod')
+shopModule:addBuyableItem({'snakebite rod', 'snakebite'}, 2182, 0, 'snakebite rod')
 shopModule:addBuyableItem({'moonlight rod', 'moonlight'}, 2186, 1000, 'moonlight rod')
 shopModule:addBuyableItem({'volcanic rod', 'volcanic'}, 2185, 5000, 'necrotic rod')
 shopModule:addBuyableItem({'terra rod', 'terra'}, 2181, 10000, 'terra rod')
