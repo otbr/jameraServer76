@@ -3,7 +3,7 @@ if item.uid == 4019 then
   queststatus = getPlayerStorageValue(cid,4019)
   if queststatus == -1 and getPlayerAccess(cid) == 0 then
    doPlayerSendTextMessage(cid,22,"You have found a bag.")
-   bag = doPlayerAddItem(cid,5255,1)
+   bag = doPlayerAddItem(cid,1988,1)
 	doAddContainerItem(bag,5180,1)
 	doAddContainerItem(bag,5181,1)
 	doAddContainerItem(bag,5178,1)
