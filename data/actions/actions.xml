@@ -32,6 +32,8 @@
 	<action uniqueid="3033" script="rook/banana1.lua" />
 	<action uniqueid="3036" script="rook/torchwallquest.lua" />
 	<action uniqueid="3037" script="rook/rLeatherArmor.lua" />
+	<action actionid="3038" script="thais/inicialSet.lua" />
+
 	<action itemid="2694" script="other/baking.lua"/> 
 	<action itemid="2692" script="other/baking.lua"/> 
 	<action itemid="2693" script="other/baking.lua"/> 
@@ -75,7 +77,6 @@
 	<action actionid="4016" script="thais/Thais Lighthouse Quest/switch.lua" />
 	<action actionid="4017" script="thais/Thais Lighthouse Quest/tpswitch.lua" />
 	<action actionid="4018" script="thais/Thais Lighthouse Quest/dark_shield.lua" />
-	<action actionid="4019" script="thais/inicial_set.lua" />
 
 
 -- Venore aid = 4500+
