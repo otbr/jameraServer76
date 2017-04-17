@@ -32,20 +32,17 @@
 	<action uniqueid="3033" script="rook/banana1.lua" />
 	<action uniqueid="3036" script="rook/torchwallquest.lua" />
 	<action uniqueid="3037" script="rook/rLeatherArmor.lua" />
-	
-
-
-
+	<action uniqueid="3038" script="thais/inicialSet.lua" />
 
 	<action itemid="2694" script="other/baking.lua"/> 
-<action itemid="2692" script="other/baking.lua"/> 
-<action itemid="2693" script="other/baking.lua"/> 
-<action itemid="6277" script="other/baking.lua"/> 
-<action itemid="2566" script="other/baking.lua"/> 
-<action itemid="2561" script="other/baking.lua"/> 
-<action itemid="8848" script="other/baking.lua"/> 
-<action itemid="8846" script="other/baking.lua"/>
-<action itemid="5865" script="other/baking.lua"/> 
+	<action itemid="2692" script="other/baking.lua"/> 
+	<action itemid="2693" script="other/baking.lua"/> 
+	<action itemid="6277" script="other/baking.lua"/> 
+	<action itemid="2566" script="other/baking.lua"/> 
+	<action itemid="2561" script="other/baking.lua"/> 
+	<action itemid="8848" script="other/baking.lua"/> 
+	<action itemid="8846" script="other/baking.lua"/>
+	<action itemid="5865" script="other/baking.lua"/> 
 	
 
 	outlaw camp
@@ -80,6 +77,7 @@
 	<action actionid="4016" script="thais/Thais Lighthouse Quest/switch.lua" />
 	<action actionid="4017" script="thais/Thais Lighthouse Quest/tpswitch.lua" />
 	<action actionid="4018" script="thais/Thais Lighthouse Quest/dark_shield.lua" />
+
 
 -- Venore aid = 4500+
 	<action uniqueid="4500" script="venore/Blood Herb Quest/blood_herb.lua" />
