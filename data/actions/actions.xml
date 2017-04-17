@@ -32,7 +32,7 @@
 	<action uniqueid="3033" script="rook/banana1.lua" />
 	<action uniqueid="3036" script="rook/torchwallquest.lua" />
 	<action uniqueid="3037" script="rook/rLeatherArmor.lua" />
-	<action actionid="3038" script="thais/inicialSet.lua" />
+	<action uniqueid="3038" script="thais/inicialSet.lua" />
 
 	<action itemid="2694" script="other/baking.lua"/> 
 	<action itemid="2692" script="other/baking.lua"/> 
