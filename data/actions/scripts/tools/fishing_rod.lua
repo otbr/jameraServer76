@@ -1,32 +1,28 @@
--- Fishing system + formulas by Rodrigo (Nottinghster) - Tibia World RPG OldSchool
+-- Author: 		Rodrigo (Nottinghster) - (OTLand, OTFans, XTibia, OTServBR)
+-- Country:		Brazil
+-- From: 		Tibia World RPG OldSchool
+-- Email: 		god.rodrigo@hotmail.com
+-- Compiler:	Tibia World Script Maker (Action)
 
 local ITEM_WORM = 3976
 local ITEM_FISH = 2667
-
+local SKILL_FISHING = 6
+local useWorms = TRUE
+local waterIds = {493, 4608, 4609, 4610, 4611, 4612, 4613, 4614, 4615, 4616, 4617, 4618, 4619, 4620, 4621, 4622, 4623, 4624, 4625}
 function onUse(cid, item, frompos, item2, topos)
-
-	if doPlayerRemoveItem(cid, ITEM_WORM, 1) == 1 then
-		if item2.itemid == 4820 or item2.itemid == 4821 or item2.itemid == 4822 or 
-			item2.itemid == 4616 or item2.itemid == 4608 or item2.itemid == 4609 or 
-			item2.itemid == 4610 or item2.itemid == 4611 or item2.itemid == 4612 or 
-			item2.itemid == 4613 or item2.itemid == 4614 or item2.itemid == 4615 or 
-			item2.itemid == 4617 or item2.itemid == 4618 or item2.itemid == 4619 or 
-			item2.itemid == 4620 or item2.itemid == 4621 or item2.itemid == 4622 or 
-			item2.itemid == 4623 or item2.itemid == 4624 or item2.itemid == 4625 then
-			fishingskill = getPlayerSkill(cid,6)
-			formula = math.random(1,(100+fishingskill/10))
-			if formula <= fishingskill then
-				doDecayItem(item2.uid)
-				doSendMagicEffect(topos,1)
-				doPlayerAddSkillTry(cid,6,2)
-				doPlayerAddItem(cid,ITEM_FISH,1)
-			else
-				doSendMagicEffect(topos,1)
-				doPlayerAddSkillTry(cid,6,1)
-			end
-		elseif item2.itemid == 491 or item2.itemid == 492 then
-			doSendMagicEffect(topos,1)
-		end
-	end
-	return 1
+        if isInArray(waterIds, item2.itemid) == TRUE then
+                if item2.itemid ~= 493 then
+                        if useWorms == FALSE or useWorms == TRUE then
+                                if math.random(1,(100+(getPlayerSkill(cid, SKILL_FISHING)/10))) <= getPlayerSkill(cid, SKILL_FISHING) then
+                                    if doPlayerAddItem(cid, ITEM_FISH, 1) == TRUE then
+										doPlayerRemoveItem(cid, ITEM_WORM, 1)
+									end
+                                end
+                                doPlayerAddSkillTry(cid, SKILL_FISHING, 1)
+                        end
+                end
+                doSendMagicEffect(topos, CONST_ME_LOSEENERGY)
+            return TRUE
+        end
+    return FALSE
 end
