@@ -133,16 +133,6 @@
       <response text="What do you need? I sell weapons, armor, helmets, shields, and equipment."/>
     </interact>
 	
-	<interact keywords="spear" pname="spears">
-		<keywords>|AMOUNT|;spear</keywords>
-		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
-			<action name="topic" value="1"/>
-			<action name="item" value="2389"/>
-			<action name="price" value="10"/>
-			<action name="amount" value="|AMOUNT|"/>
-		</response>
-	</interact>
-
 	<interact keywords="rapier" pname="rapiers">
 		<keywords>|AMOUNT|;rapier</keywords>
 		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
