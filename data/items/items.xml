@@ -14749,13 +14749,13 @@
 		<attribute key="slotType" value="legs"/>
 	</item>
 	<item id="5124" article="a" name="crystal shield">
-		<attribute key="weight" value="6500"/>
-		<attribute key="defense" value="17"/>
+		<attribute key="weight" value="7000"/>
+		<attribute key="defense" value="33"/>
 		<attribute key="weaponType" value="shield"/>
 	</item>
 	<item id="5125" article="a" name="crystal sword">
-		<attribute key="defense" value="12"/>
-		<attribute key="attack" value="14"/>
+		<attribute key="defense" value="19"/>
+		<attribute key="attack" value="34"/>
 		<attribute key="weaponType" value="sword"/>
 	</item>
 	<item id="5126" article="a" name="indicolite armor">
