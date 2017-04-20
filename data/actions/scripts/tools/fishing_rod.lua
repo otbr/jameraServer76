@@ -14,8 +14,8 @@ function onUse(cid, item, frompos, item2, topos)
                 if item2.itemid ~= 493 then
                         if useWorms == FALSE or useWorms == TRUE then
                                 if math.random(1,(100+(getPlayerSkill(cid, SKILL_FISHING)/10))) <= getPlayerSkill(cid, SKILL_FISHING) then
-                                    if doPlayerAddItem(cid, ITEM_FISH, 1) == TRUE then
-										doPlayerRemoveItem(cid, ITEM_WORM, 1)
+                                    if doPlayerRemoveItem(cid, ITEM_WORM, 1) == TRUE then
+										 doPlayerAddItem(cid, ITEM_FISH, 1)
 									end
                                 end
                                 doPlayerAddSkillTry(cid, SKILL_FISHING, 1)
