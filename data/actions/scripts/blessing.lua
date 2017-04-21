@@ -3,7 +3,7 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
     local playerBlessings = {} 
     for i=1, 5 do 
         if getPlayerBlessing(cid, i) then 
-            table.insert(playerBlessings, getBlessingName(i)) 
+            AddPlayerBlessing(cid, i)
         end 
     end 
 

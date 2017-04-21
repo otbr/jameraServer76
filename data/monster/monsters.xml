@@ -57,6 +57,7 @@
 	<monster name="Fire Elemental" file="fireelemental.xml"/>
 	<monster name="Flamingo" file="flamingo.xml"/>
 	<monster name="Frost Troll" file="frosttroll.xml"/>
+	<monster name="Frost Dragon" file="frostdragon.xml"/>
 	<monster name="Gargoyle" file="gargoyle.xml"/>
 	<monster name="Gazer" file="gazer.xml"/>
 	<monster name="Ghost" file="ghost.xml"/>
