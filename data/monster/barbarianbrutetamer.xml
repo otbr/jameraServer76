@@ -52,10 +52,8 @@
 		<item id="2686" countmax="2" chance="11000" />
 		<item id="5156" chance="5250" />
 		<item id="5153" chance="650" /> <!-- tiger armor -->
-		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
-				<item id="5221" chance="160" />
-				<item id="5224" chance="160" />
-			</inside>
+		<item id="5221" chance="160" />
+		<item id="5224" chance="160" />
+
 	</loot>
 </monster>
