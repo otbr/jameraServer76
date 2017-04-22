@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Barbarian Bloodwalker" nameDescription="an barbarian bloodwalker" race="blood" experience="195" speed="250" manacost="590">
 	<health now="305" max="305"/>
-	<look type="283" head="114" body="132" legs="132" feet="132" corpse="3065" />
+	<look type="12" head="114" body="132" legs="132" feet="132" corpse="3065" />
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="60" defense="40"/>
 	<flags>
