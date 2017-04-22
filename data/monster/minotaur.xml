@@ -40,6 +40,7 @@
 		<item id="2464" chance="10000"/><!-- chain armor -->
 		<item id="2386" chance="10000"/><!-- axe -->
 		<item id="2649" chance="10000"/><!-- leather legs -->
+		<item id="2666" countmax="3" chance="50000"/><!-- meat -->
 		<item id="2554" chance="10000"/><!-- shovel -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<inside>
