@@ -42,31 +42,14 @@
 		<voice sentence="You can run but you can't hide" />
 	</voices>
 	<loot>
-		<item id="3976" countmax="10" chance="50000"/><!-- worm -->
-		<item id="2148" countmax="29" chance="100000"/><!-- gold coin -->
-		<item id="2666" countmax="3" chance="33333"/><!-- meat -->
-		<item id="2381" chance="6666"/><!-- halberd -->
-		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
-				<item id="2464" chance="10000"/><!-- chain armor -->
-				<item id="2458" chance="10000"/><!-- chain helmet -->
-				<item id="2044" chance="5000"/><!-- lamp -->
-				<item id="2378" chance="5000"/><!-- battle axe -->
-			</inside>
-		</item>
-	</loot>
-	
-	<loot>
 		<item id="2044" chance="8280" /><!-- lamp -->
 		<item id="2148" countmax="29" chance="100000"/><!-- gold coin -->
-		<item name="battle axe" chance="6000" />
-		<item id="2381" chance="6730"/><!-- halberd -->
+		<item id="2381" chance="6000" />
 		<item id="2458" chance="10440" />
 		<item id="2464" chance="10290" />
 		<item id="2671" chance="4970" />
 		<item id="5160" chance="390" />
 		<item id="5154" chance="100" />
 		<item id="5155" chance="500" /> <!-- tiger helmet -->
-		
 	</loot>
 </monster>
