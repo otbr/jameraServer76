@@ -9,6 +9,10 @@
 	<monster name="Banshee" file="banshee.xml"/>
 	<monster name="Bazir" file="bazir.xml"/>
 	<monster name="Bat" file="bat.xml"/>
+	<monster name="Barbarian Bloodwalker" file="barbarianbloodwalker.xml"/>	
+	<monster name="Barbarian Brutetamer" file="barbarianbrutetamer.xml"/>	
+	<monster name="Barbarian Headsplitter" file="barbarianheadsplitter.xml"/>		
+	<monster name="Barbarian Skullhunter" file="barbarianskullhunter.xml"/>			
 	<monster name="Bear" file="bear.xml"/>
 	<monster name="Behemoth" file="behemoth.xml"/>
 	<monster name="Beholder" file="beholder.xml"/>

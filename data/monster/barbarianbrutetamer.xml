@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Barbarian Brutetamer" nameDescription="a barbarian brutetamer" race="blood" experience="90" speed="190">
+	<health now="145" max="145" />
+	<look type="287" head="78" body="116" legs="95" feet="121" corpse="3065" />
+	<targetchange interval="60000" chance="0" />
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="4"/>
+		<flag runonhealth="30"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="18" attack="18"/>
+		<attack name="fire" interval="1000" chance="20" range="7" min="-25" max="-55">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+		<attack name="firefield" interval="1000" chance="13" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+	</attacks>
+	<defenses armor="8" defense="12"/>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="1"/>
+		<immunity fire="0"/>
+		<immunity poison="1"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="To me, creatures of the wild!" />
+		<voice sentence="My instincts tell me about your cowardice." />
+	</voices>
+	<summons maxSummons="2">
+		<summon name="War Wolf" interval="2000" chance="10" />
+	</summons>	
+	<loot>
+		<item id="1958" chance="5000" /><!-- grey small book -->
+		<item id="2148" countmax="15" chance="58000" />
+		<item id="2401" chance="6500" /><!-- staff -->
+		<item id="2464" chance="8900" />
+		<item id="2686" countmax="2" chance="11000" />
+		<item id="5156" chance="5250" />
+		<item id="5153" chance="650" /> <!-- tiger armor -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="5221" chance="160" />
+				<item id="5224" chance="160" />
+			</inside>
+	</loot>
+</monster>
