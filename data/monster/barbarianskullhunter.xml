@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Barbarian Skullhunter" nameDescription="a barbarian skullhunter" race="blood" experience="85" speed="220" manacost="450">
 	<health now="135" max="135" />
-	<look type="281" head="114" body="132" legs="132" feet="132" corpse="3065" />
+	<look type="11" head="114" body="132" legs="132" feet="132" corpse="3065" />
 	<targetchange interval="60000" chance="0" />
 	<flags>
 		<flag attackable="1" />

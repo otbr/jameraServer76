@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Frost Dragon" nameDescription="a frost dragon" race="blood" experience="2100" speed="200" manacost="0">
 	<health now="1900" max="1900"/>
-	<look type="261" head="0" body="0" legs="0" feet="0" corpse="2881"/>
+	<look type="96" head="0" body="0" legs="0" feet="0" corpse="2881"/>
 	<targetchange interval="2000" chance="5"/>
 	<strategy attack="70" defense="10"/>
 	<flags>
