@@ -771,8 +771,22 @@
   <spawn centerx="32544" centery="31808" centerz="5" radius="5">
     <monster name="wolf" x="0" y="0" z="5" spawntime="60"/>
   </spawn>
+  <spawn centerx="32023" centery="31817" centerz="5" radius="5">
+    <monster name="Barbarian Brutetamer" x="1" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32008" centery="31818" centerz="5" radius="5">
+    <monster name="Barbarian Brutetamer" x="-1" y="-1" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32016" centery="31821" centerz="5" radius="5"/>
   <spawn centerx="32842" centery="31827" centerz="5" radius="5">
     <monster name="wasp" x="0" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32022" centery="31830" centerz="5" radius="5">
+    <monster name="Barbarian Brutetamer" x="2" y="-1" z="5" spawntime="60"/>
+    <monster name="Elf" x="0" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32007" centery="31831" centerz="5" radius="5">
+    <monster name="Barbarian Brutetamer" x="-1" y="-1" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="32594" centery="31831" centerz="5" radius="5">
     <monster name="rabbit" x="0" y="0" z="5" spawntime="60"/>
@@ -1540,6 +1554,14 @@
   <spawn centerx="33213" centery="31812" centerz="6" radius="2">
     <npc name="Rudolph" x="0" y="0" z="6" spawntime="60"/>
   </spawn>
+  <spawn centerx="32008" centery="31817" centerz="6" radius="5">
+    <monster name="Barbarian Skullhunter" x="0" y="-1" z="6" spawntime="60"/>
+    <monster name="Barbarian Bloodwalker" x="-2" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32024" centery="31818" centerz="6" radius="5">
+    <monster name="Barbarian Headsplitter" x="-1" y="-1" z="6" spawntime="60"/>
+    <monster name="Barbarian Skullhunter" x="0" y="-1" z="6" spawntime="60"/>
+  </spawn>
   <spawn centerx="32548" centery="31820" centerz="6" radius="5">
     <monster name="goblin" x="-3" y="-1" z="6" spawntime="60"/>
     <monster name="goblin" x="0" y="0" z="6" spawntime="60"/>
@@ -1552,6 +1574,7 @@
     <monster name="goblin" x="-3" y="2" z="6" spawntime="60"/>
     <monster name="goblin" x="3" y="3" z="6" spawntime="60"/>
   </spawn>
+  <spawn centerx="32015" centery="31823" centerz="6" radius="5"/>
   <spawn centerx="32388" centery="31824" centerz="6" radius="1">
     <npc name="Captain Greyhound" x="0" y="-1" z="6" spawntime="60"/>
   </spawn>
@@ -1574,6 +1597,14 @@
   </spawn>
   <spawn centerx="32348" centery="31828" centerz="6" radius="2">
     <npc name="Lea" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32006" centery="31829" centerz="6" radius="5">
+    <monster name="Barbarian Headsplitter" x="0" y="2" z="6" spawntime="60"/>
+    <monster name="Barbarian Skullhunter" x="1" y="2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32023" centery="31831" centerz="6" radius="5">
+    <monster name="Barbarian Skullhunter" x="1" y="-2" z="6" spawntime="60"/>
+    <monster name="Barbarian Bloodwalker" x="-1" y="-1" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="32553" centery="31832" centerz="6" radius="5">
     <monster name="goblin" x="4" y="-4" z="6" spawntime="60"/>
@@ -2911,6 +2942,9 @@
     <monster name="cyclops" x="0" y="0" z="7" spawntime="60"/>
     <monster name="cyclops" x="-4" y="4" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="32007" centery="31700" centerz="7" radius="5">
+    <monster name="polar bear" x="0" y="-2" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="32290" centery="31702" centerz="7" radius="10">
     <monster name="bear" x="6" y="1" z="7" spawntime="60"/>
     <monster name="bear" x="1" y="4" z="7" spawntime="60"/>
@@ -2938,6 +2972,9 @@
     <monster name="snake" x="0" y="0" z="7" spawntime="60"/>
     <monster name="wolf" x="-5" y="4" z="7" spawntime="60"/>
     <monster name="wolf" x="2" y="4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="31969" centery="31708" centerz="7" radius="5">
+    <monster name="polar bear" x="0" y="-2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32919" centery="31708" centerz="7" radius="5">
     <monster name="orc" x="0" y="0" z="7" spawntime="60"/>
@@ -3038,6 +3075,7 @@
     <monster name="Barbarian Headsplitter" x="2" y="-1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="31954" centery="31721" centerz="7" radius="5">
+    <monster name="Barbarian Headsplitter" x="-3" y="-1" z="7" spawntime="60"/>
     <monster name="rabbit" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32962" centery="31721" centerz="7" radius="5">
@@ -3069,6 +3107,7 @@
   </spawn>
   <spawn centerx="31964" centery="31725" centerz="7" radius="5">
     <monster name="polar bear" x="0" y="-2" z="7" spawntime="60"/>
+    <monster name="Barbarian Headsplitter" x="2" y="2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32928" centery="31725" centerz="7" radius="5">
     <monster name="orc spearman" x="0" y="0" z="7" spawntime="60"/>
@@ -3107,6 +3146,11 @@
   </spawn>
   <spawn centerx="31951" centery="31731" centerz="7" radius="5">
     <monster name="polar bear" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="31995" centery="31731" centerz="7" radius="5">
+    <monster name="polar bear" x="0" y="-2" z="7" spawntime="60"/>
+    <monster name="Barbarian Skullhunter" x="2" y="2" z="7" spawntime="60"/>
+    <monster name="Barbarian Headsplitter" x="1" y="4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32971" centery="31731" centerz="7" radius="5">
     <monster name="orc warrior" x="0" y="0" z="7" spawntime="60"/>
@@ -3191,6 +3235,9 @@
     <monster name="orc warrior" x="0" y="0" z="7" spawntime="60"/>
     <monster name="orc berserker" x="5" y="5" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="32006" centery="31747" centerz="7" radius="5">
+    <monster name="polar bear" x="0" y="-2" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="32341" centery="31747" centerz="7" radius="1">
     <npc name="Bambi Bonecrusher" x="0" y="1" z="7" spawntime="60"/>
   </spawn>
@@ -3273,6 +3320,9 @@
     <monster name="Barbarian Headsplitter" x="-3" y="1" z="7" spawntime="60"/>
     <monster name="Barbarian Headsplitter" x="4" y="4" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="32040" centery="31759" centerz="7" radius="5">
+    <monster name="polar bear" x="0" y="-2" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="32958" centery="31760" centerz="7" radius="5">
     <monster name="orc shaman" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
@@ -3291,6 +3341,14 @@
   </spawn>
   <spawn centerx="33252" centery="31761" centerz="7" radius="2">
     <npc name="avar tar" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="31961" centery="31762" centerz="7" radius="5">
+    <monster name="orc berserker" x="-2" y="-1" z="7" spawntime="60"/>
+    <monster name="orc warrior" x="3" y="-1" z="7" spawntime="60"/>
+    <monster name="orc warrior" x="0" y="0" z="7" spawntime="450"/>
+    <monster name="orc" x="3" y="1" z="7" spawntime="60"/>
+    <monster name="orc leader" x="0" y="3" z="7" spawntime="60"/>
+    <monster name="orc shaman" x="-4" y="4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="33313" centery="31762" centerz="7" radius="1">
     <npc name="Albert" x="-1" y="0" z="7" spawntime="60"/>
@@ -3315,8 +3373,27 @@
   <spawn centerx="32780" centery="31765" centerz="7" radius="5">
     <monster name="deer" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="31953" centery="31766" centerz="7" radius="5">
+    <monster name="orc berserker" x="-5" y="-5" z="7" spawntime="60"/>
+    <monster name="orc" x="1" y="-3" z="7" spawntime="60"/>
+    <monster name="orc warrior" x="-3" y="-1" z="7" spawntime="60"/>
+    <monster name="orc warrior" x="0" y="0" z="7" spawntime="60"/>
+    <monster name="orc berserker" x="2" y="2" z="7" spawntime="60"/>
+    <monster name="orc spearman" x="0" y="3" z="7" spawntime="60"/>
+    <monster name="orc spearman" x="5" y="4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="31957" centery="31766" centerz="7" radius="5">
+    <monster name="orc spearman" x="2" y="3" z="7" spawntime="60"/>
+    <monster name="orc spearman" x="3" y="4" z="7" spawntime="60"/>
+    <monster name="orc spearman" x="2" y="5" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="32367" centery="31766" centerz="7" radius="1">
     <npc name="Phillip" x="1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="31989" centery="31768" centerz="7" radius="5">
+    <monster name="polar bear" x="0" y="-2" z="7" spawntime="60"/>
+    <monster name="Barbarian Skullhunter" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Barbarian Headsplitter" x="0" y="1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32822" centery="31768" centerz="7" radius="5">
     <monster name="orc" x="1" y="-3" z="7" spawntime="60"/>
@@ -3401,6 +3478,11 @@
     <monster name="orc spearman" x="-4" y="2" z="7" spawntime="60"/>
     <monster name="orc shaman" x="-5" y="4" z="7" spawntime="60"/>
     <monster name="orc shaman" x="-2" y="5" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32020" centery="31775" centerz="7" radius="5">
+    <monster name="polar bear" x="0" y="-2" z="7" spawntime="60"/>
+    <monster name="Barbarian Skullhunter" x="3" y="0" z="7" spawntime="60"/>
+    <monster name="Barbarian Headsplitter" x="2" y="2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="31862" centery="31778" centerz="7" radius="5">
     <monster name="polar bear" x="-5" y="-3" z="7" spawntime="60"/>
@@ -3641,6 +3723,11 @@
     <monster name="orc warrior" x="0" y="0" z="7" spawntime="60"/>
     <monster name="orc berserker" x="-4" y="1" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="32013" centery="31805" centerz="7" radius="5">
+    <monster name="polar bear" x="3" y="-3" z="7" spawntime="60"/>
+    <monster name="polar bear" x="-5" y="1" z="7" spawntime="60"/>
+    <monster name="polar bear" x="5" y="1" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="32576" centery="31805" centerz="7" radius="5">
     <monster name="spider" x="0" y="0" z="7" spawntime="60"/>
     <monster name="goblin" x="-3" y="3" z="7" spawntime="60"/>
@@ -3707,11 +3794,35 @@
   <spawn centerx="33108" centery="31815" centerz="7" radius="5">
     <monster name="deer" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="32007" centery="31816" centerz="7" radius="5">
+    <monster name="Barbarian Headsplitter" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Barbarian Skullhunter" x="-4" y="3" z="7" spawntime="60"/>
+    <monster name="Barbarian Brutetamer" x="0" y="4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32022" centery="31816" centerz="7" radius="5">
+    <monster name="Barbarian Skullhunter" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="minotaur" x="0" y="0" z="7" spawntime="400"/>
+    <monster name="Barbarian Headsplitter" x="5" y="5" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32027" centery="31816" centerz="7" radius="5">
+    <monster name="Barbarian Bloodwalker" x="4" y="-5" z="7" spawntime="60"/>
+    <monster name="Barbarian Skullhunter" x="5" y="5" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32042" centery="31816" centerz="7" radius="5">
+    <monster name="Barbarian Brutetamer" x="-4" y="-1" z="7" spawntime="60"/>
+    <monster name="Barbarian Brutetamer" x="-2" y="-1" z="7" spawntime="60"/>
+    <monster name="Barbarian Headsplitter" x="-4" y="3" z="7" spawntime="60"/>
+    <monster name="pig" x="3" y="5" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="32322" centery="31816" centerz="7" radius="5">
     <monster name="Blue Butterfly" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32843" centery="31816" centerz="7" radius="5">
     <monster name="deer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32031" centery="31817" centerz="7" radius="5"/>
+  <spawn centerx="32005" centery="31818" centerz="7" radius="5">
+    <monster name="polar bear" x="-4" y="2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="33290" centery="31818" centerz="7" radius="5">
     <monster name="spider" x="0" y="0" z="7" spawntime="60"/>
@@ -3732,6 +3843,23 @@
   <spawn centerx="32562" centery="31820" centerz="7" radius="1">
     <monster name="goblin" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="32014" centery="31821" centerz="7" radius="5">
+    <monster name="Barbarian Bloodwalker" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Barbarian Skullhunter" x="2" y="-1" z="7" spawntime="60"/>
+    <monster name="Barbarian Headsplitter" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="31985" centery="31822" centerz="7" radius="5">
+    <monster name="Barbarian Headsplitter" x="1" y="-5" z="7" spawntime="60"/>
+    <monster name="Barbarian Headsplitter" x="4" y="-4" z="7" spawntime="60"/>
+    <monster name="Barbarian Skullhunter" x="2" y="-3" z="7" spawntime="60"/>
+    <monster name="polar bear" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32047" centery="31822" centerz="7" radius="5">
+    <monster name="Barbarian Headsplitter" x="2" y="-1" z="7" spawntime="60"/>
+    <monster name="pig" x="-2" y="0" z="7" spawntime="60"/>
+    <monster name="pig" x="-2" y="1" z="7" spawntime="60"/>
+    <monster name="pig" x="-2" y="2" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="32879" centery="31823" centerz="7" radius="5">
     <monster name="rabbit" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
@@ -3749,6 +3877,10 @@
   </spawn>
   <spawn centerx="32843" centery="31827" centerz="7" radius="5">
     <monster name="wasp" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32038" centery="31828" centerz="7" radius="5">
+    <monster name="Barbarian Headsplitter" x="-1" y="1" z="7" spawntime="60"/>
+    <monster name="Barbarian Skullhunter" x="1" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32328" centery="31828" centerz="7" radius="1">
     <npc name="Nydala" x="-1" y="-1" z="7" spawntime="60"/>
@@ -3784,6 +3916,10 @@
   <spawn centerx="32595" centery="31831" centerz="7" radius="1">
     <monster name="rotworm" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="32015" centery="31832" centerz="7" radius="5">
+    <monster name="Barbarian Headsplitter" x="-1" y="1" z="7" spawntime="60"/>
+    <monster name="Barbarian Skullhunter" x="-3" y="3" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="32476" centery="31832" centerz="7" radius="1">
     <monster name="wild warrior" x="0" y="-1" z="7" spawntime="60"/>
   </spawn>
@@ -3811,6 +3947,9 @@
   <spawn centerx="33229" centery="31833" centerz="7" radius="1">
     <npc name="Edvard" x="-1" y="0" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="31969" centery="31834" centerz="7" radius="5">
+    <monster name="polar bear" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="32471" centery="31834" centerz="7" radius="1">
     <monster name="wild warrior" x="-1" y="0" z="7" spawntime="60"/>
   </spawn>
@@ -3832,6 +3971,17 @@
   </spawn>
   <spawn centerx="33267" centery="31836" centerz="7" radius="1"/>
   <spawn centerx="32593" centery="31837" centerz="7" radius="1"/>
+  <spawn centerx="31995" centery="31838" centerz="7" radius="5">
+    <monster name="Barbarian Skullhunter" x="-2" y="-2" z="7" spawntime="60"/>
+    <monster name="polar bear" x="2" y="2" z="7" spawntime="60"/>
+    <monster name="Barbarian Headsplitter" x="4" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32023" centery="31839" centerz="7" radius="5">
+    <monster name="Barbarian Headsplitter" x="3" y="-5" z="7" spawntime="60"/>
+    <monster name="Barbarian Skullhunter" x="1" y="1" z="7" spawntime="60"/>
+    <monster name="Barbarian Headsplitter" x="-3" y="4" z="7" spawntime="60"/>
+    <monster name="polar bear" x="2" y="4" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="33257" centery="31840" centerz="7" radius="1">
     <npc name="Sandra" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
@@ -4064,6 +4214,7 @@
     <monster name="amazon" x="-5" y="0" z="7" spawntime="60"/>
     <monster name="amazon" x="2" y="4" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="32177" centery="31913" centerz="7" radius="5"/>
   <spawn centerx="32539" centery="31913" centerz="7" radius="5">
     <monster name="dwarf" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
@@ -9669,9 +9820,7 @@
     <monster name="cyclops" x="0" y="0" z="8" spawntime="60"/>
     <monster name="cyclops" x="-3" y="3" z="8" spawntime="60"/>
   </spawn>
-  <spawn centerx="31988" centery="31686" centerz="8" radius="5">
-    <monster name="winter wolf" x="0" y="0" z="8" spawntime="60"/>
-  </spawn>
+  <spawn centerx="31988" centery="31685" centerz="8" radius="5"/>
   <spawn centerx="32448" centery="31686" centerz="8" radius="5">
     <monster name="wolf" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
@@ -10261,6 +10410,16 @@
   <spawn centerx="32610" centery="31818" centerz="8" radius="5">
     <monster name="rotworm" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="32012" centery="31819" centerz="8" radius="5">
+    <monster name="Barbarian Headsplitter" x="-4" y="-2" z="8" spawntime="60"/>
+    <monster name="Barbarian Skullhunter" x="3" y="1" z="8" spawntime="60"/>
+    <monster name="Barbarian Headsplitter" x="-1" y="2" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32020" centery="31819" centerz="8" radius="5">
+    <monster name="Barbarian Headsplitter" x="-1" y="-2" z="8" spawntime="60"/>
+    <monster name="Barbarian Skullhunter" x="3" y="-1" z="8" spawntime="60"/>
+    <monster name="Barbarian Headsplitter" x="2" y="1" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="32348" centery="31821" centerz="8" radius="5">
     <monster name="bug" x="-5" y="-4" z="8" spawntime="60"/>
     <monster name="bug" x="1" y="-4" z="8" spawntime="60"/>
@@ -10338,11 +10497,21 @@
     <monster name="poison spider" x="0" y="0" z="8" spawntime="60"/>
     <monster name="ghoul" x="-3" y="1" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="32006" centery="31826" centerz="8" radius="5">
+    <monster name="Barbarian Headsplitter" x="1" y="0" z="8" spawntime="60"/>
+    <monster name="Barbarian Headsplitter" x="1" y="5" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="32722" centery="31826" centerz="8" radius="5">
     <monster name="dwarf guard" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32730" centery="31826" centerz="8" radius="5">
     <monster name="dwarf soldier" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32019" centery="31828" centerz="8" radius="5">
+    <monster name="Barbarian Headsplitter" x="-1" y="-3" z="8" spawntime="60"/>
+    <monster name="Barbarian Skullhunter" x="4" y="-2" z="8" spawntime="60"/>
+    <monster name="Barbarian Skullhunter" x="-4" y="2" z="8" spawntime="60"/>
+    <monster name="Barbarian Headsplitter" x="2" y="2" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32567" centery="31830" centerz="8" radius="5">
     <monster name="rotworm" x="0" y="0" z="8" spawntime="60"/>
@@ -14238,8 +14407,8 @@
     <monster name="cyclops" x="4" y="-2" z="9" spawntime="60"/>
     <monster name="cyclops" x="-1" y="3" z="9" spawntime="60"/>
   </spawn>
-  <spawn centerx="31989" centery="31682" centerz="9" radius="5">
-    <monster name="spider" x="0" y="0" z="9" spawntime="60"/>
+  <spawn centerx="31988" centery="31682" centerz="9" radius="5">
+    <monster name="spider" x="1" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="32015" centery="31682" centerz="9" radius="5">
     <monster name="wasp" x="0" y="0" z="9" spawntime="60"/>
@@ -14656,6 +14825,17 @@
   <spawn centerx="32197" centery="31808" centerz="9" radius="5">
     <monster name="ghoul" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
+  <spawn centerx="32010" centery="31819" centerz="9" radius="5">
+    <monster name="Barbarian Bloodwalker" x="-1" y="0" z="9" spawntime="60"/>
+    <monster name="Barbarian Bloodwalker" x="4" y="0" z="9" spawntime="60"/>
+    <monster name="Barbarian Headsplitter" x="1" y="2" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32021" centery="31820" centerz="9" radius="5">
+    <monster name="Barbarian Bloodwalker" x="-1" y="-4" z="9" spawntime="60"/>
+    <monster name="Barbarian Headsplitter" x="1" y="-2" z="9" spawntime="60"/>
+    <monster name="Barbarian Bloodwalker" x="-2" y="1" z="9" spawntime="60"/>
+    <monster name="Barbarian Bloodwalker" x="2" y="5" z="9" spawntime="60"/>
+  </spawn>
   <spawn centerx="32627" centery="31820" centerz="9" radius="5">
     <monster name="rotworm" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
@@ -14687,11 +14867,20 @@
     <monster name="goblin" x="-5" y="3" z="9" spawntime="60"/>
     <monster name="goblin" x="4" y="3" z="9" spawntime="60"/>
   </spawn>
+  <spawn centerx="32009" centery="31828" centerz="9" radius="5">
+    <monster name="Barbarian Bloodwalker" x="2" y="-3" z="9" spawntime="60"/>
+    <monster name="Barbarian Bloodwalker" x="5" y="-2" z="9" spawntime="60"/>
+    <monster name="Barbarian Headsplitter" x="1" y="2" z="9" spawntime="60"/>
+  </spawn>
   <spawn centerx="32626" centery="31828" centerz="9" radius="5">
     <monster name="rotworm" x="0" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="33332" centery="31829" centerz="9" radius="5">
     <monster name="dwarf guard" x="0" y="0" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32019" centery="31830" centerz="9" radius="5">
+    <monster name="Barbarian Headsplitter" x="3" y="-3" z="9" spawntime="60"/>
+    <monster name="Barbarian Bloodwalker" x="-1" y="-2" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="33062" centery="31830" centerz="9" radius="5">
     <monster name="goblin" x="-1" y="-5" z="9" spawntime="60"/>
