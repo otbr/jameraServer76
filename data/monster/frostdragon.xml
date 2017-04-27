@@ -66,7 +66,8 @@
 				<item id="5125" chance="1428"/><!-- fire sword -->
 				<item id="2146" countmax="2" chance="2222"/><!-- small sapphire -->
 				<item id="5124" chance="1333"/><!-- crystal shield -->
-				<item id="5226" chance="909"/><!-- forst bow -->
+				<item id="5127" chance="1400"/><!-- crystal armor -->				
+				<item id="5226" chance="909"/><!-- frost bow -->
 			</inside>
 		</item>
 	</loot>

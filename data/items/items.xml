@@ -14735,7 +14735,7 @@
 	</item>
 	<item id="5121" name="crystal boots">
 		<attribute key="weight" value="3200"/>
-		<attribute key="armor" value="4"/>
+		<attribute key="armor" value="3"/>
 		<attribute key="slotType" value="feet"/>
 	</item>
 	<item id="5122" article="a" name="crystal helmet">
@@ -14764,7 +14764,7 @@
 		<attribute key="slotType" value="body"/>
 	</item>
 	<item id="5127" article="a" name="crystal armor">
-		<attribute key="weight" value="7000"/>
+		<attribute key="weight" value="17400"/>
 		<attribute key="armor" value="14"/>
 		<attribute key="slotType" value="body"/>
 	</item>

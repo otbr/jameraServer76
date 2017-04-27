@@ -34,6 +34,7 @@
 	<monster name="Cobra" file="cobra.xml"/>
 	<monster name="Crab" file="crab.xml"/>
 	<monster name="Crocodile" file="crocodile.xml"/>
+	<monster name="Crystal Spider" file="crystalspider.xml"/>
 	<monster name="Crypt Shambler" file="cryptshambler.xml"/>
 	<monster name="Cyclops" file="cyclops.xml"/>
 	<monster name="Dark Monk" file="darkmonk.xml"/>
