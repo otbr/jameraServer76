@@ -11,5 +11,7 @@
 <!-- Players -->
 <talkaction words="!status"	script="status.lua" />
 <talkaction words="!buypremium"	script="buypremium.lua" />
+<talkaction words="!task" script="task.lua"/>
+
 
 </talkactions>

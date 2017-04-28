@@ -5507,6 +5507,9 @@
   <spawn centerx="32350" centery="32220" centerz="7" radius="1">
     <npc name="Benjamin" x="-1" y="-1" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="32344" centery="32221" centerz="7" radius="1">
+    <npc name="Ludger" x="-1" y="-1" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="32378" centery="32221" centerz="7" radius="1">
     <npc name="Oswald" x="1" y="-1" z="7" spawntime="60"/>
   </spawn>

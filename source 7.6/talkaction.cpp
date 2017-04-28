@@ -98,7 +98,13 @@ TalkActionResult_t TalkActions::onPlayerSpeak(Player* player, SpeakClasses type,
 	// With quotation filtering
 	size_t loc = words.find( '"', 0 );
 	if(loc != std::string::npos && loc >= 0){
+		
+
+
+		
 		str_words_quote = std::string(words, 0, loc);
+		
+
 		str_param_quote = std::string(words, (loc+1), words.size()-loc-1);
 	}
 	else {

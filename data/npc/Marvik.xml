@@ -2,7 +2,7 @@
 <!-- It is not in an in-game spawn -->
 
 <!-- This is an example NPC that sells runes and uses parameter callbacks -->
-<npc name="Marvik" script="Marvik.lua" autowalk="25">
+<npc name="Marvik" script="marvik.lua" autowalk="25">
 		<health now="150" max="150"/>
 	<look type="130" head="0" body="101" legs="101" feet="101" corpse="2212"/>
  <parameters>

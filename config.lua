@@ -67,7 +67,7 @@
 ---- CONNECTION SYSTEM ----
 
     -- server ip (the ip that server listens on)
-    IP = "149.56.108.250"
+    IP = "192.168.10.111"
 
     -- server port (the port that server listens on)
     Port = "7171"
@@ -100,10 +100,10 @@
     encryptionType = "plain"
 
     -- these settings are not used by SQLite
-    SQL_Host = "jamera.com.br"
+    SQL_Host = "localhost"
     SQL_Port = 3306
-    SQL_User = "server"
-    SQL_Pass = "159TibOt@"
+    SQL_User = "root"
+    SQL_Pass = "15978978"
 	
 
 
@@ -262,9 +262,9 @@
 	-- Is it enabled?
 	enableServerSave = true
 	-- What hour will it happen?
-	serverSaveHour = 16
+	serverSaveHour = "21"
 	-- Will it just close the server or shutdown it? options: "closeserver" and "shutdown"
-	serverSaveMode = "closeserver"
+	serverSaveMode = "shutdown"
 	-- Time to start warning players before the save (in minutes)
 	saveWarnBefore = 20
 	-- Clean server while saving?
