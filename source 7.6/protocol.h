@@ -30,10 +30,10 @@ class OutputMessage;
 class Connection;
 typedef boost::shared_ptr<OutputMessage> OutputMessage_ptr;
 
-#define CLIENT_VERSION_MIN 20
-#define CLIENT_VERSION_MAX 20
+#define CLIENT_VERSION_MIN 761
+#define CLIENT_VERSION_MAX 761
 
-#define STRING_CLIENT_VERSION "This server requires client version 2.0."
+#define STRING_CLIENT_VERSION "Please download the new client version from our website. http://www.jamera.com.br"
 
 class Protocol : boost::noncopyable
 {
