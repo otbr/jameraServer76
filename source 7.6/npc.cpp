@@ -1614,7 +1614,7 @@ void Npc::executeResponse(Player* player, NpcState* npcState, const NpcResponse*
 
 					#ifdef __DEBUG_LUASCRIPTS__
 					std::stringstream desc;
-					desc << "npc " << m_npc->getName();
+					desc << "npc " << getName();
 					env->setEventDesc(desc.str());
 					#endif
 

@@ -2849,9 +2849,10 @@ int LuaScriptInterface::luaDoRelocate(lua_State *L)
 int LuaScriptInterface::luaDoPlayerSendTextMessage(lua_State *L)
 {
 	//doPlayerSendTextMessage(cid, MessageClasses, message)
-	std::string text = popString(L);
+	const char * text = popString(L);
 	uint32_t messageClass = popNumber(L);
 	uint32_t cid = popNumber(L);
+ 	
 
 	ScriptEnviroment* env = getScriptEnv();
 

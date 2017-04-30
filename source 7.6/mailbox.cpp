@@ -145,7 +145,7 @@ bool Mailbox::sendItem(Item* item)
 		
 		if(!IOPlayer::instance()->loadPlayer(player, receiver)){
 			#ifdef __DEBUG_MAILBOX__
-			std::cout << "Failure: [Mailbox::sendItem], can not load player: " << reciever << std::endl;
+			std::cout << "Failure: [Mailbox::sendItem], can not load player: " << receiver << std::endl;
 			#endif
 			delete player;
 			return false;
