@@ -442,8 +442,8 @@ bool Protocol76::parseFirstPacket(NetworkMessage& msg)
 	const std::string name = msg.GetString();
 	const std::string password = msg.GetString();
 	
-	if(false){
-		disconnectClient(0x0A, version);
+	if(version < CLIENT_VERSION_MIN || version > CLIENT_VERSION_MAX){
+		disconnectClient(0x0A, std::to_string(version));
 		return false;
 	}
 	
