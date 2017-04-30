@@ -82,7 +82,7 @@ bool ProtocolLogin::parseFirstPacket(NetworkMessage& msg)
         return false;
     }
 
-	if(version < CLIENT_VERSION_MIN || version > CLIENT_VERSION_MAX){
+	if(version != CLIENT_VERSION_MIN){
 		disconnectClient(0x0A, STRING_CLIENT_VERSION);
 		return false;
 	}
