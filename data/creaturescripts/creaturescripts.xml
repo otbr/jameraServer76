@@ -2,9 +2,10 @@
 
 <creaturescripts>
 	<event type="Login" name="PlayerLogin" script="login.lua"/>
-	<event type="Login" name="VipCheck" event="script" value="vipcheck.lua"/>
+	<!--<event type="Login" name="VipCheck" script="vipcheck.lua"/>-->
 	<!--<event type="look" name="TaskLook" script="tasklook.lua"/>-->
-	<event type="kill" name="KillTask" script="killtask.lua"/>
+        <event type="Kill" name="onPlayerKill" script="kill.lua"/>
+
 	<!--<event type="Death" name="PlayerDeath" script="playerdeath.lua"/>-->
 	<!--<event type="login" name="FirstItems" script="firstitems.lua"/>-->
 </creaturescripts>

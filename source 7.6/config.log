@@ -27,8 +27,6 @@ uname -v = #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
 
-PATH: /home/joao/bin
-PATH: /home/joao/.local/bin
 PATH: /usr/local/sbin
 PATH: /usr/local/bin
 PATH: /usr/sbin
@@ -37,7 +35,6 @@ PATH: /sbin
 PATH: /bin
 PATH: /usr/games
 PATH: /usr/local/games
-PATH: /snap/bin
 
 
 ## ----------- ##

@@ -23,6 +23,8 @@
 #include <iostream>
 #include <sstream>
 
+#include <boost/filesystem.hpp>
+#include <boost/any.hpp>
 #include "luascript.h"
 #include "player.h"
 #include "party.h"
@@ -1371,6 +1373,9 @@ void LuaScriptInterface::registerFunctions()
 	
 	//isCreature(cid)
 	lua_register(m_luaState, "isCreature", LuaScriptInterface::luaIsCreature);
+        
+	//isMonster(cid)
+        lua_register(m_luaState, "isMonster", LuaScriptInterface::luaIsMonster);
 	
 	//isContainer(uid)
 	lua_register(m_luaState, "isContainer", LuaScriptInterface::luaIsContainer);
@@ -1672,6 +1677,9 @@ void LuaScriptInterface::registerFunctions()
 
 	//isInArray(array, value)
 	lua_register(m_luaState, "isInArray", LuaScriptInterface::luaIsInArray);
+
+        //isInArrayString(array, value)
+        lua_register(m_luaState, "isInArrayString", LuaScriptInterface::luaIsInArrayString);
 
 	//addEvent(callback, delay, ...)
 	lua_register(m_luaState, "addEvent", LuaScriptInterface::luaAddEvent);
@@ -4290,18 +4298,23 @@ int LuaScriptInterface::luaDoPlayerAddExp(lua_State *L)
 		useMultiplier = (popNumber(L) >= 1);
 	}
 	if(parameters > 2){
-		useRate = (popNumber(L) >= 1);
+	 	useRate = (popNumber(L) >= 1);
 	}
 
 	int64_t exp = (int64_t)popNumber(L);
 	uint32_t cid = popNumber(L);
-
+	
 	ScriptEnviroment* env = getScriptEnv();
 	Player* player = env->getPlayerByUID(cid);
+	std::cout << "[Lua Script] Add Exp " << exp << " to Player " << player->getName() << std::endl;
 	if(player){
+		std::cout << "Aki1" << std::endl;
 		if(exp > 0){
+	                std::cout << "Aki2" << std::endl;
 			exp = int64_t(exp * (useMultiplier ? double(player->exp_multiplier) : 1.0) *
 				(useRate ? g_config.getNumber(ConfigManager::RATE_EXPERIENCE) : 1.0));
+
+	                std::cout << "Aki3 " << exp << std::endl;
 			player->addExperience(exp);
 			lua_pushnumber(L, LUA_TRUE);
 		}
@@ -5960,6 +5973,23 @@ int LuaScriptInterface::luaIsCreature(lua_State *L)
 	return 1;
 }
 
+int LuaScriptInterface::luaIsMonster(lua_State *L)
+{
+        //isMonster(cid)
+        uint32_t cid = popNumber(L);
+
+        ScriptEnviroment* env = getScriptEnv();
+
+        if(env->getCreatureByUID(cid)->getMonster()){
+                lua_pushnumber(L, LUA_TRUE);
+        }
+        else{
+                lua_pushnumber(L, LUA_FALSE);
+        }
+        return 1;
+}
+
+
 int LuaScriptInterface::luaIsContainer(lua_State *L)
 {
 	//isContainer(uid)
@@ -6172,15 +6202,17 @@ int LuaScriptInterface::luaRegisterCreatureEvent(lua_State *L)
 	//registerCreatureEvent(cid, name)
 	const char* name = popString(L);
 	uint32_t cid = popNumber(L);
-
+	std::cout << "[Luas Script] Register event " << name << " Player ID " << cid << std::endl;
 	ScriptEnviroment* env = getScriptEnv();
 
 	Creature* creature = env->getCreatureByUID(cid);
 	if(creature){
+		std::cout << "[Luas Script] Register event " << name << " Player ID " << cid << "[done]" << std::endl;
 		creature->registerCreatureEvent(name);
 		lua_pushnumber(L, LUA_NO_ERROR);
 	}
 	else{
+		std::cout << "[Luas Script] Register event " << name << " Player ID " << cid << "[fail]" << std::endl;
 		reportErrorFunc(getErrorDesc(LUA_ERROR_CREATURE_NOT_FOUND));
 		lua_pushnumber(L, LUA_ERROR);
 	}
@@ -6375,6 +6407,116 @@ int LuaScriptInterface::luaIsInArray(lua_State *L)
 		}
 		++i;
 	}
+}
+
+int LuaScriptInterface::luaIsInArrayString(lua_State *L)
+{
+	//isInArray(array, value[, caseSensitive = false])
+	bool caseSensitive = false;
+	if(lua_gettop(L) > 2)
+		caseSensitive = popNumber(L);
+
+	boost::any value;
+	if(lua_isnumber(L, -1))
+		value = popFloatNumber(L);
+	else if(lua_isboolean(L, -1))
+		value = popNumber(L);
+	else if(lua_isstring(L, -1))
+		value = popString(L);
+	else
+	{
+		lua_pop(L, 1);
+		lua_pushboolean(L, false);
+		return 1;
+	}
+
+	const std::type_info& type = value.type();
+	if(!caseSensitive && type == typeid(std::string))
+		value = asLowerCaseString(boost::any_cast<const char*>(value));
+
+	if(!lua_istable(L, -1))
+	{
+		boost::any data;
+		if(lua_isnumber(L, -1))
+			data = popFloatNumber(L);
+		else if(lua_isboolean(L, -1))
+			data = popNumber(L);
+		else if(lua_isstring(L, -1))
+			data = popString(L);
+		else
+		{
+			lua_pop(L, 1);
+			lua_pushboolean(L, false);
+			return 1;
+		}
+
+		if(type != data.type()) // check is it even same data type before searching deeper
+			lua_pushboolean(L, false);
+		else if(type == typeid(bool))
+			lua_pushboolean(L, boost::any_cast<bool>(value) == boost::any_cast<bool>(data));
+		else if(type == typeid(double))
+			lua_pushboolean(L, boost::any_cast<double>(value) == boost::any_cast<double>(data));
+		else if(caseSensitive)
+			lua_pushboolean(L, boost::any_cast<const char*>(value) == boost::any_cast<const char*>(data));
+		else
+			lua_pushboolean(L, boost::any_cast<const char*>(value) == asLowerCaseString(boost::any_cast<const char*>(data)));
+
+		return 1;
+	}
+
+	lua_pushnil(L);
+	while(lua_next(L, -2))
+	{
+		boost::any data;
+		if(lua_isnumber(L, -1))
+			data = popFloatNumber(L);
+		else if(lua_isboolean(L, -1))
+			data = popNumber(L);
+		else if(lua_isstring(L, -1))
+			data = popString(L);
+		else
+		{
+			lua_pop(L, 1);
+			break;
+		}
+
+		if(type != data.type()) // check is it same data type before searching deeper
+			continue;
+
+		if(type == typeid(bool))
+		{
+			if(boost::any_cast<bool>(value) != boost::any_cast<bool>(data))
+				continue;
+
+			lua_pushboolean(L, true);
+			return 1;
+		}
+		else if(type == typeid(double))
+		{
+			if(boost::any_cast<double>(value) != boost::any_cast<double>(data))
+				continue;
+
+			lua_pushboolean(L, true);
+			return 1;
+		}
+		else if(caseSensitive)
+		{
+			if(boost::any_cast<const char*>(value) != boost::any_cast<const char*>(data))
+				continue;
+
+			lua_pushboolean(L, true);
+			return 1;
+		}
+		else if(boost::any_cast<const char*>(value) == asLowerCaseString(boost::any_cast<const char*>(data)))
+		{
+			lua_pushboolean(L, true);
+			return 1;
+		}
+	}
+
+	lua_pop(L, 2);
+	lua_pushboolean(L, false);
+	return 1;
 }
 
 int LuaScriptInterface::luaDoCreatureChangeOutfit(lua_State *L)

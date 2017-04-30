@@ -1242,7 +1242,26 @@ luascript.o: luascript.cpp /usr/include/stdc-predef.h otpch.h \
  /usr/include/lua5.1/lua.h /usr/include/lua5.1/luaconf.h \
  /usr/include/x86_64-linux-gnu/lua5.1-deb-multiarch.h \
  /usr/include/lua5.1/lauxlib.h /usr/include/lua5.1/lua.h \
- /usr/include/lua5.1/lualib.h thing.h position.h luascript.h player.h \
+ /usr/include/lua5.1/lualib.h thing.h position.h \
+ /usr/include/boost/filesystem.hpp \
+ /usr/include/boost/filesystem/config.hpp \
+ /usr/include/boost/filesystem/path.hpp \
+ /usr/include/boost/filesystem/path_traits.hpp \
+ /usr/include/boost/io/detail/quoted_manip.hpp \
+ /usr/include/boost/filesystem/operations.hpp \
+ /usr/include/boost/detail/scoped_enum_emulation.hpp \
+ /usr/include/boost/detail/bitmask.hpp \
+ /usr/include/boost/range/mutable_iterator.hpp \
+ /usr/include/boost/range/config.hpp \
+ /usr/include/boost/range/range_fwd.hpp \
+ /usr/include/boost/range/detail/extract_optional_type.hpp \
+ /usr/include/boost/range/detail/msvc_has_iterator_workaround.hpp \
+ /usr/include/boost/range/const_iterator.hpp /usr/include/c++/5/stack \
+ /usr/include/c++/5/bits/stl_stack.h \
+ /usr/include/boost/filesystem/convenience.hpp /usr/include/boost/any.hpp \
+ /usr/include/boost/type_index.hpp \
+ /usr/include/boost/type_index/stl_type_index.hpp \
+ /usr/include/boost/type_index/type_index_facade.hpp luascript.h player.h \
  otsystem.h logger.h /usr/include/x86_64-linux-gnu/sys/timeb.h creature.h \
  templates.h map.h /usr/include/c++/5/queue \
  /usr/include/c++/5/bits/stl_queue.h item.h items.h const76.h enums.h \
@@ -4022,6 +4041,48 @@ definitions.h:
 thing.h:
 
 position.h:
+
+/usr/include/boost/filesystem.hpp:
+
+/usr/include/boost/filesystem/config.hpp:
+
+/usr/include/boost/filesystem/path.hpp:
+
+/usr/include/boost/filesystem/path_traits.hpp:
+
+/usr/include/boost/io/detail/quoted_manip.hpp:
+
+/usr/include/boost/filesystem/operations.hpp:
+
+/usr/include/boost/detail/scoped_enum_emulation.hpp:
+
+/usr/include/boost/detail/bitmask.hpp:
+
+/usr/include/boost/range/mutable_iterator.hpp:
+
+/usr/include/boost/range/config.hpp:
+
+/usr/include/boost/range/range_fwd.hpp:
+
+/usr/include/boost/range/detail/extract_optional_type.hpp:
+
+/usr/include/boost/range/detail/msvc_has_iterator_workaround.hpp:
+
+/usr/include/boost/range/const_iterator.hpp:
+
+/usr/include/c++/5/stack:
+
+/usr/include/c++/5/bits/stl_stack.h:
+
+/usr/include/boost/filesystem/convenience.hpp:
+
+/usr/include/boost/any.hpp:
+
+/usr/include/boost/type_index.hpp:
+
+/usr/include/boost/type_index/stl_type_index.hpp:
+
+/usr/include/boost/type_index/type_index_facade.hpp:
 
 luascript.h:
 

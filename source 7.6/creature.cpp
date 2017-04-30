@@ -1456,6 +1456,7 @@ void Creature::setNormalCreatureLight()
 
 bool Creature::registerCreatureEvent(const std::string& name)
 {
+	std::cout << "Register event " << name << std::endl;
 	CreatureEvent* event = g_creatureEvents->getEventByName(name);
 	if(event){
 		CreatureEventType_t type = event->getEventType();

@@ -149,10 +149,13 @@ CreatureEvent* CreatureEvents::getEventByName(const std::string& name, bool forc
 
 uint32_t CreatureEvents::playerLogIn(Player* player)
 {
+	std::cout << "[Login] " << player->getName() << " Login" << std::endl;
 	// fire global event if is registered
 	if(m_logInEvent){
+		std::cout << "[Login] " << player->getName() << " Execute onLogin" << std::endl;
 		return m_logInEvent->executeOnLogin(player);
 	}
+	std::cout << "[Login] " << player->getName() << " No function configured to execute onLogin" << std::endl;
 	return 1;
 }
 

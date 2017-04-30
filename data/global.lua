@@ -576,7 +576,7 @@ task_sys = {
 }
 
 daily_task = {
-	[1] = {name = "Orcs" ,monsters_list = {"Orc Berserker","Orc Rider","Orc Leader","Orc Warlord"}, count = 100, points = 0, reward = {}, exp = 5000, money = 10000},
+	[1] = {name = "Rats" ,monsters_list = {"rat","Orc Rider","Orc Leader","Orc Warlord"}, count = 2 , points = 0, reward = {}, exp = 5000, money = 10000},
 	[2] = {name = "TarantulaS" ,monsters_list = {"Tarantula"}, count = 120, points = 1, reward = {}, exp = 9000, money = 12000},
 	[3] = {name = "Wyvern" ,monsters_list = {"Wyvern"}, count = 125, points = 2, reward = {}, exp = 9000, money = 15000},
 	[4] = {name = "Dragons" ,monsters_list = {"Dragon","Dragon Hatchling"}, count = 150, points = 0, reward = {}, exp = 2000, money = 10000},
@@ -601,7 +601,7 @@ function getTaskPoints(cid)
 end
 function doRandomDailyTask(cid)
 	local t = {
-		[{6,49}] = {1,3},
+		[{6,49}] = {1,1},
 		[{50,79}] = {4,6},
 		[{80,129}] = {7,9},
 		[{130,math.huge}] = {10,12}
@@ -676,11 +676,5 @@ function GiveRewardsTask(cid, items)
 			end
 		end
 	end
-end
-function isSummon(cid)
-	if(not isCreature(cid)) then
-		return false
-	end
-	return getCreatureMaster(cid) ~= cid
 end
 

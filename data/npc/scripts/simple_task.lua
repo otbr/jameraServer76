@@ -14,7 +14,8 @@ function creatureSayCallback(cid, type, msg)
 
 	local talkUser,msg, str,rst = NPCHANDLER_CONVbehavior == CONVERSATION_DEFAULT and 0 or cid, msg:lower(),"",""
 	local task,daily, hours = getTaskMission(cid),getDailyTaskMission(cid), 24
-	if isInArray({"task","tasks","missao","mission"}, msg) then
+	
+	if (msgcontains(msg, 'task')) then
 		if task_sys[task] then
 			if getPlayerStorageValue(cid, task_sys[task].start) <= 0 then
 				if getPlayerLevel(cid) >= task_sys[task].level then
@@ -29,7 +30,7 @@ function creatureSayCallback(cid, type, msg)
 		else
 			npcHandler:say("Desculpe, Mas por enquanto não tenho mais nenhuma task para você!", cid)
 		end
-	elseif isInArray({"diaria","daili","daily","dayli","diario"}, msg) then
+	elseif (msgcontains(msg, 'daily')) then
 		if getPlayerStorageValue(cid, task_sys_storages[6]) - os.time() > 0 then
 			npcHandler:say("Desculpe, você deve esperar até "..os.date("%d %B %Y %X ", getPlayerStorageValue(cid,task_sys_storages[6])).." para iniciar uma nova task diaria!", cid) return true
 		elseif daily_task[daily] and getPlayerStorageValue(cid, task_sys_storages[5]) >= daily_task[daily].count then
@@ -45,18 +46,31 @@ function creatureSayCallback(cid, type, msg)
 		setPlayerStorageValue(cid, task_sys_storages[5], 0)
        local dtask = daily_task[r]
 		npcHandler:say("[Daily Task System] Parabéns, agora você está participando da Task Diaria do "..dtask.name.." e deverá matar "..dtask.count.." monstros desta lista: "..getMonsterFromList(dtask.monsters_list).." até "..os.date("%d %B %Y %X ", getPlayerStorageValue(cid,task_sys_storages[6]))..". Boa sorte!" , cid)
-	elseif isInArray({"receber","reward","recompensa","report","reportar","entregar","entrega"}, msg) then
+	elseif (msgcontains(msg, 'report')) then
 		local v, k = task_sys[task], daily_task[daily] 
 		if v then -- original task
 			if getPlayerStorageValue(cid, v.start) > 0 then
 				if getPlayerStorageValue(cid,task_sys_storages[3]) >= v.count then
 					if #v.items > 0 and not doRemoveItemsFromList(cid, v.items) then
-						npcHandler:say("Desculpe, Mas você também precisa entregar os itens desta lista: "..getItemsFromList(v.items), cid) return true
+						npcHandler:say("Desculpe, Mas você também precisa entregar os itens desta lista: "..getItemsFromList(v.items), cid) 
+						return true
 					end
-			 if v.exp > 0 then doPlayerAddExp(cid, v.exp) str = str.."".. (str == "" and "" or ", ") .." "..v.exp.." de exp" end
-		         if v.points > 0 then setPlayerStorageValue(cid, task_sys_storages[2], (getTaskPoints(cid)+v.points)) str = str.."".. (str == "" and "" or ", ") .." + "..v.points.."task points" end
-		         if v.money > 0 then doPlayerAddMoney(cid, v.money) str = str.."".. (str == "" and "" or ", ") ..""..v.money.." gps" end
-		         if table.maxn(v.reward) > 0 then GiveRewardsTask(cid, v.reward) str = str.."".. (str == "" and "" or ", ") ..""..getItemsFromList(v.reward) end
+					if v.exp > 0 then 
+						doPlayerAddExp(cid, v.exp) 
+						str = str.."".. (str == "" and "" or ", ") .." "..v.exp.." de exp" 
+					end
+		         		if v.points > 0 then 
+						setPlayerStorageValue(cid, task_sys_storages[2], (getTaskPoints(cid)+v.points)) 
+						str = str.."".. (str == "" and "" or ", ") .." + "..v.points.."task points" 
+					end
+		         		if v.money > 0 then 
+						doPlayerAddMoney(cid, v.money) 
+						str = str.."".. (str == "" and "" or ", ") ..""..v.money.." gps" 
+					end
+		         		if table.maxn(v.reward) > 0 then 
+						GiveRewardsTask(cid, v.reward)
+						str = str.."".. (str == "" and "" or ", ") ..""..getItemsFromList(v.reward) 
+					end
 					npcHandler:say("Obrigado pela sua ajuda Recompensas: "..(str == "" and "nenhuma" or ""..str.."").." por ter completado a task do "..v.name, cid)
 					setPlayerStorageValue(cid, task_sys_storages[3], 0)
 					setPlayerStorageValue(cid, task_sys_storages[1], (task+1))
@@ -82,7 +96,7 @@ function creatureSayCallback(cid, type, msg)
 			end
 		end
 	elseif msg == "no" then 
-		selfSay("Tudo bem então", cid) 
+		npcHandler:say("Tudo bem então", cid)
 		talkState[talkUser] = 0 
 		npcHandler:releaseFocus(cid) 
 	end
