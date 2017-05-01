@@ -31755,11 +31755,11 @@
     <monster name="dragon lord" x="4" y="1" z="15" spawntime="550"/>
     <monster name="Flamethrower" x="3" y="3" z="15" spawntime="60"/>
   </spawn>
-  <spawn centerx="32193" centery="31658" centerz="15" radius="6">
-    <npc name="Alfhild" x="32193" y="31658" z="6" spawntime="550"/>
-  </spawn>  
-    <spawn centerx="32300" centery="32217" centerz="6" radius="6">
-    <npc name="Alfhild" x="32300" y="32217" z="6" spawntime="550"/>
-  </spawn> 
+    <spawn centerx="32300" centery="32217" centerz="6" radius="1">
+    <npc name="Alfhild" x="-1" y="0" z="6" spawntime="60"/>
+  </spawn>
+    <spawn centerx="33311" centery="31987" centerz="6" radius="1">
+    <npc name="Alfhild" x="-1" y="0" z="6" spawntime="60"/>
+  </spawn>
 
 </spawns>
