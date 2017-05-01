@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Barbarian Skullhunter" nameDescription="a barbarian skullhunter" race="blood" experience="85" speed="220" manacost="450">
+	<health now="135" max="135" />
+	<look type="11" head="114" body="132" legs="132" feet="132" corpse="3065" />
+	<targetchange interval="60000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag lightlevel="0" />
+		<flag lightcolor="0" />
+		<flag targetdistance="1" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="50" attack="65"/>
+	</attacks>
+	<defenses armor="15" defense="15">
+		<defense name="speed" interval="2000" chance="15" speedchange="240" duration="5000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="0"/>
+		<immunity drunk="0"/>
+		<immunity invisible="0"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="You will become my trophy." />
+		<voice sentence="Fight harder, coward." />
+		<voice sentence="Show that you are a worthy opponent." />
+	</voices>
+	<loot>
+		<item id="3976" countmax="10" chance="50000"/><!-- worm -->
+		<item id="2148" countmax="29" chance="100000"/><!-- gold coin -->
+		<item id="2666" countmax="3" chance="33333"/><!-- meat -->
+		<item id="2381" chance="6666"/><!-- halberd -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="2464" chance="10000"/><!-- chain armor -->
+				<item id="2458" chance="10000"/><!-- chain helmet -->
+				<item id="2044" chance="5000"/><!-- lamp -->
+				<item id="2378" chance="5000"/><!-- battle axe -->
+			</inside>
+		</item>
+	</loot>
+	
+	<loot>
+		<item id="2050" chance="61500" /><!-- torch -->
+		<item id="2148" countmax="45" chance="100000"/><!-- gold coin -->
+		<item id="2205" chance="230" /> <!-- life ring -->
+		<item id="5155" chance="230" /> <!-- tiger helmet -->
+		<item id="2666" countmax="3" chance="33333"/><!-- meat -->
+		<item id="2470" chance="20360" /> <!-- brass helmet-->
+		<item id="2473" chance="5080" /> <!-- viking helmet-->
+		<item id="2483" chance="10000"/><!-- scale armor -->
+		<item id="5221" chance="100" /><!-- fur boots-->
+		<item id="5222" chance="110" /><!--  Krimhorn Helmet -->
+		<item id="2378" chance="5000"/><!-- battle axe -->
+	</loot>
+</monster>
