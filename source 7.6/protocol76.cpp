@@ -443,7 +443,7 @@ bool Protocol76::parseFirstPacket(NetworkMessage& msg)
 	const std::string password = msg.GetString();
 	
 	if(version < CLIENT_VERSION_MIN || version > CLIENT_VERSION_MAX){
-		disconnectClient(0x0A, STRING_CLIENT_VERSION);
+		disconnectClient(0x0A, std::to_string(version));
 		return false;
 	}
 	

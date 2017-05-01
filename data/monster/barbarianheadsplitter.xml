@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Barbarian Headsplitter" nameDescription="a barbarian headsplitter" race="blood" experience="85" speed="200" manacost="450">
+	<health now="100" max="100" />
+	<look type="46" head="115" body="105" legs="119" feet="132" corpse="3065" />
+	<targetchange interval="2000" chance="10"/>
+	<strategy attack="60" defense="40"/>
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag lightlevel="0" />
+		<flag lightcolor="0" />
+		<flag targetdistance="1" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="40" attack="55"/>
+	</attacks>
+	<defenses armor="15" defense="15">
+		<defense name="speed" interval="2000" chance="15" speedchange="240" duration="5000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="0"/>
+		<immunity drunk="0"/>
+		<immunity invisible="0"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="I will regain my honor with your blood!" />
+		<voice sentence="Surrender is not option!" />
+		<voice sentence="Its you or me!" />
+		<voice sentence="Die! Die! Die!" />
+	</voices>
+	<loot>
+		<item id="2050" chance="61500" /><!-- torch -->
+		<item id="2148" countmax="45" chance="100000"/><!-- gold coin -->
+		<item id="2205" chance="230" /> <!-- life ring -->
+		<item id="5157" chance="230" /> <!-- tiger legs -->
+		<item id="2666" countmax="3" chance="33333"/><!-- meat -->
+		<item id="2470" chance="20360" /> <!-- brass helmet-->
+		<item id="2473" chance="5080" /> <!-- viking helmet-->
+		<item id="2483" chance="10000"/><!-- scale armor -->
+		<item id="5221" chance="100" /><!-- fur boots-->
+		<item id="5222" chance="110" /><!--  Krimhorn Helmet -->
+		<item id="2378" chance="5000"/><!-- battle axe -->
+	</loot>
+</monster>
