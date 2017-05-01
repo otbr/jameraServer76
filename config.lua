@@ -264,7 +264,7 @@
 	-- What hour will it happen?
 	serverSaveHour = 06
 	-- Will it just close the server or shutdown it? options: "closeserver" and "shutdown"
-	serverSaveMode = "closeserver"
+	serverSaveMode = "shutdown"
 	-- Time to start warning players before the save (in minutes)
 	saveWarnBefore = 20
 	-- Clean server while saving?
