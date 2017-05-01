@@ -11,6 +11,7 @@
         <parameter key="keywords" value="name;job;vega;" />
         <parameter key="keyword_reply1" value="My name is alfhild from the Nordic Tibia Ferries." />
         <parameter key="keyword_reply2" value="We are ferrymen. We transport goods and passengers to the Ice Islands." />
+        <parameter key="keyword_reply3" value="Ah." />
 
         <parameter key="module_shop" value="1"/>
         <parameter key="shop_buyable" value="" />
