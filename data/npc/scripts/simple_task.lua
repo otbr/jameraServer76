@@ -20,39 +20,39 @@ function creatureSayCallback(cid, type, msg)
 			if getPlayerStorageValue(cid, task_sys[task].start) <= 0 then
 				if getPlayerLevel(cid) >= task_sys[task].level then
 					setPlayerStorageValue(cid, task_sys[task].start, 1)
-					npcHandler:say("[Task System] Parabéns, agora você está participando da Task do "..task_sys[task].name.." e deverá matar "..task_sys[task].count.." desta lista: "..getMonsterFromList(task_sys[task].monsters_list)..". "..(#task_sys[task].items > 0 and "Ah e por favor me traga "..getItemsFromList(task_sys[task].items).." para mim." or "").."" , cid)
+					npcHandler:say("[Task System] Parabens, agora voce esta participando da Task do "..task_sys[task].name.." e devera matar "..task_sys[task].count.." desta lista: "..getMonsterFromList(task_sys[task].monsters_list)..". "..(#task_sys[task].items > 0 and "Ah e por favor me traga "..getItemsFromList(task_sys[task].items).." para mim." or "").."" , cid)
 				else
-					npcHandler:say("Desculpe, Mas você precisa alcançar level "..task_sys[task].level.." para poder participar da Task dos "..task_sys[task].name.."!", cid)
+					npcHandler:say("Desculpe, Mas voce precisa alcancar o level "..task_sys[task].level.." para poder participar da Task dos "..task_sys[task].name.."!", cid)
 				end
 			else
-				npcHandler:say("Desculpe, Mas você atualmente está na task "..task_sys[task].name..". Você pode {entregar} caso já tenha terminado.", cid)
+				npcHandler:say("Desculpe, Mas voce atualmente esta na task "..task_sys[task].name..". Voce pode {entregar} caso ja tenha terminado.", cid)
 			end
 		else
-			npcHandler:say("Desculpe, Mas por enquanto não tenho mais nenhuma task para você!", cid)
+			npcHandler:say("Desculpe, Mas por enquanto nao tenho mais nenhuma task para voce!", cid)
 		end
 	elseif (msgcontains(msg, 'daily')) then
 		if getPlayerStorageValue(cid, task_sys_storages[6]) - os.time() > 0 then
-			npcHandler:say("Desculpe, você deve esperar até "..os.date("%d %B %Y %X ", getPlayerStorageValue(cid,task_sys_storages[6])).." para iniciar uma nova task diaria!", cid) return true
+			npcHandler:say("Desculpe, voce deve esperar ate "..os.date("%d %B %Y %X ", getPlayerStorageValue(cid,task_sys_storages[6])).." para iniciar uma nova task diaria!", cid) return true
 		elseif daily_task[daily] and getPlayerStorageValue(cid, task_sys_storages[5]) >= daily_task[daily].count then
-			npcHandler:say("Desculpe, você tem task para {entregar} !", cid) return true
+			npcHandler:say("Desculpe, voce tem task para {entregar} !", cid) return true
 		end
 		local r = doRandomDailyTask(cid)
 		if r == 0 then
-			npcHandler:say("Desculpe, mas você não tem level para completar nenhuma Task diaria.", cid) return true
+			npcHandler:say("Desculpe, mas voce nao tem level para completar nenhuma Task diaria.", cid) return true
 		end
 		setPlayerStorageValue(cid, task_sys_storages[4], r)
 		setPlayerStorageValue(cid, task_sys_storages[6], os.time()+hours*3600)
 		setPlayerStorageValue(cid, task_sys_storages[7], 1)
 		setPlayerStorageValue(cid, task_sys_storages[5], 0)
        local dtask = daily_task[r]
-		npcHandler:say("[Daily Task System] Parabéns, agora você está participando da Task Diaria do "..dtask.name.." e deverá matar "..dtask.count.." monstros desta lista: "..getMonsterFromList(dtask.monsters_list).." até "..os.date("%d %B %Y %X ", getPlayerStorageValue(cid,task_sys_storages[6]))..". Boa sorte!" , cid)
+		npcHandler:say("[Daily Task System] Parabens, agora voce esta participando da Task Diaria do "..dtask.name.." e devera matar "..dtask.count.." monstros desta lista: "..getMonsterFromList(dtask.monsters_list).." ate "..os.date("%d %B %Y %X ", getPlayerStorageValue(cid,task_sys_storages[6]))..". Boa sorte!" , cid)
 	elseif (msgcontains(msg, 'report')) then
 		local v, k = task_sys[task], daily_task[daily] 
 		if v then -- original task
 			if getPlayerStorageValue(cid, v.start) > 0 then
 				if getPlayerStorageValue(cid,task_sys_storages[3]) >= v.count then
 					if #v.items > 0 and not doRemoveItemsFromList(cid, v.items) then
-						npcHandler:say("Desculpe, Mas você também precisa entregar os itens desta lista: "..getItemsFromList(v.items), cid) 
+						npcHandler:say("Desculpe, Mas voce tambem precisa entregar os itens desta lista: "..getItemsFromList(v.items), cid) 
 						return true
 					end
 					if v.exp > 0 then 
@@ -75,7 +75,7 @@ function creatureSayCallback(cid, type, msg)
 					setPlayerStorageValue(cid, task_sys_storages[3], 0)
 					setPlayerStorageValue(cid, task_sys_storages[1], (task+1))
 				else
-					npcHandler:say("Desculpe, Mas você ainda não terminou a sua task do "..v.name..". Preciso que mate mais "..(getPlayerStorageValue(cid, task_sys_storages[3]) < 0 and v.count or -(getPlayerStorageValue(cid,task_sys_storages[3])-v.count)).." Destes monstros terriveis!", cid)
+					npcHandler:say("Desculpe, Mas voce ainda nao terminou a sua task do "..v.name..". Preciso que mate mais "..(getPlayerStorageValue(cid, task_sys_storages[3]) < 0 and v.count or -(getPlayerStorageValue(cid,task_sys_storages[3])-v.count)).." Destes monstros terriveis!", cid)
 				end
 			end
 		end
@@ -91,12 +91,12 @@ function creatureSayCallback(cid, type, msg)
 					setPlayerStorageValue(cid, task_sys_storages[5], 0)
 					setPlayerStorageValue(cid, task_sys_storages[7], 0)
 					else
-					npcHandler:say("Desculpe, Mas você ainda não terminou a sua task diaria do "..k.name..". Preciso que mate mais "..(getPlayerStorageValue(cid, task_sys_storages[5]) < 0 and k.count or -(getPlayerStorageValue(cid,task_sys_storages[5])-k.count)).." Destes monstros!", cid)
+					npcHandler:say("Desculpe, Mas voce ainda nao terminou a sua task diaria do "..k.name..". Preciso que mate mais "..(getPlayerStorageValue(cid, task_sys_storages[5]) < 0 and k.count or -(getPlayerStorageValue(cid,task_sys_storages[5])-k.count)).." Destes monstros!", cid)
 				end
 			end
 		end
 	elseif msg == "no" then 
-		npcHandler:say("Tudo bem então", cid)
+		npcHandler:say("Tudo bem entao", cid)
 		talkState[talkUser] = 0 
 		npcHandler:releaseFocus(cid) 
 	end
