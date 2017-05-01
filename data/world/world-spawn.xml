@@ -5507,6 +5507,9 @@
   <spawn centerx="32350" centery="32220" centerz="7" radius="1">
     <npc name="Benjamin" x="-1" y="-1" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="32344" centery="32221" centerz="7" radius="1">
+    <npc name="Ludger" x="-1" y="-1" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="32378" centery="32221" centerz="7" radius="1">
     <npc name="Oswald" x="1" y="-1" z="7" spawntime="60"/>
   </spawn>
@@ -11526,7 +11529,7 @@
     <monster name="rat" x="-5" y="5" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32445" centery="32213" centerz="8" radius="1">
-    <npc name="marvik" x="-1" y="0" z="8" spawntime="60"/>
+    <npc name="Marvik" x="-1" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="31964" centery="32214" centerz="8" radius="5">
     <monster name="troll" x="0" y="0" z="8" spawntime="60"/>

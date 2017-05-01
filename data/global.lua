@@ -542,3 +542,140 @@ function getDirectionTo(pos1, pos2)
 	end
 	return dir
 end
+
+--Task System
+
+
+--Task system
+task_sys = {
+	[1] = {name = "Rats", start = 176201, monsters_list = {"Rat","Cave rat"}, level = 8, count = 100, points = 0, items = {}, reward = {}, exp = 0, money = 2000},
+	[2] = {name = "Trolls", start = 176202, monsters_list = {"Troll", "Frost Troll"}, level = 10, count = 100, points = 0, items = {}, reward = {}, exp = 4000, money = 0},
+	[3] = {name = "Swamp Trolls", start = 176203, monsters_list = {"Swamp troll"}, level = 11, count = 100, points = 0, items = {}, reward = {}, exp = 5000, money = 0},
+	[4] = {name = "Snakes", start = 176204, monsters_list = {"Snake"}, level = 12, count = 100, points = 1, items = {}, reward = {}, exp = 0, money = 4000},
+	[5] = {name = "Hyenas", start = 176205, monsters_list = {"Hyena"}, level = 12, count = 150, points = 1, items = {}, reward = {}, exp = 8000, money = 0},
+	[6] = {name = "Rotworms", start = 176206, monsters_list = {"Rotworm"}, level = 13, count = 500, points = 2, items = {}, reward = {}, exp = 25000, money = 5000},
+	[7] = {name = "Orcs", start = 176207, monsters_list = {"Orc", "Orc spearman", "Orc warrior"}, level = 13, count = 500, points = 2, items = {}, reward = {}, exp = 27000, money = 2000},
+	[8] = {name = "Skeletons", start = 176208, monsters_list = {"Skeleton"}, level = 15, count = 100, points = 2, items = {}, reward = {}, exp = 10000, money = },
+	[9] = {name = "Amazons", start = 176209, monsters_list = {"Amazon"}, level = 20, count = 200, points = 2, items = {}, reward = {}, exp = 2400, money = 10000},
+	[10] = {name = "Valkyries", start = 176210, monsters_list = {"Valkyrie"}, level = 25, count = 200, points = 2, items = {}, reward = {}, exp = 0, money = 10000},	
+	[11] = {name = "Witches", start = 176211, monsters_list = {"Witch"}, level = 30, count = 50, points = 2, items = {}, reward = {}, exp = 24000, money = 0},	
+	[12] = {name = "Elfs scoults", start = 176212, monsters_list = {"Elf scoult"}, level = 32, count = 150, points = 2, items = {}, reward = {}, exp = 40000, money = 3000},		
+	[13] = {name = "Cyclops", start = 176213, monsters_list = {"Cyclops"}, level = 33, count = 150, points = 2, items = {}, reward = {}, exp = 100000, money = 5000},	
+	[14] = {name = "Crypt Shamblers", start = 176214, monsters_list = {"Crypt Shambler"}, level = 36, count = 400, points = 3, items = {}, reward = {}, exp = 150000, money = 8000},
+	[15] = {name = "Dwarf Guards", start = 176215, monsters_list = {"Dwarf Guard"}, level = 38, count = 650, points = 3, items = {}, reward = {}, exp = 45000, money = 8000},
+	[16] = {name = "Minotaur mages", start = 176216, monsters_list = {"Minotaur mage"}, level = 40, count = 200, points = 2, items = {}, reward = {}, exp = 100000, money = 8200},
+	[17] = {name = "Demon Skeletons", start = 176217, monsters_list = {"Demon Skeleton"}, level = 42, count = 400, points = 3, items = {}, reward = {}, exp = 200000, money = 0},
+	[18] = {name = "Barbarians", start = 176218, monsters_list = {"Barbarian Skullhunter", "Barbarian Headsplitter", "Barbarian Brutetamer", "Barbarian Bloodwalker"}, level = 44, count = 170, points = 2, items = {}, reward = {}, exp = 200000, money = 5000},
+	[19] = {name = "Liches", start = 176219, monsters_list = {"Lich"}, level = 46, count = 170, points = 2, items = {}, reward = {}, exp = 200000, money = 5000},
+	[20] = {name = "Bonebeasts", start = 176220, monsters_list = {"Bonebeast"}, level = 50, count = 400, points = 1, items = {}, reward = {}, exp = 200000, money = 9000},
+	[21] = {name = "Minotaurs" ,start = 176221, monsters_list = {"Minotaur", "Minotaur mage", "Minotaur archer", "Minotaur guard"}, level = 60, count = 4000, points = 3, items = {}, reward = {}, exp = 250000, money = 15000},
+	[22] = {name = "Crystal Spiders" ,start = 176222, monsters_list = {"Crystal Spider"}, level = 63, count = 250, points = 3, items = {}, reward = {}, exp = 25000, money = 11000},
+	[23] = {name = "Giant Spider" ,start = 176223, monsters_list = {"Giant Spider","The old widow"}, level = 500, count = 500, points = 0, items = {}, reward = {}, exp = 20000, money = 32000},
+	[24] = {name = "Dragons" ,start = 176224, monsters_list = {"Dragon"}, level = 82, count = 2500, points = 3, items = {}, reward = {}, exp = 1000000, money = 5000},
+	[25] = {name = "Ancient Scarabs" ,start = 176225, monsters_list = {"Ancient Scarab"}, level = 83, count = 600, points = 3, items = {}, reward = {}, exp = 25000, money = 18000},
+	[26] = {name = "Vampires" ,start = 176226, monsters_list = {"Vampire"}, level = 85, count = 450, points = 4, items = {}, reward = {}, exp = 250000, money = 10000},
+	[27] = {name = "Heroes" ,start = 176227, monsters_list = {"Hero"}, level = 88, count = 200, points = 3, items = {}, reward = {}, exp = 250000, money = 11000},
+	[28] = {name = "Dragon Lords" ,start = 176228, monsters_list = {"Dragon lord"}, level = 89, count = 500, points = 3, items = {}, reward = {}, exp = 400000, money = 8000},
+	[29] = {name = "Warlocks" ,start = 17629, monsters_list = {"Warlock"}, level = 90, count = 600, points = 4, items = {}, reward = {}, exp = 400000, money = 10000},
+	[30] = {name = "Hydras" ,start = 176230, monsters_list = {"Hydra"}, level = 100, count = 700, points = 3, items = {}, reward = {}, exp = , money = 40000},
+	[31] = {name = "Serpent Spawn" ,start = 176231, monsters_list = {"Serpent Spawn"}, level = 103, count = 720, points = 4, items = {}, reward = {}, exp = 50000, money = 45000},
+	[32] = {name = "Demons" ,start = 176232, monsters_list = {"Demon"}, level = 110, count = 666, points = 4, items = {}, reward = {}, exp = 666666, money = 66666}
+}
+
+daily_task = {
+	[1] = {name = "Rats" ,monsters_list = {"rat","Orc Rider","Orc Leader","Orc Warlord"}, count = 2 , points = 0, reward = {}, exp = 5000, money = 10000},
+	[2] = {name = "TarantulaS" ,monsters_list = {"Tarantula"}, count = 120, points = 1, reward = {}, exp = 9000, money = 12000},
+	[4] = {name = "Dragons" ,monsters_list = {"Dragon","Dragon Hatchling"}, count = 150, points = 0, reward = {}, exp = 2000, money = 10000},
+	[6] = {name = "Ancient Scarabs" ,monsters_list = {"Ancient Scarab"}, count = 180, points = 5, reward = {}, exp = 22000, money = 18000},
+	[9] = {name = "Giant Spiders" ,monsters_list = {"Giant Spider"}, count = 350, points = 3, reward = {}, exp = 60000, money = 70000},
+	[11] = {name = "HydraS" ,monsters_list = {"Hydra"}, count = 600, points = 3, reward = {{2173,1}}, exp = 100000, money = 160000},
+}
+task_sys_storages = {176601, 176602, 176603, 176604, 176605, 176606, 176607, 176608} -- task, points, count, daily task, daily count, daily time , daily start, contador
+function getTaskMission(cid)
+	return getPlayerStorageValue(cid,task_sys_storages[1]) < 0 and 1 or getPlayerStorageValue(cid,task_sys_storages[1])
+end
+function getDailyTaskMission(cid)
+	return getPlayerStorageValue(cid,task_sys_storages[4]) < 0 and 1 or getPlayerStorageValue(cid,task_sys_storages[4])
+end
+function getTaskPoints(cid)
+	return getPlayerStorageValue(cid,task_sys_storages[2]) < 0 and 0 or getPlayerStorageValue(cid,task_sys_storages[2])
+end
+function doRandomDailyTask(cid)
+	local t = {
+		[{6,49}] = {1,1},
+		[{50,79}] = {4,6},
+		[{80,129}] = {7,9},
+		[{130,math.huge}] = {10,12}
+	}
+	for a , b in pairs(t) do
+		if getPlayerLevel(cid) >= a[1] and getPlayerLevel(cid) <= a[2] then
+			return math.random(b[1], b[2])
+		end
+	end
+	return 0
+end
+function GetRankTask(cid)
+	local ranks = {
+		[{1, 20}] = "Huntsman", 
+		[{21, 50}] = "Ranger",
+		[{51, 100}] = "Big Game Hunter",
+		[{101, 200}] = "Trophy Hunter",		
+		[{201, math.huge}] = "Elite Hunter"
+	}
+	for v , r in pairs(ranks) do
+		if getTaskPoints(cid) >= v[1] and getTaskPoints(cid) <= v[2] then
+			return r
+		end
+	end
+	return 0
+end
+function getItemsFromList(items)
+	local str = ''
+	if table.maxn(items) > 0 then
+		for i = 1, table.maxn(items) do
+			str = str .. items[i][2] .. ' ' .. getItemNameById(items[i][1])
+			if i ~= table.maxn(items) then str = str .. ', ' 
+			end 
+		end 
+	end
+	return str
+end
+function doRemoveItemsFromList(cid,items)
+	local count = 0
+	if table.maxn(items) > 0 then
+		for i = 1, table.maxn(items) do
+			if getPlayerItemCount(cid,items[i][1]) >= items[i][2] then
+			count = count + 1 end 
+		end 
+	end
+	if count == table.maxn(items) then
+		for i = 1, table.maxn(items) do doPlayerRemoveItem(cid,items[i][1],items[i][2]) end
+	else 
+		return false 
+	end
+	return true 
+end
+function getMonsterFromList(monster)
+	local str = ''
+	if #monster > 0 then
+		for i = 1, #monster do
+			str = str .. monster[i]
+			if i ~= #monster then str = str .. ', ' end
+		end 
+	end
+	return str
+end
+function GiveRewardsTask(cid, items)
+	local backpack = doPlayerAddItem(cid, 1999, 1) -- backpackID
+	for _, i_i in ipairs(items) do
+		local item, amount = i_i[1],i_i[2]
+		if isItemStackable(item) or amount == 1 then
+			doAddContainerItem(backpack, item, amount)
+		else
+			for i = 1, amount do
+				doAddContainerItem(backpack, item, 1)
+			end
+		end
+	end
+end
+

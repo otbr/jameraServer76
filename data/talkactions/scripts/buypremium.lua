@@ -21,7 +21,7 @@ function onSay(cid, words, param)
             end
         else]]--
             if getPlayerPremiumDays(cid) + param <= 365 then
-            local cost = 20000
+            local cost = 40000
             if doPlayerRemoveMoney(cid, cost) == TRUE then
                 doPlayerAddPremiumDays(cid, param)
                 doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "You have bought ".. param .." days of premium account. Please login again!")

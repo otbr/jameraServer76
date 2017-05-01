@@ -23,10 +23,10 @@
 	<movevent event="StepIn" actionid="50102" script="town/Carlin.lua" />
 	<movevent event="StepIn" actionid="50103" script="town/ab.lua" />
 	<movevent event="StepIn" actionid="50104" script="town/kazordoon.lua" />
-	<movevent event="StepIn" actionid="50105" script="town/Venore.lua" />
+	<movevent event="StepIn" actionid="50105" script="town/venore.lua" />
 	<movevent event="StepIn" actionid="50106" script="town/Edron.lua" />
-	<movevent event="StepIn" actionid="50107" script="town/Darashia.lua" />
-	<movevent event="StepIn" actionid="50108" script="town/ankrahmun.lua" />
+	<movevent event="StepIn" actionid="50107" script="town/darashia.lua" />
+	<movevent event="StepIn" actionid="50108" script="town/Ankrahmun.lua" />
 	<movevent event="StepIn" actionid="50109" script="town/port_hope.lua" />
 	<movevent event="StepIn" actionid="50100" script="town/venoretp.lua" />
 	<movevent event="StepIn" actionid="50124" script="town/freeacc.lua" />
@@ -79,22 +79,22 @@
    <movevent event="StepIn" actionid="9602" script="draconia/teleport.lua"/>
    
    -- Poi
-   	<movevent event="StepIn" actionid="4650" script="pits of inferno/poi_entrance.lua"/>
-   	<movevent event="StepIn" actionid="4651" script="pits of inferno/poi_exit.lua"/>
+   	<movevent event="StepIn" actionid="4650" script="pits of inferno/poi_Entrance.lua"/>
+   	<movevent event="StepIn" actionid="4651" script="pits of inferno/poi_Exit.lua"/>
 	<!---<movevent event="AddItem" tileitem="1" uniqueid="4652" script="pits of inferno/gravestone.lua"/>-->
 	
 
    -- Paradox
-	<movevent event="StepIn" actionid="8006" script="paradox/paradox_entrance.lua"/>
-	<movevent event="StepIn" actionid="8007" script="paradox/paradox_deadtree.lua"/>
-	<movevent event="StepIn" actionid="8008" script="paradox/paradox_lvl1.lua"/>
-	<movevent event="AddItem" tileitem="1" actionid="8009" script="paradox/paradox_lvl3.lua"/>
-	<movevent event="RemoveItem" tileitem="1" actionid="8009" script="paradox/paradox_lvl3.lua"/>
-   	<movevent event="StepIn" actionid="8011" script="paradox/paradox_questroom.lua"/>
-	<movevent event="StepIn" actionid="8012" script="paradox/paradox_questroom.lua"/>
-	<movevent event="StepIn" actionid="8013" script="paradox/paradox_questroom.lua"/>
-	<movevent event="StepIn" actionid="8014" script="paradox/paradox_questroom.lua"/>			
-	<movevent event="StepIn" actionid="8015" script="paradox/paradox_exit.lua"/>
+	<movevent event="StepIn" actionid="8006" script="paradox/Paradox_Entrance.lua"/>
+	<movevent event="StepIn" actionid="8007" script="paradox/Paradox_deadtree.lua"/>
+	<movevent event="StepIn" actionid="8008" script="paradox/Paradox_lvl1.lua"/>
+	<movevent event="AddItem" tileitem="1" actionid="8009" script="paradox/Paradox_lvl3.lua"/>
+	<movevent event="RemoveItem" tileitem="1" actionid="8009" script="paradox/Paradox_lvl3.lua"/>
+   	<movevent event="StepIn" actionid="8011" script="paradox/Paradox_Questroom.lua"/>
+	<movevent event="StepIn" actionid="8012" script="paradox/Paradox_Questroom.lua"/>
+	<movevent event="StepIn" actionid="8013" script="paradox/Paradox_Questroom.lua"/>
+	<movevent event="StepIn" actionid="8014" script="paradox/Paradox_Questroom.lua"/>			
+	<movevent event="StepIn" actionid="8015" script="paradox/Paradox_Exit.lua"/>
    -- Banshee
 	<movevent event="StepIn" actionid="9008" script="banshee/seal_1.lua"/> 
 	<movevent event="StepIn" actionid="9009" script="banshee/seal_2.lua"/> 
@@ -111,8 +111,8 @@
     <movevent event="StepIn" actionid="9028" script="banshee/tpsouth.lua"/> 
 	
 	-- dhq
-	<movevent event="StepIn" uniqueid="9025" script="dhq/beginoff.lua"/>
-    <movevent event="StepOut" uniqueid="9025" script="dhq/beginoff.lua"/>	
+	<movevent event="StepIn" uniqueid="9025" script="dhq/Beginoff.lua"/>
+    <movevent event="StepOut" uniqueid="9025" script="dhq/Beginoff.lua"/>	
 
 
 	
