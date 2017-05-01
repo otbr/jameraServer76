@@ -15,7 +15,7 @@ function creatureSayCallback(cid, type, msg)
 	local talkUser,msg, str,rst = NPCHANDLER_CONVbehavior == CONVERSATION_DEFAULT and 0 or cid, msg:lower(),"",""
 	local task,daily, hours = getTaskMission(cid),getDailyTaskMission(cid), 24
 	
-	if (msgcontains(msg, 'task')) then
+	if (isInArrayString({"task","tasks","missao","mission"}, msg)) then
 		if task_sys[task] then
 			if getPlayerStorageValue(cid, task_sys[task].start) <= 0 then
 				if getPlayerLevel(cid) >= task_sys[task].level then
@@ -30,7 +30,7 @@ function creatureSayCallback(cid, type, msg)
 		else
 			npcHandler:say("Desculpe, Mas por enquanto nao tenho mais nenhuma task para voce!", cid)
 		end
-	elseif (msgcontains(msg, 'daily')) then
+	elseif (isInArrayString({"diaria","daili","daily","dayli","diario"}, msg)) then
 		if getPlayerStorageValue(cid, task_sys_storages[6]) - os.time() > 0 then
 			npcHandler:say("Desculpe, voce deve esperar ate "..os.date("%d %B %Y %X ", getPlayerStorageValue(cid,task_sys_storages[6])).." para iniciar uma nova task diaria!", cid) return true
 		elseif daily_task[daily] and getPlayerStorageValue(cid, task_sys_storages[5]) >= daily_task[daily].count then
@@ -46,7 +46,7 @@ function creatureSayCallback(cid, type, msg)
 		setPlayerStorageValue(cid, task_sys_storages[5], 0)
        local dtask = daily_task[r]
 		npcHandler:say("[Daily Task System] Parabens, agora voce esta participando da Task Diaria do "..dtask.name.." e devera matar "..dtask.count.." monstros desta lista: "..getMonsterFromList(dtask.monsters_list).." ate "..os.date("%d %B %Y %X ", getPlayerStorageValue(cid,task_sys_storages[6]))..". Boa sorte!" , cid)
-	elseif (msgcontains(msg, 'report')) then
+	elseif (isInArrayString({"receber","reward","recompensa","report","reportar","entregar","entrega"}, msg)) then
 		local v, k = task_sys[task], daily_task[daily] 
 		if v then -- original task
 			if getPlayerStorageValue(cid, v.start) > 0 then
