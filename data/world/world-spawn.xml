@@ -1323,7 +1323,7 @@
     <monster name="Barbarian Skullhunter" x="3" y="-3" z="6" spawntime="60"/>
     <monster name="Barbarian Headsplitter" x="2" y="-1" z="6" spawntime="60"/>
   </spawn>
-  <spawn centerx="32193" centery="31654" centerz="6" radius="1"/>
+  <spawn centerx="32193" centery="31655" centerz="6" radius="1"/>
   <spawn centerx="32670" centery="31656" centerz="6" radius="5">
     <npc name="Shiriel" x="-1" y="0" z="6" spawntime="60"/>
   </spawn>
@@ -2185,9 +2185,7 @@
   <spawn centerx="32308" centery="32209" centerz="6" radius="1">
     <npc name="Captain Bluebear" x="-1" y="1" z="6" spawntime="60"/>
   </spawn>
-  <spawn centerx="32298" centery="32210" centerz="6" radius="1">
-    <npc name="Captain Bluebear" x="-1" y="1" z="6" spawntime="60"/>
-  </spawn>
+  <spawn centerx="32298" centery="32210" centerz="6" radius="1"/>
   <spawn centerx="32362" centery="32210" centerz="6" radius="1">
     <npc name="Todd" x="-1" y="-1" z="6" spawntime="60"/>
   </spawn>
@@ -31757,4 +31755,11 @@
     <monster name="dragon lord" x="4" y="1" z="15" spawntime="550"/>
     <monster name="Flamethrower" x="3" y="3" z="15" spawntime="60"/>
   </spawn>
+  <spawn centerx="32193" centery="31658" centerz="15" radius="6">
+    <monster name="Alfhild" x="32193" y="31658" z="6" spawntime="550"/>
+  </spawn>  
+    <spawn centerx="32300" centery="32217" centerz="6" radius="6">
+    <monster name="Alfhild" x="32300" y="32217" z="6" spawntime="550"/>
+  </spawn> 
+
 </spawns>
