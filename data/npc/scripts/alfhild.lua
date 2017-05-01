@@ -13,11 +13,11 @@ local keywordHandler = KeywordHandler:new()
         
         
         -- Don't forget npcHandler = npcHandler in the parameters. It is required for all StdModule functions!
-        local travelNode = keywordHandler:addKeyword({'Nordic island'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Do you want a round-trip passage to Nordic island for 250 gold?'})
+        local travelNode = keywordHandler:addKeyword({'nordic island'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Do you want a round-trip passage to Nordic island for 250 gold?'})
         	travelNode:addChildKeyword({'yes'}, StdModule.travel, {npcHandler = npcHandler, premium = false, level = 0, cost = 250, destination = {x = 32193, y = 31658, z = 6} })
         	travelNode:addChildKeyword({'no'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, reset = true, text = 'You shouldn\'t miss the experience.'})
 			
-        keywordHandler:addKeyword({'passage'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Where do you want to go today? We serve the routes to Senja, Folda, and Vega, and back to Tibia.'})
+        keywordHandler:addKeyword({'passage'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Where do you want to go today? We serve the routes to Nordic island and Thais.'})
 		
 		
 		        -- Don't forget npcHandler = npcHandler in the parameters. It is required for all StdModule functions!
