@@ -82,8 +82,8 @@ bool ProtocolLogin::parseFirstPacket(NetworkMessage& msg)
         return false;
     }
 
-	if(version != CLIENT_VERSION_MIN){
-		disconnectClient(0x0A, "Download the new client at http://www.jamera.com.br");
+	if(version < CLIENT_VERSION_MIN || version > CLIENT_VERSION_MAX){
+		disconnectClient(0x0A, STRING_CLIENT_VERSION);
 		return false;
 	}
 
