@@ -583,8 +583,8 @@ task_sys = {
 }
 
 daily_task = {
-	[1] = {name = "Rats" ,monsters_list = {"rat","Orc Rider","Orc Leader","Orc Warlord"}, count = 2 , points = 0, reward = {}, exp = 5000, money = 10000},
-	[2] = {name = "TarantulaS" ,monsters_list = {"Tarantula"}, count = 120, points = 1, reward = {}, exp = 9000, money = 12000},
+	[1] = {name = "Orcs" ,monsters_list = {"Orc","Orc Rider","Orc Leader","Orc Warlord"}, count = 2 , points = 0, reward = {}, exp = 5000, money = 1000},
+	[2] = {name = "TarantulaS" ,monsters_list = {"Tarantula"}, count = 120, points = 1, reward = {}, exp = 9000, money = 1500},
 	[4] = {name = "Dragons" ,monsters_list = {"Dragon","Dragon Hatchling"}, count = 150, points = 0, reward = {}, exp = 2000, money = 10000},
 	[6] = {name = "Ancient Scarabs" ,monsters_list = {"Ancient Scarab"}, count = 180, points = 5, reward = {}, exp = 22000, money = 18000},
 	[9] = {name = "Giant Spiders" ,monsters_list = {"Giant Spider"}, count = 350, points = 3, reward = {}, exp = 60000, money = 70000},
