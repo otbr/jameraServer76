@@ -114,7 +114,7 @@
     HouseRentPeriod = "weekly"
 
     -- House price
-    HousePrice = 5000
+    HousePrice = 500
 
 
 --- INFO SYSTEM ---
@@ -170,9 +170,9 @@
 
     -- rates (experience, skill, magic level, loot and spawn)
     RateExp = 2
-    RateSkill = 4
+    RateSkill = 5
     RateMag = 5
-    RateLoot = 1
+    RateLoot = 2
     RateSpawn = 1
 
 
