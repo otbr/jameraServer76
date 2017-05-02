@@ -518,6 +518,7 @@ int32_t LuaScriptInterface::loadFile(const std::string& file, Npc* npc /* = NULL
 	int ret = luaL_loadfile(m_luaState, file.c_str());
 	if(ret != 0){
 		m_lastLuaError = popString(m_luaState);
+		std::cout << m_lastLuaError << std::endl;
 		return -1;
 	}
 	//check that it is loaded as a function

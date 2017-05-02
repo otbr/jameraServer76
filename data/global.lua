@@ -555,7 +555,7 @@ task_sys = {
 	[5] = {name = "Hyenas", start = 176205, monsters_list = {"Hyena"}, level = 12, count = 150, points = 1, items = {}, reward = {}, exp = 8000, money = 0},
 	[6] = {name = "Rotworms", start = 176206, monsters_list = {"Rotworm"}, level = 13, count = 500, points = 2, items = {}, reward = {}, exp = 25000, money = 5000},
 	[7] = {name = "Orcs", start = 176207, monsters_list = {"Orc", "Orc spearman", "Orc warrior"}, level = 13, count = 500, points = 2, items = {}, reward = {}, exp = 27000, money = 2000},
-	[8] = {name = "Skeletons", start = 176208, monsters_list = {"Skeleton"}, level = 15, count = 100, points = 2, items = {}, reward = {}, exp = 10000, money = },
+	[8] = {name = "Skeletons", start = 176208, monsters_list = {"Skeleton"}, level = 15, count = 100, points = 2, items = {}, reward = {}, exp = 10000, money = 0},
 	[9] = {name = "Amazons", start = 176209, monsters_list = {"Amazon"}, level = 20, count = 200, points = 2, items = {}, reward = {}, exp = 2400, money = 10000},
 	[10] = {name = "Valkyries", start = 176210, monsters_list = {"Valkyrie"}, level = 25, count = 200, points = 2, items = {}, reward = {}, exp = 0, money = 10000},	
 	[11] = {name = "Witches", start = 176211, monsters_list = {"Witch"}, level = 30, count = 50, points = 2, items = {}, reward = {}, exp = 24000, money = 0},	
@@ -577,7 +577,7 @@ task_sys = {
 	[27] = {name = "Heroes" ,start = 176227, monsters_list = {"Hero"}, level = 88, count = 200, points = 3, items = {}, reward = {}, exp = 250000, money = 11000},
 	[28] = {name = "Dragon Lords" ,start = 176228, monsters_list = {"Dragon lord"}, level = 89, count = 500, points = 3, items = {}, reward = {}, exp = 400000, money = 8000},
 	[29] = {name = "Warlocks" ,start = 17629, monsters_list = {"Warlock"}, level = 90, count = 600, points = 4, items = {}, reward = {}, exp = 400000, money = 10000},
-	[30] = {name = "Hydras" ,start = 176230, monsters_list = {"Hydra"}, level = 100, count = 700, points = 3, items = {}, reward = {}, exp = , money = 40000},
+	[30] = {name = "Hydras" ,start = 176230, monsters_list = {"Hydra"}, level = 100, count = 700, points = 3, items = {}, reward = {}, exp = 0, money = 40000},
 	[31] = {name = "Serpent Spawn" ,start = 176231, monsters_list = {"Serpent Spawn"}, level = 103, count = 720, points = 4, items = {}, reward = {}, exp = 50000, money = 45000},
 	[32] = {name = "Demons" ,start = 176232, monsters_list = {"Demon"}, level = 110, count = 666, points = 4, items = {}, reward = {}, exp = 666666, money = 66666}
 }
