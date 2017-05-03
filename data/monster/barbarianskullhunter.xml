@@ -60,7 +60,6 @@
 		<item id="2205" chance="230" /> <!-- life ring -->
 		<item id="5155" chance="230" /> <!-- tiger helmet -->
 		<item id="2666" countmax="3" chance="33333"/><!-- meat -->
-		<item id="2470" chance="20360" /> <!-- brass helmet-->
 		<item id="2473" chance="5080" /> <!-- viking helmet-->
 		<item id="2483" chance="10000"/><!-- scale armor -->
 		<item id="5221" chance="100" /><!-- fur boots-->
