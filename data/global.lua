@@ -550,14 +550,14 @@ end
 task_sys = {
 	[1] = {name = "Rats", start = 176201, monsters_list = {"Rat","Cave rat"}, level = 8, count = 100, points = 0, items = {}, reward = {}, exp = 0, money = 2000},
 	[2] = {name = "Trolls", start = 176202, monsters_list = {"Troll", "Frost Troll"}, level = 10, count = 100, points = 0, items = {}, reward = {}, exp = 4000, money = 0},
-	[3] = {name = "Swamp Trolls", start = 176203, monsters_list = {"Swamp troll"}, level = 11, count = 100, points = 0, items = {}, reward = {}, exp = 5000, money = 0},
+	[3] = {name = "Swamp Trolls", start = 176203, monsters_list = {"Swamp troll"}, level = 11, count = 100, points = 0, items = {}, reward = {{2173,1}}, exp = 5000, money = 0},
 	[4] = {name = "Snakes", start = 176204, monsters_list = {"Snake"}, level = 12, count = 100, points = 1, items = {}, reward = {}, exp = 0, money = 4000},
 	[5] = {name = "Hyenas", start = 176205, monsters_list = {"Hyena"}, level = 12, count = 150, points = 1, items = {}, reward = {}, exp = 8000, money = 0},
 	[6] = {name = "Rotworms", start = 176206, monsters_list = {"Rotworm"}, level = 13, count = 500, points = 2, items = {}, reward = {}, exp = 25000, money = 5000},
-	[7] = {name = "Orcs", start = 176207, monsters_list = {"Orc", "Orc spearman", "Orc warrior"}, level = 13, count = 500, points = 2, items = {}, reward = {}, exp = 27000, money = 2000},
-	[8] = {name = "Skeletons", start = 176208, monsters_list = {"Skeleton"}, level = 15, count = 100, points = 2, items = {}, reward = {}, exp = 10000, money = 0},
-	[9] = {name = "Amazons", start = 176209, monsters_list = {"Amazon"}, level = 20, count = 200, points = 2, items = {}, reward = {}, exp = 2400, money = 10000},
-	[10] = {name = "Valkyries", start = 176210, monsters_list = {"Valkyrie"}, level = 25, count = 200, points = 2, items = {}, reward = {}, exp = 0, money = 10000},	
+	[7] = {name = "Orcs", start = 176207, monsters_list = {"Orc", "Orc spearman", "Orc warrior"}, level = 13, count = 500, points = 2, items = {{5139,1}}, reward = {}, exp = 27000, money = 2000},
+	[8] = {name = "Skeletons", start = 176208, monsters_list = {"Skeleton"}, level = 15, count = 100, points = 2, items = {}, reward = {{5136,1}}, exp = 10000, money = 0},
+	[9] = {name = "Amazons", start = 176209, monsters_list = {"Amazon"}, level = 20, count = 200, points = 2, items = {}, reward = {{5140,1}}, exp = 2400, money = 10000},
+	[10] = {name = "Valkyries", start = 176210, monsters_list = {"Valkyrie"}, level = 25, count = 200, points = 2, items = {}, reward = {{5137,1}}, exp = 0, money = 10000},	
 	[11] = {name = "Witches", start = 176211, monsters_list = {"Witch"}, level = 30, count = 50, points = 2, items = {}, reward = {}, exp = 24000, money = 0},	
 	[12] = {name = "Elfs scoults", start = 176212, monsters_list = {"Elf scoult"}, level = 32, count = 150, points = 2, items = {}, reward = {}, exp = 40000, money = 3000},		
 	[13] = {name = "Cyclops", start = 176213, monsters_list = {"Cyclops"}, level = 33, count = 150, points = 2, items = {}, reward = {}, exp = 100000, money = 5000},	
@@ -568,7 +568,7 @@ task_sys = {
 	[18] = {name = "Barbarians", start = 176218, monsters_list = {"Barbarian Skullhunter", "Barbarian Headsplitter", "Barbarian Brutetamer", "Barbarian Bloodwalker"}, level = 44, count = 170, points = 2, items = {}, reward = {}, exp = 200000, money = 5000},
 	[19] = {name = "Liches", start = 176219, monsters_list = {"Lich"}, level = 46, count = 170, points = 2, items = {}, reward = {}, exp = 200000, money = 5000},
 	[20] = {name = "Bonebeasts", start = 176220, monsters_list = {"Bonebeast"}, level = 50, count = 400, points = 1, items = {}, reward = {}, exp = 200000, money = 9000},
-	[21] = {name = "Minotaurs" ,start = 176221, monsters_list = {"Minotaur", "Minotaur mage", "Minotaur archer", "Minotaur guard"}, level = 60, count = 4000, points = 3, items = {}, reward = {}, exp = 250000, money = 15000},
+	[21] = {name = "Minotaurs" ,start = 176221, monsters_list = {"Minotaur", "Minotaur mage", "Minotaur archer", "Minotaur guard"}, level = 60, count = 4000, points = 3, items = {}, reward = {{5127,1}}, exp = 250000, money = 15000},
 	[22] = {name = "Crystal Spiders" ,start = 176222, monsters_list = {"Crystal Spider"}, level = 63, count = 250, points = 3, items = {}, reward = {}, exp = 25000, money = 11000},
 	[23] = {name = "Giant Spider" ,start = 176223, monsters_list = {"Giant Spider","The old widow"}, level = 500, count = 500, points = 0, items = {}, reward = {}, exp = 20000, money = 32000},
 	[24] = {name = "Dragons" ,start = 176224, monsters_list = {"Dragon"}, level = 82, count = 2500, points = 3, items = {}, reward = {}, exp = 1000000, money = 5000},
@@ -576,19 +576,26 @@ task_sys = {
 	[26] = {name = "Vampires" ,start = 176226, monsters_list = {"Vampire"}, level = 85, count = 450, points = 4, items = {}, reward = {}, exp = 250000, money = 10000},
 	[27] = {name = "Heroes" ,start = 176227, monsters_list = {"Hero"}, level = 88, count = 200, points = 3, items = {}, reward = {}, exp = 250000, money = 11000},
 	[28] = {name = "Dragon Lords" ,start = 176228, monsters_list = {"Dragon lord"}, level = 89, count = 500, points = 3, items = {}, reward = {}, exp = 400000, money = 8000},
-	[29] = {name = "Warlocks" ,start = 17629, monsters_list = {"Warlock"}, level = 90, count = 600, points = 4, items = {}, reward = {}, exp = 400000, money = 10000},
-	[30] = {name = "Hydras" ,start = 176230, monsters_list = {"Hydra"}, level = 100, count = 700, points = 3, items = {}, reward = {}, exp = 0, money = 40000},
-	[31] = {name = "Serpent Spawn" ,start = 176231, monsters_list = {"Serpent Spawn"}, level = 103, count = 720, points = 4, items = {}, reward = {}, exp = 50000, money = 45000},
-	[32] = {name = "Demons" ,start = 176232, monsters_list = {"Demon"}, level = 110, count = 666, points = 4, items = {}, reward = {}, exp = 666666, money = 66666}
+	[29] = {name = "Dragon Lords" ,start = 176229, monsters_list = {"Black hunter"}, level = 90, count = 100, points = 3, items = {}, reward = {{5092, 1}}, exp = 450000, money = 0},	
+	[30] = {name = "Warlocks" ,start = 17630, monsters_list = {"Warlock"}, level = 91, count = 600, points = 4, items = {}, reward = {}, exp = 400000, money = 10000},
+	[31] = {name = "Hydras" ,start = 176231, monsters_list = {"Hydra"}, level = 100, count = 700, points = 3, items = {}, reward = {}, exp = 0, money = 40000},
+	[32] = {name = "Serpent Spawn" ,start = 176232, monsters_list = {"Serpent Spawn"}, level = 103, count = 720, points = 4, items = {}, reward = {}, exp = 50000, money = 45000},
+	[33] = {name = "Demons" ,start = 176233, monsters_list = {"Demon"}, level = 110, count = 666, points = 4, items = {}, reward = {}, exp = 666666, money = 66666}
 }
 
 daily_task = {
-	[1] = {name = "Orcs" ,monsters_list = {"Orc","Orc Rider","Orc Leader","Orc Warlord"}, count = 2 , points = 0, reward = {}, exp = 5000, money = 1000},
-	[2] = {name = "TarantulaS" ,monsters_list = {"Tarantula"}, count = 120, points = 1, reward = {}, exp = 9000, money = 1500},
-	[4] = {name = "Dragons" ,monsters_list = {"Dragon","Dragon Hatchling"}, count = 150, points = 0, reward = {}, exp = 2000, money = 10000},
-	[6] = {name = "Ancient Scarabs" ,monsters_list = {"Ancient Scarab"}, count = 180, points = 5, reward = {}, exp = 22000, money = 18000},
-	[9] = {name = "Giant Spiders" ,monsters_list = {"Giant Spider"}, count = 350, points = 3, reward = {}, exp = 60000, money = 70000},
-	[11] = {name = "HydraS" ,monsters_list = {"Hydra"}, count = 600, points = 3, reward = {{2173,1}}, exp = 100000, money = 160000},
+	[1] = {name = "Medium Orcs" ,monsters_list = {"Orc Rider","Orc Leader","Orc Warlord"}, count = 2 , points = 0, reward = {}, exp = 5000, money = 1000},
+	[2] = {name = "Tarantulas" ,monsters_list = {"Tarantula"}, count = 120, points = 1, reward = {}, exp = 9000, money = 1500},
+	[3] = {name = "Barbarians" ,monsters_list = {"Barbarian Skullhunter", "Barbarian Headsplitter", "Barbarian Brutetamer", "Barbarian Bloodwalker"}, count = 20, points = 0, reward = {}, exp = 9000, money = 1500},
+	[4] = {name = "Dragons" ,monsters_list = {"Dragon"}, count = 50, points = 0, reward = {}, exp = 2000, money = 3000},
+	[5] = {name = "Liches" ,monsters_list = {"Lich"}, count = 8, points = 0, reward = {}, exp = 2000, money = 2000},	
+	[6] = {name = "Ancient Scarabs" ,monsters_list = {"Ancient Scarab"}, count = 80, points = 5, reward = {}, exp = 22000, money = 2000},
+	[7] = {name = "Dragon Lords" ,monsters_list = {"Dragon lord"}, count = 10, points = 5, reward = {}, exp = 22000, money = 2000},	
+	[8] = {name = "Behemoths" ,monsters_list = {"Behemoth"}, count = 8, points = 5, reward = {}, exp = 33000, money = 2000},		
+	[9] = {name = "Giant Spiders" ,monsters_list = {"Giant Spider"}, count = 15, points = 3, reward = {}, exp = 15000, money = 3000},
+	[10] = {name = "Black hunter" ,monsters_list = {"Black hunter"}, count = 18, points = 2, reward = {{5151,1}}, exp = 20000, money = 8000},
+	[11] = {name = "Hydras" ,monsters_list = {"Hydra"}, count = 20, points = 10, reward = {{2173,1}}, exp = 20000, money = 8000},
+	
 }
 task_sys_storages = {176601, 176602, 176603, 176604, 176605, 176606, 176607, 176608} -- task, points, count, daily task, daily count, daily time , daily start, contador
 function getTaskMission(cid)
@@ -602,9 +609,9 @@ function getTaskPoints(cid)
 end
 function doRandomDailyTask(cid)
 	local t = {
-		[{6,49}] = {1,1},
-		[{50,79}] = {4,6},
-		[{80,129}] = {7,9},
+		[{6,49}] = {1,4},
+		[{50,79}] = {6,9},
+		[{80,129}] = {7,12},
 		[{130,math.huge}] = {10,12}
 	}
 	for a , b in pairs(t) do

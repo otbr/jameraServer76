@@ -14832,7 +14832,7 @@
 		<attribute key="absorbpercentphysical" value="20"/>
 	</item>
 	<item id="5139" article="a" name="bronze helmet">
-		<attribute key="weight" value="35"/>
+		<attribute key="weight" value="3500"/>
 		<attribute key="armor" value="7"/>
 		<attribute key="slotType" value="head"/>
 	</item>
