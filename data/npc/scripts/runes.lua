@@ -13,11 +13,11 @@ function creatureSayCallback(cid, type, msg)
 	if(npcHandler.focus ~= cid) then
 		return false
 	end
-end
 
- if msgcontains(msg, 'bp of uh')  or msgcontains(msg, 'bp uh') then
-	npcHandler:say('Do you want to buy a backpack of ultimate healing rune for 2500 gold coins?')
-	talk_state = 1
+
+	 if msgcontains(msg, 'bp of uh')  or msgcontains(msg, 'bp uh') then
+		npcHandler:say('Do you want to buy a backpack of ultimate healing rune for 2500 gold coins?')
+		talk_state = 1
 	
 		elseif msgcontains(msg, 'yes') and talk_state == 1 then
 			if getPlayerMoney(cid) >= 2500 then
@@ -51,9 +51,9 @@ end
 			end
 	end
 	
-if msgcontains(msg, 'bp of sudden death')  or msgcontains(msg, 'bp of sd')  or msgcontains(msg, 'bp sd') then
-	npcHandler:say('Do you want to buy a backpack of sudden death rune for 4500 gold coins?')
-	talk_state = 2
+	if msgcontains(msg, 'bp of sudden death')  or msgcontains(msg, 'bp of sd')  or msgcontains(msg, 'bp sd') then
+		npcHandler:say('Do you want to buy a backpack of sudden death rune for 4500 gold coins?')
+		talk_state = 2
 	
 		elseif msgcontains(msg, 'yes') and talk_state == 2 then
 			if getPlayerMoney(cid) >= 4500 then
@@ -123,10 +123,10 @@ if msgcontains(msg, 'bp of sudden death')  or msgcontains(msg, 'bp of sd')  or m
 		end
 	end
 
-if msgcontains(msg, 'bp of great fireball') or msgcontains(msg, 'bp of gfb') or msgcontains(msg, 'bp gfb') then
-	npcHandler:say('Do you want to buy a backpack of great fireball rune for 2000 gold coins?')
-	talk_state = 4
-	
+	if msgcontains(msg, 'bp of great fireball') or msgcontains(msg, 'bp of gfb') or msgcontains(msg, 'bp gfb') then
+		npcHandler:say('Do you want to buy a backpack of great fireball rune for 2000 gold coins?')
+		talk_state = 4
+		
 		elseif msgcontains(msg, 'yes') and talk_state == 4 then
 			if getPlayerMoney(cid) >= 2000 then
 				red_bp = doPlayerAddItem(cid, 2000, 1)
@@ -159,10 +159,10 @@ if msgcontains(msg, 'bp of great fireball') or msgcontains(msg, 'bp of gfb') or 
 			end
 	end
 
-if msgcontains(msg, 'bp of explosion') or msgcontains(msg, 'bp of explo') then
-	npcHandler:say('Do you want to buy a backpack of explosion rune for 3000 gold coins?')
-	talk_state = 5
-	
+	if msgcontains(msg, 'bp of explosion') or msgcontains(msg, 'bp of explo') then
+		npcHandler:say('Do you want to buy a backpack of explosion rune for 3000 gold coins?')
+		talk_state = 5
+		
 		elseif msgcontains(msg, 'yes') and talk_state == 5 then
 			if getPlayerMoney(cid) >= 3000 then
 				purple2_bp = doPlayerAddItem(cid, 2001, 1)
@@ -195,10 +195,10 @@ if msgcontains(msg, 'bp of explosion') or msgcontains(msg, 'bp of explo') then
 			end
 	end
 
-if msgcontains(msg, 'bp of mf') or msgcontains(msg, 'bp of manafluid') or msgcontains(msg, 'bp of mana fluid') then
-	npcHandler:say('Do you want to buy a backpack of mana fluid for 1100 gold coins?')
-	talk_state = 6
-	
+	if msgcontains(msg, 'bp of mf') or msgcontains(msg, 'bp of manafluid') or msgcontains(msg, 'bp of mana fluid') then
+		npcHandler:say('Do you want to buy a backpack of mana fluid for 1100 gold coins?')
+		talk_state = 6
+		
 		elseif msgcontains(msg, 'yes') and talk_state == 6 then
 			if getPlayerMoney(cid) >= 1100 then
 				brown_bp = doPlayerAddItem(cid, 1988, 1)
