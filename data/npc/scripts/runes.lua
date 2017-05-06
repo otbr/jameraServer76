@@ -14,7 +14,7 @@ function creatureSayCallback(cid, type, msg)
 		return false
 	end
 
---[[ if msgcontains(msg, 'bp of ultimate healing') then
+ if msgcontains(msg, 'bp of uh')  or msgcontains(msg, 'bp uh') then
 	npcHandler:say('Do you want to buy a backpack of ultimate healing rune for 2500 gold coins?')
 	talk_state = 1
 	
@@ -50,7 +50,7 @@ function creatureSayCallback(cid, type, msg)
 			end
 	end
 	
-if msgcontains(msg, 'bp of sudden death') then
+if msgcontains(msg, 'bp of sudden death')  or msgcontains(msg, 'bp of sd')  or msgcontains(msg, 'bp sd') then
 	npcHandler:say('Do you want to buy a backpack of sudden death rune for 4500 gold coins?')
 	talk_state = 2
 	
@@ -86,7 +86,7 @@ if msgcontains(msg, 'bp of sudden death') then
 			end
 	end	
 	
-if msgcontains(msg, 'bp of heavy magic missile') then
+if msgcontains(msg, 'bp of heavy magic missile')  or msgcontains(msg, 'bp of hmm')  or msgcontains(msg, 'bp gfb') then
 	npcHandler:say('Do you want to buy a backpack of heavy magic missile rune for 1000 gold coins?')
 	talk_state = 3
 	
@@ -122,7 +122,7 @@ if msgcontains(msg, 'bp of heavy magic missile') then
 			end
 	end
 
-if msgcontains(msg, 'bp of great fireball') then
+if msgcontains(msg, 'bp of great fireball') or msgcontains(msg, 'bp of gfb') or msgcontains(msg, 'bp gfb') then
 	npcHandler:say('Do you want to buy a backpack of great fireball rune for 2000 gold coins?')
 	talk_state = 4
 	
@@ -231,7 +231,7 @@ if msgcontains(msg, 'bp of mf') or msgcontains(msg, 'bp of manafluid') or msgcon
 	end	
 	
 		return TRUE
-end ]]--
+end 
 
 local shopModule = ShopModule:new()
 npcHandler:addModule(shopModule)
