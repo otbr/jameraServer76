@@ -270,12 +270,12 @@ end
 	-- Runas 
 
 	shopModule:addBuyableItem({'intense healing rune', 'ih'}, 2265, 95, 1, 'intense healing rune')
-	shopModule:addBuyableItem({'ultimate healing rune', 'uh'}, 2273, 125, 1, 'ultimate healing rune')
+	shopModule:addBuyableItem({'ultimate healing rune', 'ultimate healing'}, 2273, 125, 1, 'ultimate healing rune')
 	shopModule:addBuyableItem({'magic wall rune'}, 2293, 200, 3, 'magic wall rune')
 	shopModule:addBuyableItem({'destroy field rune'}, 2261, 45, 3, 'destroy field rune')
 	shopModule:addBuyableItem({'light magic missile rune'}, 2287, 40, 10, 'light magic missile rune')
-	shopModule:addBuyableItem({'heavy magic missile rune', 'hmm'}, 2311, 50, 5, 'heavy magic missile rune')
-	shopModule:addBuyableItem({'great fireball rune', 'gfb'}, 2304, 100, 4, 'great fireball rune')
+	shopModule:addBuyableItem({'heavy magic missile rune', 'heavy magic missile'}, 2311, 50, 5, 'heavy magic missile rune')
+	shopModule:addBuyableItem({'great fireball rune', 'great fireball rune'}, 2304, 100, 4, 'great fireball rune')
 	shopModule:addBuyableItem({'explosion rune', 'explosion'}, 2313, 150, 3, 'explosion rune')
 	shopModule:addBuyableItem({'sudden death rune', 'sd'}, 2268, 225, 1, 'sudden death rune')
 	shopModule:addBuyableItem({'death arrow rune'}, 2263, 300, 3, 'death arrow rune')
