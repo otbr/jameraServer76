@@ -570,16 +570,16 @@ task_sys = {
 	[20] = {name = "Bonebeasts", start = 176220, monsters_list = {"Bonebeast"}, level = 50, count = 400, points = 1, items = {}, reward = {}, exp = 200000, money = 9000},
 	[21] = {name = "Minotaurs" ,start = 176221, monsters_list = {"Minotaur", "Minotaur mage", "Minotaur archer", "Minotaur guard"}, level = 60, count = 4000, points = 3, items = {}, reward = {{5127,1}}, exp = 250000, money = 15000},
 	[22] = {name = "Crystal Spiders" ,start = 176222, monsters_list = {"Crystal Spider"}, level = 63, count = 250, points = 3, items = {}, reward = {}, exp = 25000, money = 11000},
-	[23] = {name = "Giant Spider" ,start = 176223, monsters_list = {"Giant Spider","The old widow"}, level = 500, count = 500, points = 0, items = {}, reward = {}, exp = 20000, money = 32000},
+	[23] = {name = "Giant Spider" ,start = 176223, monsters_list = {"Giant Spider","The old widow"}, level = 65, count = 500, points = 0, items = {}, reward = {}, exp = 200000, money = 32000},
 	[24] = {name = "Dragons" ,start = 176224, monsters_list = {"Dragon"}, level = 82, count = 2500, points = 3, items = {}, reward = {}, exp = 1000000, money = 5000},
-	[25] = {name = "Ancient Scarabs" ,start = 176225, monsters_list = {"Ancient Scarab"}, level = 83, count = 600, points = 3, items = {}, reward = {}, exp = 25000, money = 18000},
+	[25] = {name = "Ancient Scarabs" ,start = 176225, monsters_list = {"Ancient Scarab"}, level = 83, count = 600, points = 3, items = {}, reward = {}, exp = 200000, money = 18000},
 	[26] = {name = "Vampires" ,start = 176226, monsters_list = {"Vampire"}, level = 85, count = 450, points = 4, items = {}, reward = {}, exp = 250000, money = 10000},
 	[27] = {name = "Heroes" ,start = 176227, monsters_list = {"Hero"}, level = 88, count = 200, points = 3, items = {}, reward = {}, exp = 250000, money = 11000},
 	[28] = {name = "Dragon Lords" ,start = 176228, monsters_list = {"Dragon lord"}, level = 89, count = 500, points = 3, items = {}, reward = {}, exp = 400000, money = 8000},
-	[29] = {name = "Dragon Lords" ,start = 176229, monsters_list = {"Black hunter"}, level = 90, count = 100, points = 3, items = {}, reward = {{5092, 1}}, exp = 450000, money = 0},	
+	[29] = {name = "Black hunters" ,start = 176229, monsters_list = {"Black hunter"}, level = 90, count = 150, points = 3, items = {}, reward = {{5092, 1}}, exp = 450000, money = 0},	
 	[30] = {name = "Warlocks" ,start = 17630, monsters_list = {"Warlock"}, level = 91, count = 600, points = 4, items = {}, reward = {}, exp = 400000, money = 10000},
-	[31] = {name = "Hydras" ,start = 176231, monsters_list = {"Hydra"}, level = 100, count = 700, points = 3, items = {}, reward = {}, exp = 0, money = 40000},
-	[32] = {name = "Serpent Spawn" ,start = 176232, monsters_list = {"Serpent Spawn"}, level = 103, count = 720, points = 4, items = {}, reward = {}, exp = 50000, money = 45000},
+	[31] = {name = "Hydras" ,start = 176231, monsters_list = {"Hydra"}, level = 100, count = 700, points = 3, items = {}, reward = {}, exp = 800000, money = 40000},
+	[32] = {name = "Serpent Spawn" ,start = 176232, monsters_list = {"Serpent Spawn"}, level = 103, count = 720, points = 4, items = {}, reward = {}, exp = 500000, money = 45000},
 	[33] = {name = "Demons" ,start = 176233, monsters_list = {"Demon"}, level = 110, count = 666, points = 4, items = {}, reward = {}, exp = 666666, money = 66666}
 }
 
