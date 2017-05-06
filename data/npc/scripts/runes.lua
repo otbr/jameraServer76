@@ -233,6 +233,7 @@ function creatureSayCallback(cid, type, msg)
 	
 		return TRUE
 
+end
 
 	local shopModule = ShopModule:new()
 	npcHandler:addModule(shopModule)
@@ -292,7 +293,7 @@ function creatureSayCallback(cid, type, msg)
 	shopModule:addBuyableItem({'poison bomb rune', 'pb'},2286, 162,'poison bomb rune')
 	shopModule:addBuyableItem({'fire wall rune', 'fw'},2303, 52,'fire wall rune')
 	shopModule:addBuyableItem({'blank', 'rune'},2260, 10,'blank rune')
-end
+
 
 npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
 npcHandler:addModule(FocusModule:new())
