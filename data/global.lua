@@ -552,7 +552,7 @@ task_sys = {
 	[2] = {name = "Trolls", start = 176202, monsters_list = {"Troll", "Frost Troll"}, level = 10, count = 100, points = 0, items = {}, reward = {}, exp = 4000, money = 0},
 	[3] = {name = "Swamp Trolls", start = 176203, monsters_list = {"Swamp troll"}, level = 11, count = 100, points = 0, items = {}, reward = {}, exp = 5000, money = 0},
 	[4] = {name = "Snakes", start = 176204, monsters_list = {"Snake"}, level = 12, count = 100, points = 1, items = {}, reward = {}, exp = 0, money = 4000},
-	[5] = {name = "Hyenas", start = 176205, monsters_list = {"Hyena"}, level = 12, count = 150, points = 1, items = {}, reward = {}, exp = 8000, money = 0},
+	[5] = {name = "Elfs", start = 176205, monsters_list = {"Elf"}, level = 12, count = 150, points = 1, items = {}, reward = {}, exp = 8000, money = 0},
 	[6] = {name = "Rotworms", start = 176206, monsters_list = {"Rotworm"}, level = 13, count = 500, points = 2, items = {}, reward = {}, exp = 25000, money = 5000},
 	[7] = {name = "Orcs", start = 176207, monsters_list = {"Orc", "Orc spearman", "Orc warrior"}, level = 13, count = 500, points = 2, items = {{5139,1}}, reward = {}, exp = 27000, money = 2000},
 	[8] = {name = "Skeletons", start = 176208, monsters_list = {"Skeleton"}, level = 15, count = 100, points = 2, items = {}, reward = {{5136,1}}, exp = 10000, money = 0},
