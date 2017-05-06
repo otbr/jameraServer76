@@ -14754,6 +14754,7 @@
 		<attribute key="weaponType" value="shield"/>
 	</item>
 	<item id="5125" article="a" name="crystal sword">
+		<attribute key="weight" value="3100"/>	
 		<attribute key="defense" value="19"/>
 		<attribute key="attack" value="34"/>
 		<attribute key="weaponType" value="sword"/>
