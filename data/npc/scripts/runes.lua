@@ -13,6 +13,7 @@ function creatureSayCallback(cid, type, msg)
 	if(npcHandler.focus ~= cid) then
 		return false
 	end
+end
 
  if msgcontains(msg, 'bp of uh')  or msgcontains(msg, 'bp uh') then
 	npcHandler:say('Do you want to buy a backpack of ultimate healing rune for 2500 gold coins?')
@@ -86,40 +87,40 @@ if msgcontains(msg, 'bp of sudden death')  or msgcontains(msg, 'bp of sd')  or m
 			end
 	end	
 	
-if msgcontains(msg, 'bp of heavy magic missile')  or msgcontains(msg, 'bp of hmm')  or msgcontains(msg, 'bp gfb') then
-	npcHandler:say('Do you want to buy a backpack of heavy magic missile rune for 1000 gold coins?')
-	talk_state = 3
-	
+	if msgcontains(msg, 'bp of heavy magic missile')  or msgcontains(msg, 'bp of hmm')  or msgcontains(msg, 'bp hmm') then
+		npcHandler:say('Do you want to buy a backpack of heavy magic missile rune for 1000 gold coins?')
+		talk_state = 3
+
 		elseif msgcontains(msg, 'yes') and talk_state == 3 then
-			if getPlayerMoney(cid) >= 1000 then
-				purple1_bp = doPlayerAddItem(cid, 2001, 1)
-				doAddContainerItem(purple1_bp, 2311, 5)
-				doAddContainerItem(purple1_bp, 2311, 5)
-				doAddContainerItem(purple1_bp, 2311, 5)
-				doAddContainerItem(purple1_bp, 2311, 5)
-				doAddContainerItem(purple1_bp, 2311, 5)
-				doAddContainerItem(purple1_bp, 2311, 5)
-				doAddContainerItem(purple1_bp, 2311, 5)
-				doAddContainerItem(purple1_bp, 2311, 5)
-				doAddContainerItem(purple1_bp, 2311, 5)
-				doAddContainerItem(purple1_bp, 2311, 5)
-				doAddContainerItem(purple1_bp, 2311, 5)
-				doAddContainerItem(purple1_bp, 2311, 5)
-				doAddContainerItem(purple1_bp, 2311, 5)
-				doAddContainerItem(purple1_bp, 2311, 5)
-				doAddContainerItem(purple1_bp, 2311, 5)
-				doAddContainerItem(purple1_bp, 2311, 5)
-				doAddContainerItem(purple1_bp, 2311, 5)
-				doAddContainerItem(purple1_bp, 2311, 5)
-				doAddContainerItem(purple1_bp, 2311, 5)
-				doAddContainerItem(purple1_bp, 2311, 5)
-				doPlayerRemoveMoney(cid, 1000)
-				npcHandler:say('Thank you for buying.')
-				talk_state = 0
-			else
-				npcHandler:say('You don\'t have enough money.')
-				talk_state = 0
-			end
+		if getPlayerMoney(cid) >= 1000 then
+			purple1_bp = doPlayerAddItem(cid, 2001, 1)
+			doAddContainerItem(purple1_bp, 2311, 5)
+			doAddContainerItem(purple1_bp, 2311, 5)
+			doAddContainerItem(purple1_bp, 2311, 5)
+			doAddContainerItem(purple1_bp, 2311, 5)
+			doAddContainerItem(purple1_bp, 2311, 5)
+			doAddContainerItem(purple1_bp, 2311, 5)
+			doAddContainerItem(purple1_bp, 2311, 5)
+			doAddContainerItem(purple1_bp, 2311, 5)
+			doAddContainerItem(purple1_bp, 2311, 5)
+			doAddContainerItem(purple1_bp, 2311, 5)
+			doAddContainerItem(purple1_bp, 2311, 5)
+			doAddContainerItem(purple1_bp, 2311, 5)
+			doAddContainerItem(purple1_bp, 2311, 5)
+			doAddContainerItem(purple1_bp, 2311, 5)
+			doAddContainerItem(purple1_bp, 2311, 5)
+			doAddContainerItem(purple1_bp, 2311, 5)
+			doAddContainerItem(purple1_bp, 2311, 5)
+			doAddContainerItem(purple1_bp, 2311, 5)
+			doAddContainerItem(purple1_bp, 2311, 5)
+			doAddContainerItem(purple1_bp, 2311, 5)
+			doPlayerRemoveMoney(cid, 1000)
+			npcHandler:say('Thank you for buying.')
+			talk_state = 0
+		else
+			npcHandler:say('You don\'t have enough money.')
+			talk_state = 0
+		end
 	end
 
 if msgcontains(msg, 'bp of great fireball') or msgcontains(msg, 'bp of gfb') or msgcontains(msg, 'bp gfb') then
