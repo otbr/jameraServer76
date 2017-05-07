@@ -824,23 +824,23 @@
   <spawn centerx="32544" centery="31808" centerz="5" radius="5">
     <monster name="wolf" x="0" y="0" z="5" spawntime="60"/>
   </spawn>
-  <spawn centerx="32023" centery="31817" centerz="5" radius="5">
+  <spawn centerx="32022" centery="31816" centerz="5" radius="5">
     <monster name="Barbarian Brutetamer" x="1" y="0" z="5" spawntime="60"/>
   </spawn>
-  <spawn centerx="32008" centery="31818" centerz="5" radius="5">
+  <spawn centerx="32007" centery="31817" centerz="5" radius="5">
     <monster name="Barbarian Brutetamer" x="-1" y="-1" z="5" spawntime="60"/>
   </spawn>
-  <spawn centerx="32016" centery="31821" centerz="5" radius="5">
+  <spawn centerx="32015" centery="31820" centerz="5" radius="5">
     <monster name="Yeti" x="-1" y="1" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="32842" centery="31827" centerz="5" radius="5">
     <monster name="wasp" x="0" y="0" z="5" spawntime="60"/>
   </spawn>
-  <spawn centerx="32022" centery="31830" centerz="5" radius="5">
+  <spawn centerx="32021" centery="31829" centerz="5" radius="5">
     <monster name="Barbarian Brutetamer" x="2" y="-1" z="5" spawntime="60"/>
     <monster name="Elf" x="0" y="0" z="5" spawntime="60"/>
   </spawn>
-  <spawn centerx="32007" centery="31831" centerz="5" radius="5">
+  <spawn centerx="32006" centery="31830" centerz="5" radius="5">
     <monster name="Barbarian Brutetamer" x="-1" y="-1" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="32594" centery="31831" centerz="5" radius="5">
@@ -1327,6 +1327,9 @@
   <spawn centerx="32670" centery="31656" centerz="6" radius="5">
     <npc name="Shiriel" x="-1" y="0" z="6" spawntime="60"/>
   </spawn>
+  <spawn centerx="32193" centery="31658" centerz="6" radius="1">
+    <npc name="Alfhild" x="-1" y="0" z="6" spawntime="60"/>
+  </spawn>
   <spawn centerx="31908" centery="31659" centerz="6" radius="5"/>
   <spawn centerx="32652" centery="31663" centerz="6" radius="5">
     <npc name="Ukea" x="-1" y="2" z="6" spawntime="60"/>
@@ -1687,11 +1690,11 @@
   <spawn centerx="33213" centery="31812" centerz="6" radius="2">
     <npc name="Rudolph" x="0" y="0" z="6" spawntime="60"/>
   </spawn>
-  <spawn centerx="32008" centery="31817" centerz="6" radius="5">
+  <spawn centerx="32007" centery="31816" centerz="6" radius="5">
     <monster name="Barbarian Skullhunter" x="0" y="-1" z="6" spawntime="60"/>
     <monster name="Barbarian Bloodwalker" x="-2" y="0" z="6" spawntime="60"/>
   </spawn>
-  <spawn centerx="32024" centery="31818" centerz="6" radius="5">
+  <spawn centerx="32023" centery="31817" centerz="6" radius="5">
     <monster name="Barbarian Headsplitter" x="-1" y="-1" z="6" spawntime="60"/>
     <monster name="Barbarian Skullhunter" x="0" y="-1" z="6" spawntime="60"/>
   </spawn>
@@ -1707,7 +1710,7 @@
     <monster name="goblin" x="-3" y="2" z="6" spawntime="60"/>
     <monster name="goblin" x="3" y="3" z="6" spawntime="60"/>
   </spawn>
-  <spawn centerx="32016" centery="31823" centerz="6" radius="5">
+  <spawn centerx="32015" centery="31822" centerz="6" radius="5">
     <monster name="demon skeleton" x="0" y="-3" z="6" spawntime="60"/>
     <monster name="demon skeleton" x="-2" y="1" z="6" spawntime="60"/>
   </spawn>
@@ -1731,14 +1734,14 @@
     <monster name="goblin" x="5" y="1" z="6" spawntime="60"/>
     <monster name="goblin" x="-1" y="4" z="6" spawntime="60"/>
   </spawn>
-  <spawn centerx="32348" centery="31828" centerz="6" radius="2">
-    <npc name="Lea" x="0" y="0" z="6" spawntime="60"/>
-  </spawn>
-  <spawn centerx="32006" centery="31829" centerz="6" radius="5">
+  <spawn centerx="32005" centery="31828" centerz="6" radius="5">
     <monster name="Barbarian Headsplitter" x="0" y="2" z="6" spawntime="60"/>
     <monster name="Barbarian Skullhunter" x="1" y="2" z="6" spawntime="60"/>
   </spawn>
-  <spawn centerx="32023" centery="31831" centerz="6" radius="5">
+  <spawn centerx="32348" centery="31828" centerz="6" radius="2">
+    <npc name="Lea" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32022" centery="31830" centerz="6" radius="5">
     <monster name="Barbarian Skullhunter" x="1" y="-2" z="6" spawntime="60"/>
     <monster name="Barbarian Bloodwalker" x="-1" y="-1" z="6" spawntime="60"/>
   </spawn>
@@ -2185,10 +2188,13 @@
   <spawn centerx="32308" centery="32209" centerz="6" radius="1">
     <npc name="Captain Bluebear" x="-1" y="1" z="6" spawntime="60"/>
   </spawn>
-  <spawn centerx="32298" centery="32210" centerz="6" radius="1"/>
+  <spawn centerx="32298" centery="32210" centerz="6" radius="1">
+    <npc name="Alfhild" x="1" y="1" z="6" spawntime="60"/>
+  </spawn>
   <spawn centerx="32362" centery="32210" centerz="6" radius="1">
     <npc name="Todd" x="-1" y="-1" z="6" spawntime="60"/>
   </spawn>
+  <spawn centerx="32300" centery="32211" centerz="6" radius="1"/>
   <spawn centerx="32002" centery="32213" centerz="6" radius="5">
     <monster name="troll" x="0" y="0" z="6" spawntime="60"/>
   </spawn>
@@ -2892,6 +2898,9 @@
   <spawn centerx="33211" centery="31634" centerz="7" radius="5">
     <monster name="rabbit" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="32139" centery="31635" centerz="7" radius="1">
+    <npc name="Suzy" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="32147" centery="31635" centerz="7" radius="1">
     <npc name="Omur" x="0" y="-1" z="7" spawntime="60"/>
   </spawn>
@@ -2901,7 +2910,6 @@
   <spawn centerx="32127" centery="31636" centerz="7" radius="5">
     <monster name="winter wolf" x="1" y="0" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="32139" centery="31636" centerz="7" radius="1"/>
   <spawn centerx="32355" centery="31637" centerz="7" radius="1">
     <monster name="amazon" x="-1" y="-1" z="7" spawntime="60"/>
   </spawn>
@@ -9986,7 +9994,6 @@
   </spawn>
   <spawn centerx="32164" centery="31646" centerz="8" radius="5">
     <monster name="frost troll" x="0" y="0" z="8" spawntime="60"/>
-    <monster name="Frost dragon" x="1" y="3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32467" centery="31646" centerz="8" radius="5">
     <monster name="spider" x="0" y="0" z="8" spawntime="60"/>
@@ -12177,7 +12184,7 @@
     <monster name="rat" x="-5" y="5" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="32445" centery="32213" centerz="8" radius="1">
-    <npc name="Marvik" x="-1" y="0" z="8" spawntime="60"/>
+    <npc name="marvik" x="-1" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="31964" centery="32214" centerz="8" radius="5">
     <monster name="troll" x="0" y="0" z="8" spawntime="60"/>
@@ -31758,11 +31765,4 @@
     <monster name="dragon lord" x="4" y="1" z="15" spawntime="550"/>
     <monster name="Flamethrower" x="3" y="3" z="15" spawntime="60"/>
   </spawn>
-    <spawn centerx="32300" centery="32211" centerz="6" radius="1">
-    <npc name="Alfhild" x="-1" y="0" z="6" spawntime="60"/>
-  </spawn>
-    <spawn centerx="32193" centery="31658" centerz="6" radius="1">
-    <npc name="Alfhild" x="-1" y="0" z="6" spawntime="60"/>
-  </spawn>
-
 </spawns>

@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<npc name="Ringers" floorchange="0" walkinterval="1000">
+  <health now="150" max="150"/>
+  <look type="136" head="78" body="76" legs="72" feet="96"/>
+
+  <interaction range="5" idletimeout="30">
+
+    <interact keywords="hi"  focus="1">
+      <keywords>hello</keywords>
+      <response text="Hello, hello, |NAME|! I sell Rigns!"/>
+    </interact>
+	
+    <interact keywords="bye" focus="0">
+      <keywords>farewell</keywords>
+      <response text="Bye, bye."/>
+    </interact>
+	
+	<interact event="onIdle" time="120" singleevent="1">
+      <response text="Bye, bye." public="1"/>
+    </interact>	
+	
+    <interact event="onPlayerLeave" focus="0">
+      <response text="Bye, bye."/>
+    </interact>	
+
+    <interact event="onBusy">
+      <response text="Not now, not now, sorry |NAME|. Please wait a moment.">
+        <action name="addqueue" value="|PLAYER|"/>
+      </response>
+    </interact>
+	
+    <interact keywords="sell">
+      <response text="I sell rings."/>
+    </interact>
+
+
+    <interact keywords="wares">
+	<keywords>offer</keywords>
+      <response text="I sell rings. For what do you want to ask?"/>
+    </interact>	
+
+    <interact keywords="rings">
+      <response text="I sell ring of healing, life ring, axe ring, club ring, sword ring and time ring. Just tell me what you want to buy."/>
+    </interact>	
+	
+	<interact keywords="ring;of;healing" pname="rohs">
+		<keywords>|AMOUNT|;ring;of;healing</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2384"/>
+			<action name="price" value="15"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>
+
+	<interact keywords="life;ring" pname="life rings">
+		<keywords>|AMOUNT|;life;ring</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2385"/>
+			<action name="price" value="1000"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="club;ring" pname="club rings">
+		<keywords>|AMOUNT|;club;ring</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2379"/>
+			<action name="price" value="1000"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="axe;ring" pname="axe rings">
+		<keywords>|AMOUNT|;axe;ring</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2405"/>
+			<action name="price" value="1000"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="sword;ring" pname="sword rings">
+		<keywords>|AMOUNT|;sword;rings</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2380"/>
+			<action name="price" value="1000"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact topic="1" keywords="yes">
+		<response param="lowmoney" text="Sorry, you do not have enough gold."/>
+		<response text="Thank you. Here it is.">
+			<action name="takemoney" value="|PRICE|"/>
+			<action name="giveitem" value="|ITEM|"/>
+		</response>
+	</interact>	
+	
+	<interact topic="1" keywords="|*|">
+	<keywords>no</keywords>
+		<response text="Maybe you will buy it another time."/>
+	</interact>
+
+	<interact topic="2" keywords="yes">
+		<response param="lowmoney" text="Sorry, you do not have one."/>
+		<response param="lowamount" text="Sorry, you do not have that many."/>
+		<response text="Ok. Here is your money.">
+			<action name="takemoney" value="|PRICE|"/>
+			<action name="giveitem" value="|ITEM|"/>
+		</response>
+	</interact>	
+	
+	<interact topic="2" keywords="|*|">
+	<keywords>no</keywords>
+		<response text="Maybe next time."/>
+	</interact>		
+
+	</interaction>
+  
+</npc>
