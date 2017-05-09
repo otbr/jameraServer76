@@ -7289,12 +7289,12 @@
 	<item id="2358" name="soft boots">
 		<attribute key="weight" value="800"/>
 		<attribute key="slotType" value="feet"/>
-		<attribute key="decayTo" value="2641"/>
-		<attribute key="transformDeEquipTo" value="2358"/>
+		<attribute key="decayTo" value="2238"/>
+		<attribute key="transformDeEquipTo" value="5218"/>
 		<attribute key="duration" value="14400"/>
-		<attribute key="healthGain" value="1"/>
+		<attribute key="healthGain" value="200"/>
 		<attribute key="healthTicks" value="2000"/>
-		<attribute key="manaGain" value="2"/>
+		<attribute key="manaGain" value="200"/>
 		<attribute key="manaTicks" value="1000"/>
 		<attribute key="showduration" value="1"/>
 	</item>
