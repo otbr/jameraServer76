@@ -47,8 +47,8 @@
 		<keywords>|AMOUNT|;ring;of;healing</keywords>
 		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
 			<action name="topic" value="1"/>
-			<action name="item" value="2384"/>
-			<action name="price" value="15"/>
+			<action name="item" value="2216"/>
+			<action name="price" value="1200"/>
 			<action name="amount" value="|AMOUNT|"/>
 		</response>
 	</interact>
@@ -57,7 +57,7 @@
 		<keywords>|AMOUNT|;life;ring</keywords>
 		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
 			<action name="topic" value="1"/>
-			<action name="item" value="2385"/>
+			<action name="item" value="2168"/>
 			<action name="price" value="1000"/>
 			<action name="amount" value="|AMOUNT|"/>
 		</response>
@@ -67,7 +67,7 @@
 		<keywords>|AMOUNT|;club;ring</keywords>
 		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
 			<action name="topic" value="1"/>
-			<action name="item" value="2379"/>
+			<action name="item" value="2212"/>
 			<action name="price" value="1000"/>
 			<action name="amount" value="|AMOUNT|"/>
 		</response>
@@ -77,7 +77,7 @@
 		<keywords>|AMOUNT|;axe;ring</keywords>
 		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
 			<action name="topic" value="1"/>
-			<action name="item" value="2405"/>
+			<action name="item" value="2208"/>
 			<action name="price" value="1000"/>
 			<action name="amount" value="|AMOUNT|"/>
 		</response>
@@ -87,7 +87,7 @@
 		<keywords>|AMOUNT|;sword;rings</keywords>
 		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
 			<action name="topic" value="1"/>
-			<action name="item" value="2380"/>
+			<action name="item" value="2207"/>
 			<action name="price" value="1000"/>
 			<action name="amount" value="|AMOUNT|"/>
 		</response>
