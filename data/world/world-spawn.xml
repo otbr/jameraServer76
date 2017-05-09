@@ -919,6 +919,9 @@
   <spawn centerx="32498" centery="32075" centerz="5" radius="5">
     <monster name="poison spider" x="0" y="0" z="5" spawntime="300"/>
   </spawn>
+  <spawn centerx="32931" centery="32075" centerz="5" radius="5">
+    <npc name="Ringers" x="0" y="2" z="5" spawntime="60"/>
+  </spawn>
   <spawn centerx="32884" centery="32082" centerz="5" radius="1">
     <npc name="Leeland" x="-1" y="0" z="5" spawntime="60"/>
   </spawn>
@@ -1647,6 +1650,9 @@
   </spawn>
   <spawn centerx="33214" centery="31794" centerz="6" radius="1">
     <npc name="Willard" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32335" centery="31795" centerz="6" radius="5">
+    <npc name="Ringers" x="2" y="-1" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="32891" centery="31795" centerz="6" radius="5">
     <monster name="orc spearman" x="0" y="0" z="6" spawntime="60"/>
@@ -2933,7 +2939,7 @@
     <monster name="minotaur" x="3" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32150" centery="31641" centerz="7" radius="1">
-    <npc name="Ishina" x="0" y="-1" z="7" spawntime="60"/>
+    <npc name="Ringers" x="1" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32362" centery="31643" centerz="7" radius="1">
     <monster name="amazon" x="0" y="0" z="7" spawntime="60"/>
@@ -6102,6 +6108,9 @@
   </spawn>
   <spawn centerx="32131" centery="32222" centerz="7" radius="5">
     <monster name="snake" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="32359" centery="32222" centerz="7" radius="5">
+    <npc name="Ringers" x="-1" y="-1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="32398" centery="32222" centerz="7" radius="2">
     <npc name="Xodet" x="-1" y="0" z="7" spawntime="60"/>
