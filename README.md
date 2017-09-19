@@ -4,9 +4,8 @@ Server for tibia, based on version 7.6. This server is with the source code comp
 
 Server with monster, items, npcs and own missions
 
-- Utilities Link for editing:
-
-- Link to a virtual machine (Vitural Box) with the server cloned, installed, running:
+- Utilities Link for editing and to a virtual machine (Vitural Box) with the server cloned, installed, running:
+https://mega.nz/#F!kToiUCBB!bQ5z7P_pR2w90AAMLnCjdQ!saZCBawZ
 user: ubuntuserver
 password: pinacles
 
